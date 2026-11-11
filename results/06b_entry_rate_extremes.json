@@ -1,0 +1,64 @@
+{
+ "built": "2026-11-11 02:15 KST",
+ "extremes": {
+  "columns": [
+   "ksic2",
+   "entry_rate",
+   "entry_rate_last",
+   "births_mean",
+   "active_mean",
+   "n_years",
+   "years_used",
+   "wave",
+   "log_active_firms"
+  ],
+  "2022M": {
+   "min": {
+    "industry2": 18,
+    "label_ko": "인쇄 및 기록매체 복제업",
+    "entry_rate_pct": 4.333333333333333
+   },
+   "max": {
+    "industry2": 10,
+    "label_ko": "식료품 제조업",
+    "entry_rate_pct": 13.833333333333334
+   }
+  },
+  "2023S": {
+   "min": {
+    "industry2": 86,
+    "label_ko": "보건업",
+    "entry_rate_pct": 5.233333333333333
+   },
+   "max": {
+    "industry2": 63,
+    "label_ko": "정보서비스업",
+    "entry_rate_pct": 25.566666666666663
+   }
+  },
+  "2024M": {
+   "min": {
+    "industry2": 19,
+    "label_ko": "코크스, 연탄 및 석유정제품 제조업",
+    "entry_rate_pct": 3.533333333333333
+   },
+   "max": {
+    "industry2": 31,
+    "label_ko": "기타 운송장비 제조업",
+    "entry_rate_pct": 12.633333333333333
+   }
+  },
+  "2025S": {
+   "min": {
+    "industry2": 51,
+    "label_ko": "항공 운송업",
+    "entry_rate_pct": 5.0
+   },
+   "max": {
+    "industry2": 87,
+    "label_ko": "사회복지 서비스업",
+    "entry_rate_pct": 23.866666666666664
+   }
+  }
+ }
+}

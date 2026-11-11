@@ -1,0 +1,52 @@
+{
+ "built": "2026-11-11 02:15 KST",
+ "note": "per-judge shares among threat-cell decisions; published consensus shares require both judges",
+ "shares": {
+  "A:Q:M3": {
+   "n_threat_cell_decisions": 204,
+   "share_fable": 0.9264705882352942,
+   "n_coded_fable": 204,
+   "share_gpt56": 0.9264705882352942,
+   "n_coded_gpt56": 204,
+   "share_both": 0.9264705882352942,
+   "share_either": 0.9264705882352942
+  },
+  "A:A:M2": {
+   "n_threat_cell_decisions": 273,
+   "share_fable": 0.9853479853479854,
+   "n_coded_fable": 273,
+   "share_gpt56": 0.989010989010989,
+   "n_coded_gpt56": 273,
+   "share_both": 0.9853479853479854,
+   "share_either": 0.989010989010989
+  },
+  "B:Q:M3": {
+   "n_threat_cell_decisions": 282,
+   "share_fable": 0.6950354609929078,
+   "n_coded_fable": 282,
+   "share_gpt56": 0.6914893617021277,
+   "n_coded_gpt56": 282,
+   "share_both": 0.6843971631205674,
+   "share_either": 0.7021276595744681
+  },
+  "B:A:M2": {
+   "n_threat_cell_decisions": 171,
+   "share_fable": 0.8411764705882353,
+   "n_coded_fable": 170,
+   "share_gpt56": 0.847953216374269,
+   "n_coded_gpt56": 171,
+   "share_both": 0.8411764705882353,
+   "share_either": 0.8470588235294118
+  }
+ },
+ "n_reasons_by_stage": {
+  "A": 1919,
+  "B": 2187
+ },
+ "n_reasons_by_stage_coded_by_both": {
+  "A": 1914,
+  "B": 2186
+ },
+ "n_reasons_total": 4106,
+ "matches_08_transcript_codes_n_reasons": true
+}

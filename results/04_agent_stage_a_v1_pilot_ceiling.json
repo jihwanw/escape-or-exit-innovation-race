@@ -1,0 +1,617 @@
+{
+ "n_calls": 96,
+ "parse_status": {
+  "ok": 95,
+  "empty": 1
+ },
+ "by_model_lang": {
+  "fable/en": {
+   "n_ok": 23,
+   "cells": [
+    {
+     "gap": 0,
+     "threat": 0,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 0.0,
+     "p_quit": 0.0,
+     "p_cont": 1.0
+    },
+    {
+     "gap": 0,
+     "threat": 0,
+     "noise": 1,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 1,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 1,
+     "noise": 1,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 0,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 0,
+     "noise": 1,
+     "n": 3,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 1,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 1,
+     "noise": 1,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 0,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 0,
+     "noise": 1,
+     "n": 3,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 1,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 1,
+     "noise": 1,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    }
+   ],
+   "contrasts": {
+    "accel_threat_gap2": {
+     "mean": NaN,
+     "ci95": [
+      NaN,
+      NaN
+     ]
+    },
+    "quit_threat_gap0": {
+     "mean": NaN,
+     "ci95": [
+      NaN,
+      NaN
+     ]
+    },
+    "placebo_accel": {
+     "mean": -0.2773333333333333,
+     "ci95": [
+      -0.5,
+      0.0
+     ]
+    },
+    "placebo_quit": {
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "pos_first_option": {
+     "mean": -0.024254232532173688,
+     "ci95": [
+      -0.17339743589743586,
+      0.12820512820512825
+     ]
+    }
+   },
+   "overall": {
+    "p_accel": 0.9130434782608695,
+    "p_quit": 0.0,
+    "p_cont": 0.08695652173913043
+   },
+   "position_share_first_option": 0.30434782608695654
+  },
+  "fable/ko": {
+   "n_ok": 24,
+   "cells": [
+    {
+     "gap": 0,
+     "threat": 0,
+     "noise": 0,
+     "n": 4,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 0,
+     "noise": 1,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 1,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 0,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 0,
+     "noise": 1,
+     "n": 3,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 1,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 1,
+     "noise": 1,
+     "n": 4,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 0,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 0,
+     "noise": 1,
+     "n": 3,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 1,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 1,
+     "noise": 1,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    }
+   ],
+   "contrasts": {
+    "accel_threat_gap2": {
+     "mean": NaN,
+     "ci95": [
+      NaN,
+      NaN
+     ]
+    },
+    "quit_threat_gap0": {
+     "mean": NaN,
+     "ci95": [
+      NaN,
+      NaN
+     ]
+    },
+    "placebo_accel": {
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "placebo_quit": {
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "pos_first_option": {
+     "mean": 0.08693545251618008,
+     "ci95": [
+      -0.11904761904761904,
+      0.2976325757575755
+     ]
+    }
+   },
+   "overall": {
+    "p_accel": 1.0,
+    "p_quit": 0.0,
+    "p_cont": 0.0
+   },
+   "position_share_first_option": 0.4166666666666667
+  },
+  "gpt56/en": {
+   "n_ok": 23,
+   "cells": [
+    {
+     "gap": 0,
+     "threat": 0,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 0,
+     "noise": 1,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 1,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 1,
+     "noise": 1,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 0,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 0,
+     "noise": 1,
+     "n": 3,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 1,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 1,
+     "noise": 1,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 0,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 0,
+     "noise": 1,
+     "n": 3,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 1,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 1,
+     "noise": 1,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    }
+   ],
+   "contrasts": {
+    "accel_threat_gap2": {
+     "mean": NaN,
+     "ci95": [
+      NaN,
+      NaN
+     ]
+    },
+    "quit_threat_gap0": {
+     "mean": NaN,
+     "ci95": [
+      NaN,
+      NaN
+     ]
+    },
+    "placebo_accel": {
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "placebo_quit": {
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "pos_first_option": {
+     "mean": 0.06020695240432084,
+     "ci95": [
+      -0.08333333333333331,
+      0.22107007575757537
+     ]
+    }
+   },
+   "overall": {
+    "p_accel": 1.0,
+    "p_quit": 0.0,
+    "p_cont": 0.0
+   },
+   "position_share_first_option": 0.391304347826087
+  },
+  "gpt56/ko": {
+   "n_ok": 25,
+   "cells": [
+    {
+     "gap": 0,
+     "threat": 0,
+     "noise": 0,
+     "n": 5,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 0,
+     "noise": 1,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 0,
+     "threat": 1,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 0,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 0,
+     "noise": 1,
+     "n": 3,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 1,
+     "noise": 0,
+     "n": 2,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 1,
+     "threat": 1,
+     "noise": 1,
+     "n": 4,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 0,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 0,
+     "noise": 1,
+     "n": 3,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 1,
+     "noise": 0,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    },
+    {
+     "gap": 2,
+     "threat": 1,
+     "noise": 1,
+     "n": 1,
+     "p_accel": 1.0,
+     "p_quit": 0.0,
+     "p_cont": 0.0
+    }
+   ],
+   "contrasts": {
+    "accel_threat_gap2": {
+     "mean": NaN,
+     "ci95": [
+      NaN,
+      NaN
+     ]
+    },
+    "quit_threat_gap0": {
+     "mean": NaN,
+     "ci95": [
+      NaN,
+      NaN
+     ]
+    },
+    "placebo_accel": {
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "placebo_quit": {
+     "mean": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ]
+    },
+    "pos_first_option": {
+     "mean": 0.06089644115774148,
+     "ci95": [
+      -0.1515151515151515,
+      0.24434523809523784
+     ]
+    }
+   },
+   "overall": {
+    "p_accel": 1.0,
+    "p_quit": 0.0,
+    "p_cont": 0.0
+   },
+   "position_share_first_option": 0.4
+  }
+ },
+ "built": "2026-11-10 08:38 KST",
+ "mode": "pilot"
+}

@@ -1,0 +1,93 @@
+{
+ "seed": 20261109,
+ "checks": {
+  "C1_two_routes_closed_form_vs_solver": {
+   "pass": true,
+   "detail": {
+    "max_abs_diff": {
+     "U_L": 2.220446049250313e-16,
+     "U_F": 5.551115123125783e-17,
+     "P_quit_F": 1.1102230246251565e-16,
+     "P_accel_L": 6.661338147750939e-16,
+     "P_first_L": 3.3306690738754696e-16
+    },
+    "policy_mismatches": 0,
+    "n": 200
+   }
+  },
+  "C2_lambda1_theta_invariance": {
+   "pass": true,
+   "detail": {
+    "max_abs_diff": 8.881784197001252e-16
+   }
+  },
+  "C3_theta0_lambda_invariance": {
+   "pass": true,
+   "detail": {
+    "max_abs_diff": 0.0
+   }
+  },
+  "C4_epsilon_preemption_limit": {
+   "pass": true,
+   "detail": {
+    "policy_L": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "policy_F": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "P_quit_F": 1.0,
+    "P_first_L": 0.9999999989999998,
+    "P_accel_L": 0.0
+   }
+  },
+  "C5_label_symmetry": {
+   "pass": true,
+   "detail": {
+    "symmetric_states": 720,
+    "max_abs_dev_payoff_transpose": 2.220446049250313e-16,
+    "equilibrium_set_asymmetries": 0,
+    "max_abs_value_asym_after_selection": 2.220446049250313e-16,
+    "symmetric_states_with_multiple_eq_(fair_coin_over_mirror_pairs)": 20
+   }
+  },
+  "C6_mass_conservation": {
+   "pass": true,
+   "detail": {
+    "max_abs_dev": 5.551115123125783e-16
+   }
+  },
+  "C7_sigma_definitions_coincide_at_zero": {
+   "pass": true,
+   "detail": {
+    "max_abs_diff": 0.0
+   }
+  },
+  "C8_probability_identities": {
+   "pass": true,
+   "detail": {
+    "violations": 0
+   }
+  },
+  "C9_conditional_threat_outcomes": {
+   "pass": true,
+   "detail": {
+    "identity_at_theta0_max_diff": 1.1102230246251565e-16,
+    "mc_vs_exact_abs_diff": {
+     "quit_F": 0.0,
+     "accel_L": 0.0009734175142373513,
+     "first_L": 0.00015122086570473758
+    },
+    "mc_keep_rate": 0.274805,
+    "expected_keep": 0.274625,
+    "n_mc": 200000
+   }
+  }
+ },
+ "status": "PASS",
+ "built": "2026-11-10 01:44 KST"
+}

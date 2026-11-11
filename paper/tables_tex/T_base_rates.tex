@@ -1,0 +1,24 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\small
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l r r r r r r}
+\toprule
+Wave & Firms & Innovation-active & Quit events & Quit rate (\%) & Pre-emption events & Pre-emption rate (\%) \\
+\midrule
+2022M & 4,000 & 2,222 & 279 & 12.6 & 203 & 5.1 \\
+2023S & 4,000 & 1,613 & 72 & 4.5 & 128 & 3.2 \\
+2024M & 4,595 & 2,495 & 132 & 5.3 & 340 & 7.4 \\
+2025S & 4,000 & 1,658 & 85 & 5.1 & 62 & 1.6 \\
+\midrule
+Pooled & 16,595 & 7,988 & 568 & 7.1 & 733 & 4.4 \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Quit = abandoned or suspended innovation activity (questionnaire block 11, item 3), defined for innovation-active firms; pre-emption = lead-time protection (block 2, item 8), all firms. Unweighted. Source: results/02\_marginals.json.}
+\end{document}

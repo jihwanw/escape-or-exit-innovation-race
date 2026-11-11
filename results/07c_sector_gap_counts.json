@@ -1,0 +1,53 @@
+{
+ "built": "2026-11-11 02:15 KST",
+ "counts": {
+  "manufacturing:g0": {
+   "n_firms": 3891,
+   "preempt_events": 114,
+   "preempt_rate": 0.029298380878951428,
+   "n_innov_active": 453,
+   "quit_events": 23,
+   "quit_rate": 0.05077262693156733
+  },
+  "manufacturing:g1": {
+   "n_firms": 2608,
+   "preempt_events": 207,
+   "preempt_rate": 0.07937116564417178,
+   "n_innov_active": 2278,
+   "quit_events": 214,
+   "quit_rate": 0.09394205443371378
+  },
+  "manufacturing:g2": {
+   "n_firms": 2096,
+   "preempt_events": 222,
+   "preempt_rate": 0.10591603053435114,
+   "n_innov_active": 1986,
+   "quit_events": 174,
+   "quit_rate": 0.08761329305135952
+  },
+  "services:g0": {
+   "n_firms": 6538,
+   "preempt_events": 165,
+   "preempt_rate": 0.025237075558274702,
+   "n_innov_active": 1878,
+   "quit_events": 111,
+   "quit_rate": 0.05910543130990415
+  },
+  "services:g1": {
+   "n_firms": 854,
+   "preempt_events": 14,
+   "preempt_rate": 0.01639344262295082,
+   "n_innov_active": 820,
+   "quit_events": 32,
+   "quit_rate": 0.03902439024390244
+  },
+  "services:g2": {
+   "n_firms": 608,
+   "preempt_events": 11,
+   "preempt_rate": 0.018092105263157895,
+   "n_innov_active": 573,
+   "quit_events": 14,
+   "quit_rate": 0.02443280977312391
+  }
+ }
+}

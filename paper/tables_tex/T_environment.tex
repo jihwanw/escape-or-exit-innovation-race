@@ -1,0 +1,33 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\small
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l c c r r r r r r}
+\toprule
+\multicolumn{3}{c}{} & \multicolumn{3}{c}{Unconditional} & \multicolumn{3}{c}{No entry within horizon} \\ \cmidrule(lr){4-6}\cmidrule(lr){7-9}
+Agent position & Threat & Noise & Quit & Accel. & First & Quit & Accel. & First \\
+\midrule
+one stage behind (laggard) & no & no & 0.38 & 0.31 & 0.15 & 0.38 & 0.31 & 0.15 \\
+ & no & yes & 0.38 & 0.25 & 0.14 & 0.38 & 0.25 & 0.14 \\
+ & yes & no & 0.86 & 0.06 & 0.04 & 0.70 & 0.14 & 0.07 \\
+ & yes & yes & 0.83 & 0.06 & 0.05 & 0.64 & 0.14 & 0.07 \\
+\midrule
+level & no & no & 0.25 & 0.56 & 0.44 & 0.25 & 0.56 & 0.44 \\
+ & no & yes & 0.25 & 0.54 & 0.44 & 0.25 & 0.54 & 0.44 \\
+ & yes & no & 0.45 & 0.25 & 0.38 & 0.38 & 0.63 & 0.44 \\
+ & yes & yes & 0.49 & 0.22 & 0.35 & 0.41 & 0.57 & 0.42 \\
+\midrule
+one stage ahead (leader) & no & no & 0.00 & 0.38 & 0.83 & 0.00 & 0.38 & 0.83 \\
+ & no & yes & 0.00 & 0.42 & 0.84 & 0.00 & 0.42 & 0.84 \\
+ & yes & no & 0.01 & 0.27 & 0.88 & 0.00 & 0.57 & 0.92 \\
+ & yes & yes & 0.02 & 0.34 & 0.88 & 0.00 & 0.64 & 0.92 \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Model outcomes for the agent's seat in the calibrated Stage B environment (3 stages, 3 periods; continue 0.8 billion won/50\%, accelerate 2.5 billion won/80\%; prizes 10/3/6.5 billion won; entry 35\% per period multiplying unfinished prizes by 0.5; 40\% one-stage observation error). Columns 4--6 unconditional; 7--9 conditional on no entry within the horizon. Source: results/05\_agent\_stage\_b.json (model\_predictions), results/05\_stage\_b\_env\_calibration.json.}
+\end{document}

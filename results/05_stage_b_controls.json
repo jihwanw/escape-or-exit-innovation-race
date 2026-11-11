@@ -1,0 +1,221 @@
+{
+ "seed": 20261110,
+ "checks": {
+  "C1_transition_probabilities": {
+   "pass": true,
+   "detail": {
+    "pC_hat": 0.4996895236405571,
+    "n_C": 11273,
+    "pA_hat": 0.7937306501547987,
+    "n_A": 2584
+   }
+  },
+  "C2_cost_accounting": {
+   "pass": true,
+   "detail": {
+    "max_abs_cost_err": 0.0
+   }
+  },
+  "C6_entry_process": {
+   "pass": true,
+   "detail": {
+    "p_entry_hat_threat": 0.7383130081300813,
+    "expected": 0.725375,
+    "n": 1968,
+    "entries_in_no_threat_games": 0
+   }
+  },
+  "C7_observation_noise": {
+   "pass": true,
+   "detail": {
+    "shown_ne_true_rate_noise_games": 0.39471153846153845,
+    "n": 2080,
+    "errors_in_exact_games": 0
+   }
+  },
+  "C3_rival_policy_equals_equilibrium_mix": {
+   "pass": true,
+   "detail": {
+    "state": [
+     1,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    "equilibrium_mix": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "empirical": [
+     0.0,
+     1.0,
+     0.0
+    ]
+   }
+  },
+  "C4_environment_two_route_vs_forward_outcomes": {
+   "pass": true,
+   "detail": {
+    "max_abs_diff": 0.017307776739523162,
+    "n_per_cell": 6000,
+    "cells": {
+     "g0t0n0": {
+      "model": {
+       "P_quit": 0.375,
+       "P_accel": 0.3125,
+       "P_first": 0.1548
+      },
+      "simulated": {
+       "P_quit": 0.3798,
+       "P_accel": 0.314,
+       "P_first": 0.1548
+      }
+     },
+     "g0t0n1": {
+      "model": {
+       "P_quit": 0.3825,
+       "P_accel": 0.2458,
+       "P_first": 0.142
+      },
+      "simulated": {
+       "P_quit": 0.3838,
+       "P_accel": 0.2437,
+       "P_first": 0.1386
+      }
+     },
+     "g0t1n0": {
+      "model": {
+       "P_quit": 0.8633,
+       "P_accel": 0.0587,
+       "P_first": 0.044
+      },
+      "simulated": {
+       "P_quit": 0.8645,
+       "P_accel": 0.0605,
+       "P_first": 0.0441
+      }
+     },
+     "g0t1n1": {
+      "model": {
+       "P_quit": 0.8303,
+       "P_accel": 0.0608,
+       "P_first": 0.0543
+      },
+      "simulated": {
+       "P_quit": 0.8213,
+       "P_accel": 0.0642,
+       "P_first": 0.0566
+      }
+     },
+     "g1t0n0": {
+      "model": {
+       "P_quit": 0.25,
+       "P_accel": 0.5625,
+       "P_first": 0.4398
+      },
+      "simulated": {
+       "P_quit": 0.2635,
+       "P_accel": 0.5543,
+       "P_first": 0.4401
+      }
+     },
+     "g1t0n1": {
+      "model": {
+       "P_quit": 0.25,
+       "P_accel": 0.5365,
+       "P_first": 0.4415
+      },
+      "simulated": {
+       "P_quit": 0.242,
+       "P_accel": 0.5412,
+       "P_first": 0.4446
+      }
+     },
+     "g1t1n0": {
+      "model": {
+       "P_quit": 0.4531,
+       "P_accel": 0.2456,
+       "P_first": 0.3758
+      },
+      "simulated": {
+       "P_quit": 0.4602,
+       "P_accel": 0.2332,
+       "P_first": 0.3812
+      }
+     },
+     "g1t1n1": {
+      "model": {
+       "P_quit": 0.4948,
+       "P_accel": 0.2241,
+       "P_first": 0.3464
+      },
+      "simulated": {
+       "P_quit": 0.4775,
+       "P_accel": 0.2365,
+       "P_first": 0.3535
+      }
+     },
+     "g2t0n0": {
+      "model": {
+       "P_quit": 0.0,
+       "P_accel": 0.375,
+       "P_first": 0.8298
+      },
+      "simulated": {
+       "P_quit": 0.0,
+       "P_accel": 0.3717,
+       "P_first": 0.8338
+      }
+     },
+     "g2t0n1": {
+      "model": {
+       "P_quit": 0.0,
+       "P_accel": 0.4209,
+       "P_first": 0.845
+      },
+      "simulated": {
+       "P_quit": 0.0,
+       "P_accel": 0.422,
+       "P_first": 0.8395
+      }
+     },
+     "g2t1n0": {
+      "model": {
+       "P_quit": 0.0112,
+       "P_accel": 0.2743,
+       "P_first": 0.8837
+      },
+      "simulated": {
+       "P_quit": 0.0098,
+       "P_accel": 0.2737,
+       "P_first": 0.883
+      }
+     },
+     "g2t1n1": {
+      "model": {
+       "P_quit": 0.0158,
+       "P_accel": 0.3368,
+       "P_first": 0.881
+      },
+      "simulated": {
+       "P_quit": 0.0167,
+       "P_accel": 0.3367,
+       "P_first": 0.8801
+      }
+     }
+    }
+   }
+  },
+  "C5_seed_reproducible": {
+   "pass": true,
+   "detail": {
+    "periods": 3
+   }
+  }
+ },
+ "status": "PASS",
+ "built": "2026-11-10 11:22 KST"
+}

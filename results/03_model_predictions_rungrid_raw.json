@@ -1,0 +1,1445 @@
+{
+ "built": "2026-11-10 02:14 KST",
+ "grid": {
+  "K": [
+   3,
+   4
+  ],
+  "T": [
+   3
+  ],
+  "gap": [
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    0
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "W": [
+   0.0,
+   0.3,
+   0.6
+  ],
+  "lam": [
+   0.0,
+   0.3,
+   0.6
+  ],
+  "pC": [
+   0.35,
+   0.5
+  ],
+  "pA": [
+   0.65,
+   0.85
+  ],
+  "cC": [
+   0.03,
+   0.08
+  ],
+  "cA_mult": [
+   1.3,
+   2.0
+  ]
+ },
+ "theta_grid": [
+  0.0,
+  0.1,
+  0.2,
+  0.35,
+  0.5,
+  0.7
+ ],
+ "sigma_grid": [
+  0.0,
+  0.1,
+  0.25,
+  0.4
+ ],
+ "n_rows": 145152,
+ "theta_predictions": {
+  "threat": {
+   "laggard": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to accelerate (escape entry)",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.2439,
+      "flat": 0.4887,
+      "violated": 0.2674
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 104,
+       "flat": 377,
+       "violated": 239
+      },
+      "2": {
+       "holds": 177,
+       "flat": 186,
+       "violated": 69
+      }
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "predicted_direction": 1,
+     "description": "theta up -> laggard more likely to quit",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 290,
+       "flat": 430
+      },
+      "2": {
+       "holds": 52,
+       "flat": 380
+      }
+     }
+    },
+    "P3": {
+     "outcome": "dquit_F_minus_L",
+     "predicted_direction": 1,
+     "description": "theta effect on quitting larger for laggard than leader",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.283,
+      "flat": 0.4557,
+      "violated": 0.2613
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 274,
+       "flat": 217,
+       "violated": 229
+      },
+      "2": {
+       "holds": 52,
+       "flat": 308,
+       "violated": 72
+      }
+     }
+    },
+    "P4": {
+     "outcome": "daccel_L_minus_F",
+     "predicted_direction": 1,
+     "description": "theta effect on acceleration larger for leader than laggard",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.4245,
+      "flat": 0.2977,
+      "violated": 0.2778
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 278,
+       "flat": 191,
+       "violated": 251
+      },
+      "2": {
+       "holds": 211,
+       "flat": 152,
+       "violated": 69
+      }
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to be first to market",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 296,
+       "flat": 193,
+       "violated": 231
+      },
+      "2": {
+       "holds": 211,
+       "flat": 149,
+       "violated": 72
+      }
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "predicted_direction": 0,
+     "description": "theta effect on leader quitting (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 441,
+       "up": 231,
+       "down": 48
+      },
+      "2": {
+       "flat": 360,
+       "up": 72
+      }
+     }
+    },
+    "P1F": {
+     "outcome": "P_accel_F",
+     "predicted_direction": 0,
+     "description": "theta effect on laggard acceleration (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.7274,
+      "up": 0.0017,
+      "down": 0.2483,
+      "nonmonotone": 0.0226
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 458,
+       "up": 2,
+       "down": 234,
+       "nonmonotone": 26
+      },
+      "2": {
+       "flat": 380,
+       "down": 52
+      }
+     }
+    }
+   },
+   "leader": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to accelerate (escape entry)",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.2439,
+      "flat": 0.4887,
+      "violated": 0.2674
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 104,
+       "flat": 377,
+       "violated": 239
+      },
+      "2": {
+       "holds": 177,
+       "flat": 186,
+       "violated": 69
+      }
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "predicted_direction": 1,
+     "description": "theta up -> laggard more likely to quit",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 290,
+       "flat": 430
+      },
+      "2": {
+       "holds": 52,
+       "flat": 380
+      }
+     }
+    },
+    "P3": {
+     "outcome": "dquit_F_minus_L",
+     "predicted_direction": 1,
+     "description": "theta effect on quitting larger for laggard than leader",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.283,
+      "flat": 0.4557,
+      "violated": 0.2613
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 274,
+       "flat": 217,
+       "violated": 229
+      },
+      "2": {
+       "holds": 52,
+       "flat": 308,
+       "violated": 72
+      }
+     }
+    },
+    "P4": {
+     "outcome": "daccel_L_minus_F",
+     "predicted_direction": 1,
+     "description": "theta effect on acceleration larger for leader than laggard",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.4245,
+      "flat": 0.2977,
+      "violated": 0.2778
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 278,
+       "flat": 191,
+       "violated": 251
+      },
+      "2": {
+       "holds": 211,
+       "flat": 152,
+       "violated": 69
+      }
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to be first to market",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 296,
+       "flat": 193,
+       "violated": 231
+      },
+      "2": {
+       "holds": 211,
+       "flat": 149,
+       "violated": 72
+      }
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "predicted_direction": 0,
+     "description": "theta effect on leader quitting (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 441,
+       "up": 231,
+       "down": 48
+      },
+      "2": {
+       "flat": 360,
+       "up": 72
+      }
+     }
+    },
+    "P1F": {
+     "outcome": "P_accel_F",
+     "predicted_direction": 0,
+     "description": "theta effect on laggard acceleration (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.7274,
+      "up": 0.0017,
+      "down": 0.2483,
+      "nonmonotone": 0.0226
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 458,
+       "up": 2,
+       "down": 234,
+       "nonmonotone": 26
+      },
+      "2": {
+       "flat": 380,
+       "down": 52
+      }
+     }
+    }
+   },
+   "welfare": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to accelerate (escape entry)",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.2439,
+      "flat": 0.4887,
+      "violated": 0.2674
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 104,
+       "flat": 377,
+       "violated": 239
+      },
+      "2": {
+       "holds": 177,
+       "flat": 186,
+       "violated": 69
+      }
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "predicted_direction": 1,
+     "description": "theta up -> laggard more likely to quit",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 290,
+       "flat": 430
+      },
+      "2": {
+       "holds": 52,
+       "flat": 380
+      }
+     }
+    },
+    "P3": {
+     "outcome": "dquit_F_minus_L",
+     "predicted_direction": 1,
+     "description": "theta effect on quitting larger for laggard than leader",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.283,
+      "flat": 0.4557,
+      "violated": 0.2613
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 274,
+       "flat": 217,
+       "violated": 229
+      },
+      "2": {
+       "holds": 52,
+       "flat": 308,
+       "violated": 72
+      }
+     }
+    },
+    "P4": {
+     "outcome": "daccel_L_minus_F",
+     "predicted_direction": 1,
+     "description": "theta effect on acceleration larger for leader than laggard",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.4245,
+      "flat": 0.2977,
+      "violated": 0.2778
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 278,
+       "flat": 191,
+       "violated": 251
+      },
+      "2": {
+       "holds": 211,
+       "flat": 152,
+       "violated": 69
+      }
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to be first to market",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 296,
+       "flat": 193,
+       "violated": 231
+      },
+      "2": {
+       "holds": 211,
+       "flat": 149,
+       "violated": 72
+      }
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "predicted_direction": 0,
+     "description": "theta effect on leader quitting (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 441,
+       "up": 231,
+       "down": 48
+      },
+      "2": {
+       "flat": 360,
+       "up": 72
+      }
+     }
+    },
+    "P1F": {
+     "outcome": "P_accel_F",
+     "predicted_direction": 0,
+     "description": "theta effect on laggard acceleration (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.7274,
+      "up": 0.0017,
+      "down": 0.2483,
+      "nonmonotone": 0.0226
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 458,
+       "up": 2,
+       "down": 234,
+       "nonmonotone": 26
+      },
+      "2": {
+       "flat": 380,
+       "down": 52
+      }
+     }
+    }
+   }
+  },
+  "unconditional": {
+   "laggard": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to accelerate (escape entry)",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0069,
+      "flat": 0.1684,
+      "violated": 0.8247
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 2,
+       "flat": 146,
+       "violated": 572
+      },
+      "2": {
+       "holds": 6,
+       "flat": 48,
+       "violated": 378
+      }
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "predicted_direction": 1,
+     "description": "theta up -> laggard more likely to quit",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 304,
+       "flat": 406,
+       "violated": 10
+      },
+      "2": {
+       "holds": 52,
+       "flat": 380
+      }
+     }
+    },
+    "P3": {
+     "outcome": "dquit_F_minus_L",
+     "predicted_direction": 1,
+     "description": "theta effect on quitting larger for laggard than leader",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.1806,
+      "flat": 0.2812,
+      "violated": 0.5382
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 174,
+       "flat": 130,
+       "violated": 416
+      },
+      "2": {
+       "holds": 34,
+       "flat": 194,
+       "violated": 204
+      }
+     }
+    },
+    "P4": {
+     "outcome": "daccel_L_minus_F",
+     "predicted_direction": 1,
+     "description": "theta effect on acceleration larger for leader than laggard",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0903,
+      "flat": 0.1181,
+      "violated": 0.7917
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 88,
+       "flat": 94,
+       "violated": 538
+      },
+      "2": {
+       "holds": 16,
+       "flat": 42,
+       "violated": 374
+      }
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to be first to market",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0729,
+      "flat": 0.0998,
+      "violated": 0.8273
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 72,
+       "flat": 82,
+       "violated": 566
+      },
+      "2": {
+       "holds": 12,
+       "flat": 33,
+       "violated": 387
+      }
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "predicted_direction": 0,
+     "description": "theta effect on leader quitting (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.4132,
+      "up": 0.5347,
+      "down": 0.0243,
+      "nonmonotone": 0.0278
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 248,
+       "up": 412,
+       "down": 28,
+       "nonmonotone": 32
+      },
+      "2": {
+       "flat": 228,
+       "up": 204
+      }
+     }
+    },
+    "P1F": {
+     "outcome": "P_accel_F",
+     "predicted_direction": 0,
+     "description": "theta effect on laggard acceleration (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.6944,
+      "up": 0.0052,
+      "down": 0.283,
+      "nonmonotone": 0.0174
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 420,
+       "up": 6,
+       "down": 274,
+       "nonmonotone": 20
+      },
+      "2": {
+       "flat": 380,
+       "down": 52
+      }
+     }
+    }
+   },
+   "leader": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to accelerate (escape entry)",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0069,
+      "flat": 0.1684,
+      "violated": 0.8247
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 2,
+       "flat": 146,
+       "violated": 572
+      },
+      "2": {
+       "holds": 6,
+       "flat": 48,
+       "violated": 378
+      }
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "predicted_direction": 1,
+     "description": "theta up -> laggard more likely to quit",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 304,
+       "flat": 406,
+       "violated": 10
+      },
+      "2": {
+       "holds": 52,
+       "flat": 380
+      }
+     }
+    },
+    "P3": {
+     "outcome": "dquit_F_minus_L",
+     "predicted_direction": 1,
+     "description": "theta effect on quitting larger for laggard than leader",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.1806,
+      "flat": 0.2812,
+      "violated": 0.5382
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 174,
+       "flat": 130,
+       "violated": 416
+      },
+      "2": {
+       "holds": 34,
+       "flat": 194,
+       "violated": 204
+      }
+     }
+    },
+    "P4": {
+     "outcome": "daccel_L_minus_F",
+     "predicted_direction": 1,
+     "description": "theta effect on acceleration larger for leader than laggard",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0903,
+      "flat": 0.1181,
+      "violated": 0.7917
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 88,
+       "flat": 94,
+       "violated": 538
+      },
+      "2": {
+       "holds": 16,
+       "flat": 42,
+       "violated": 374
+      }
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to be first to market",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0729,
+      "flat": 0.0998,
+      "violated": 0.8273
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 72,
+       "flat": 82,
+       "violated": 566
+      },
+      "2": {
+       "holds": 12,
+       "flat": 33,
+       "violated": 387
+      }
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "predicted_direction": 0,
+     "description": "theta effect on leader quitting (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.4132,
+      "up": 0.5347,
+      "down": 0.0243,
+      "nonmonotone": 0.0278
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 248,
+       "up": 412,
+       "down": 28,
+       "nonmonotone": 32
+      },
+      "2": {
+       "flat": 228,
+       "up": 204
+      }
+     }
+    },
+    "P1F": {
+     "outcome": "P_accel_F",
+     "predicted_direction": 0,
+     "description": "theta effect on laggard acceleration (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.6944,
+      "up": 0.0052,
+      "down": 0.283,
+      "nonmonotone": 0.0174
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 420,
+       "up": 6,
+       "down": 274,
+       "nonmonotone": 20
+      },
+      "2": {
+       "flat": 380,
+       "down": 52
+      }
+     }
+    }
+   },
+   "welfare": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to accelerate (escape entry)",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0069,
+      "flat": 0.1684,
+      "violated": 0.8247
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 2,
+       "flat": 146,
+       "violated": 572
+      },
+      "2": {
+       "holds": 6,
+       "flat": 48,
+       "violated": 378
+      }
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "predicted_direction": 1,
+     "description": "theta up -> laggard more likely to quit",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 304,
+       "flat": 406,
+       "violated": 10
+      },
+      "2": {
+       "holds": 52,
+       "flat": 380
+      }
+     }
+    },
+    "P3": {
+     "outcome": "dquit_F_minus_L",
+     "predicted_direction": 1,
+     "description": "theta effect on quitting larger for laggard than leader",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.1806,
+      "flat": 0.2812,
+      "violated": 0.5382
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 174,
+       "flat": 130,
+       "violated": 416
+      },
+      "2": {
+       "holds": 34,
+       "flat": 194,
+       "violated": 204
+      }
+     }
+    },
+    "P4": {
+     "outcome": "daccel_L_minus_F",
+     "predicted_direction": 1,
+     "description": "theta effect on acceleration larger for leader than laggard",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0903,
+      "flat": 0.1181,
+      "violated": 0.7917
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 88,
+       "flat": 94,
+       "violated": 538
+      },
+      "2": {
+       "holds": 16,
+       "flat": 42,
+       "violated": 374
+      }
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "predicted_direction": 1,
+     "description": "theta up -> leader more likely to be first to market",
+     "n_grid_points": 1152,
+     "share": {
+      "holds": 0.0729,
+      "flat": 0.0998,
+      "violated": 0.8273
+     },
+     "by_gap_d": {
+      "1": {
+       "holds": 72,
+       "flat": 82,
+       "violated": 566
+      },
+      "2": {
+       "holds": 12,
+       "flat": 33,
+       "violated": 387
+      }
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "predicted_direction": 0,
+     "description": "theta effect on leader quitting (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.4132,
+      "up": 0.5347,
+      "down": 0.0243,
+      "nonmonotone": 0.0278
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 248,
+       "up": 412,
+       "down": 28,
+       "nonmonotone": 32
+      },
+      "2": {
+       "flat": 228,
+       "up": 204
+      }
+     }
+    },
+    "P1F": {
+     "outcome": "P_accel_F",
+     "predicted_direction": 0,
+     "description": "theta effect on laggard acceleration (sign not predicted; reported)",
+     "n_grid_points": 1152,
+     "share": {
+      "flat": 0.6944,
+      "up": 0.0052,
+      "down": 0.283,
+      "nonmonotone": 0.0174
+     },
+     "by_gap_d": {
+      "1": {
+       "flat": 420,
+       "up": 6,
+       "down": 274,
+       "nonmonotone": 20
+      },
+      "2": {
+       "flat": 380,
+       "down": 52
+      }
+     }
+    }
+   }
+  }
+ },
+ "sigma_predictions": {
+  "tremble": {
+   "unconditional:P5": {
+    "outcome": "P_quit_F",
+    "description": "sigma effect on laggard quitting (sign derived)",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.7636,
+     "up": 0.0903,
+     "down": 0.0891,
+     "nonmonotone": 0.057
+    }
+   },
+   "threat:P5": {
+    "outcome": "P_quit_F",
+    "description": "sigma effect on laggard quitting (sign derived)",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.7677,
+     "up": 0.0946,
+     "down": 0.0972,
+     "nonmonotone": 0.0405
+    }
+   },
+   "unconditional:P6": {
+    "outcome": "P_accel_L",
+    "description": "sigma effect on leader acceleration (sign derived)",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.545,
+     "up": 0.0906,
+     "down": 0.251,
+     "nonmonotone": 0.1134
+    }
+   },
+   "threat:P6": {
+    "outcome": "P_accel_L",
+    "description": "sigma effect on leader acceleration (sign derived)",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.7367,
+     "up": 0.0749,
+     "down": 0.1317,
+     "nonmonotone": 0.0567
+    }
+   },
+   "unconditional:P5L": {
+    "outcome": "P_quit_L",
+    "description": "sigma effect on leader quitting",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.3793,
+     "up": 0.4323,
+     "down": 0.1315,
+     "nonmonotone": 0.0569
+    }
+   },
+   "threat:P5L": {
+    "outcome": "P_quit_L",
+    "description": "sigma effect on leader quitting",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.5457,
+     "up": 0.321,
+     "down": 0.1026,
+     "nonmonotone": 0.0307
+    }
+   },
+   "unconditional:P6F": {
+    "outcome": "P_accel_F",
+    "description": "sigma effect on laggard acceleration",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.8261,
+     "up": 0.0992,
+     "down": 0.0269,
+     "nonmonotone": 0.0477
+    }
+   },
+   "threat:P6F": {
+    "outcome": "P_accel_F",
+    "description": "sigma effect on laggard acceleration",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.8539,
+     "up": 0.0943,
+     "down": 0.0179,
+     "nonmonotone": 0.0339
+    }
+   }
+  },
+  "obs_noise": {
+   "unconditional:P5": {
+    "outcome": "P_quit_F",
+    "description": "sigma effect on laggard quitting (sign derived)",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.6432,
+     "up": 0.0301,
+     "down": 0.3267
+    }
+   },
+   "threat:P5": {
+    "outcome": "P_quit_F",
+    "description": "sigma effect on laggard quitting (sign derived)",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.6774,
+     "up": 0.0315,
+     "down": 0.2911
+    }
+   },
+   "unconditional:P6": {
+    "outcome": "P_accel_L",
+    "description": "sigma effect on leader acceleration (sign derived)",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.7545,
+     "up": 0.1207,
+     "down": 0.1246,
+     "nonmonotone": 0.0003
+    }
+   },
+   "threat:P6": {
+    "outcome": "P_accel_L",
+    "description": "sigma effect on leader acceleration (sign derived)",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.8817,
+     "up": 0.0544,
+     "down": 0.0639
+    }
+   },
+   "unconditional:P5L": {
+    "outcome": "P_quit_L",
+    "description": "sigma effect on leader quitting",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.7577,
+     "up": 0.2331,
+     "down": 0.0087,
+     "nonmonotone": 0.0006
+    }
+   },
+   "threat:P5L": {
+    "outcome": "P_quit_L",
+    "description": "sigma effect on leader quitting",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.8108,
+     "up": 0.1892
+    }
+   },
+   "unconditional:P6F": {
+    "outcome": "P_accel_F",
+    "description": "sigma effect on laggard acceleration",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.6484,
+     "up": 0.3226,
+     "down": 0.0284,
+     "nonmonotone": 0.0006
+    }
+   },
+   "threat:P6F": {
+    "outcome": "P_accel_F",
+    "description": "sigma effect on laggard acceleration",
+    "n_series": 6912,
+    "share": {
+     "flat": 0.6785,
+     "up": 0.294,
+     "down": 0.0275
+    }
+   }
+  }
+ },
+ "multiplicity": {
+  "share_runs_with_multiple_equilibria": 0.38078703703703703,
+  "share_runs_with_mixed_equilibria": 0.10416666666666667
+ },
+ "kill_test_iv_decisions": {
+  "threat:P1": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": false,
+   "welfare_share": {
+    "holds": 0.2439,
+    "flat": 0.4887,
+    "violated": 0.2674
+   },
+   "share_informative": 0.5113,
+   "holds_share_among_informative": 0.477,
+   "leader_holds": 0.2439,
+   "laggard_holds": 0.2439
+  },
+  "threat:P2": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": true,
+   "welfare_share": {
+    "holds": 0.2969,
+    "flat": 0.7031
+   },
+   "share_informative": 0.2969,
+   "holds_share_among_informative": 1.0,
+   "leader_holds": 0.2969,
+   "laggard_holds": 0.2969
+  },
+  "threat:P3": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": false,
+   "welfare_share": {
+    "holds": 0.283,
+    "flat": 0.4557,
+    "violated": 0.2613
+   },
+   "share_informative": 0.5443,
+   "holds_share_among_informative": 0.5199,
+   "leader_holds": 0.283,
+   "laggard_holds": 0.283
+  },
+  "threat:P4": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": false,
+   "welfare_share": {
+    "holds": 0.4245,
+    "flat": 0.2977,
+    "violated": 0.2778
+   },
+   "share_informative": 0.7023,
+   "holds_share_among_informative": 0.6044,
+   "leader_holds": 0.4245,
+   "laggard_holds": 0.4245
+  },
+  "threat:P8": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": false,
+   "welfare_share": {
+    "holds": 0.4401,
+    "flat": 0.2969,
+    "violated": 0.263
+   },
+   "share_informative": 0.7031,
+   "holds_share_among_informative": 0.6259,
+   "leader_holds": 0.4401,
+   "laggard_holds": 0.4401
+  },
+  "unconditional:P1": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": false,
+   "welfare_share": {
+    "holds": 0.0069,
+    "flat": 0.1684,
+    "violated": 0.8247
+   },
+   "share_informative": 0.8316,
+   "holds_share_among_informative": 0.0083,
+   "leader_holds": 0.0069,
+   "laggard_holds": 0.0069
+  },
+  "unconditional:P2": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": true,
+   "welfare_share": {
+    "holds": 0.309,
+    "flat": 0.6823,
+    "violated": 0.0087
+   },
+   "share_informative": 0.3177,
+   "holds_share_among_informative": 0.9726,
+   "leader_holds": 0.309,
+   "laggard_holds": 0.309
+  },
+  "unconditional:P3": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": false,
+   "welfare_share": {
+    "holds": 0.1806,
+    "flat": 0.2812,
+    "violated": 0.5382
+   },
+   "share_informative": 0.7188,
+   "holds_share_among_informative": 0.2513,
+   "leader_holds": 0.1806,
+   "laggard_holds": 0.1806
+  },
+  "unconditional:P4": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": false,
+   "welfare_share": {
+    "holds": 0.0903,
+    "flat": 0.1181,
+    "violated": 0.7917
+   },
+   "share_informative": 0.882,
+   "holds_share_among_informative": 0.1024,
+   "leader_holds": 0.0903,
+   "laggard_holds": 0.0903
+  },
+  "unconditional:P8": {
+   "candidate_for_preregistration": false,
+   "candidate_on_informative_points": false,
+   "welfare_share": {
+    "holds": 0.0729,
+    "flat": 0.0998,
+    "violated": 0.8273
+   },
+   "share_informative": 0.9002,
+   "holds_share_among_informative": 0.081,
+   "leader_holds": 0.0729,
+   "laggard_holds": 0.0729
+  },
+  "unconditional:P5": {
+   "candidate_for_preregistration": false,
+   "dominant_direction": {
+    "tremble": "up",
+    "obs_noise": "down"
+   },
+   "shares": {
+    "tremble": {
+     "flat": 0.7636,
+     "up": 0.0903,
+     "down": 0.0891,
+     "nonmonotone": 0.057
+    },
+    "obs_noise": {
+     "flat": 0.6432,
+     "up": 0.0301,
+     "down": 0.3267
+    }
+   }
+  },
+  "unconditional:P6": {
+   "candidate_for_preregistration": false,
+   "dominant_direction": {
+    "tremble": "down",
+    "obs_noise": "down"
+   },
+   "shares": {
+    "tremble": {
+     "flat": 0.545,
+     "up": 0.0906,
+     "down": 0.251,
+     "nonmonotone": 0.1134
+    },
+    "obs_noise": {
+     "flat": 0.7545,
+     "up": 0.1207,
+     "down": 0.1246,
+     "nonmonotone": 0.0003
+    }
+   }
+  },
+  "threat:P5": {
+   "candidate_for_preregistration": false,
+   "dominant_direction": {
+    "tremble": "down",
+    "obs_noise": "down"
+   },
+   "shares": {
+    "tremble": {
+     "flat": 0.7677,
+     "up": 0.0946,
+     "down": 0.0972,
+     "nonmonotone": 0.0405
+    },
+    "obs_noise": {
+     "flat": 0.6774,
+     "up": 0.0315,
+     "down": 0.2911
+    }
+   }
+  },
+  "threat:P6": {
+   "candidate_for_preregistration": false,
+   "dominant_direction": {
+    "tremble": "down",
+    "obs_noise": "down"
+   },
+   "shares": {
+    "tremble": {
+     "flat": 0.7367,
+     "up": 0.0749,
+     "down": 0.1317,
+     "nonmonotone": 0.0567
+    },
+    "obs_noise": {
+     "flat": 0.8817,
+     "up": 0.0544,
+     "down": 0.0639
+    }
+   }
+  }
+ }
+}

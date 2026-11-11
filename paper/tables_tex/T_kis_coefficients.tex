@@ -1,0 +1,34 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\footnotesize
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l r r r r}
+\toprule
+ & Pre-emption, perceived threat & Quit, perceived threat & Pre-emption, entry rate & Quit, entry rate \\
+\midrule
+Laggard group (gap3 = 0) & +0.0081 (0.0075) & +0.0277 (0.0105) & +0.0075 (0.0074) & +0.0306 (0.0110) \\
+Frontier group (gap3 = 2) & +0.0351 (0.0079) & -0.0002 (0.0097) & +0.0338 (0.0078) & +0.0001 (0.0099) \\
+Treatment $\times$ laggard & +0.0043 (0.0023) & +0.0057 (0.0070) & -0.0452 (0.0208) & +0.1119 (0.0474) \\
+Treatment $\times$ middle & +0.0101 (0.0064) & +0.0105 (0.0060) & -0.0397 (0.0222) & +0.1203 (0.0481) \\
+Treatment $\times$ frontier & +0.0144 (0.0063) & +0.0090 (0.0041) & -0.0418 (0.0220) & +0.1073 (0.0482) \\
+log employees & +0.0088 (0.0033) & +0.0027 (0.0044) & +0.0087 (0.0033) & +0.0027 (0.0044) \\
+log(1 + firm age) & +0.0016 (0.0028) & +0.0029 (0.0048) & +0.0015 (0.0028) & +0.0029 (0.0048) \\
+Domestic-group affiliate & +0.0267 (0.0121) & -0.0130 (0.0137) & +0.0274 (0.0120) & -0.0139 (0.0132) \\
+Foreign-group affiliate & +0.0310 (0.0210) & +0.0306 (0.0259) & +0.0310 (0.0210) & +0.0292 (0.0257) \\
+Listed & +0.0227 (0.0108) & -0.0070 (0.0146) & +0.0228 (0.0107) & -0.0073 (0.0145) \\
+Response-propensity index & +0.0462 (0.0078) & +0.0160 (0.0082) & +0.0473 (0.0079) & +0.0187 (0.0084) \\
+Portfolio breadth & -- & +0.0027 (0.0079) & -- & +0.0026 (0.0080) \\
+\midrule
+Mean of outcome & 0.0442 & 0.0711 & 0.0442 & 0.0711 \\
+N & 16,594 & 7,987 & 16,594 & 7,987 \\
+Clusters & 114 & 112 & 114 & 112 \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Coefficients with cluster-robust SEs in parentheses (industry $\times$ wave). Middle group (gap3 = 1) is the reference for the group intercepts. Industry and wave fixed effects included. Treatments: perceived threat = within-wave residual of the entry-threat item on the other seven market-environment items (not re-standardised; pooled SD close to one, see Table 8 note); entry rate = standardised industry $\times$ reference-period birth rate. Source: results/06\_kis\_main.json.}
+\end{document}

@@ -1,0 +1,59 @@
+{
+ "osf_url": "https://osf.io/tj9uv/",
+ "osf_registration_id": "tj9uv",
+ "registered_at": "2026-11-10T06:07:06.080592Z",
+ "registered_at_kst": "2026-11-10T15:07:06+09:00",
+ "registration_supplement": "Secondary Data Preregistration",
+ "project_url": "https://osf.io/3kcvb/",
+ "draft_id": "6af2b43abd9b0ba8c1f38408",
+ "embargo_end_date": "2028-11-10T00:00:00Z",
+ "status_at_record": {
+  "pending_embargo_approval": true,
+  "revision_state": "unapproved",
+  "public": false
+ },
+ "snapshot_files": [
+  {
+   "name": "HYPOTHESES_GATE_B.md",
+   "size": 6164,
+   "sha256": "1becf9c66781e9f434f67f124eafceb9de7641dddeb3d6177a812d7d00039643"
+  },
+  {
+   "name": "analysis_prereg.py",
+   "size": 25439,
+   "sha256": "f06e7097b7a73b8faea16bdd6942bf9d87f7d9d28a4642ccd32c81df5e1e8318"
+  },
+  {
+   "name": "MODEL_NOTES.md",
+   "size": 11107,
+   "sha256": "864856fdbb5ceb38a60095c091c3b0ec9d4c8e4411e6d1d75e2dd3980b075eb6"
+  },
+  {
+   "name": "escape_or_exit_prereg-v1_code_results.zip",
+   "size": 3043145,
+   "sha256": "e57da68e4de9da8253fc96ae92293cc2d18ddd92ff1eb671571afb72b21fb30c"
+  },
+  {
+   "name": "item_map_escape_exit.json",
+   "size": 77675,
+   "sha256": "1e045e32b547ee79655d2b452a29ae4c225f667bea33b4ea2bd0ee7e4748ea9b"
+  },
+  {
+   "name": "PREREGISTRATION.md",
+   "size": 46623,
+   "sha256": "e068489ffc68da757b3a388111aaa94c4d0c5d1d4d50baa882830b22ad06bcad"
+  },
+  {
+   "name": "SHA256SUMS.txt",
+   "size": 1893,
+   "sha256": "580cce54a0ddcd5ec5ccaa7bcbe042dda30e582981c0bad7262aed816d5863a8"
+  },
+  {
+   "name": "agent_predictions_v1.json",
+   "size": 88525,
+   "sha256": "5562a0e8530d12389b8e2d8ae7122ca085bc1e3f8317d4f9cdb6fff712de6e71"
+  }
+ ],
+ "recorded": "2026-11-10T15:08:02+0900",
+ "archiving_complete": true
+}

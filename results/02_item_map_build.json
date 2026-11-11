@@ -1,0 +1,1598 @@
+{
+ "built": "2026-11-09 20:00 KST",
+ "waves": {
+  "2022M": {
+   "n_rows": 4000,
+   "n_data_columns": 346,
+   "questionnaire_pages": 18,
+   "wording_checks": [
+    {
+     "construct": "ME1",
+     "variable": "문1_2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT1",
+     "variable": "문2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME2",
+     "variable": "문1_2_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT2",
+     "variable": "문2_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME3",
+     "variable": "문1_2_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT3",
+     "variable": "문2_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME4",
+     "variable": "문1_2_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT4",
+     "variable": "문2_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME5",
+     "variable": "문1_2_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT5",
+     "variable": "문2_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME6",
+     "variable": "문1_2_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT6",
+     "variable": "문2_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME7",
+     "variable": "문1_2_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT7",
+     "variable": "문2_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME8",
+     "variable": "문1_2_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT8",
+     "variable": "문2_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PI1",
+     "variable": "문5_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MF1",
+     "variable": "문6_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PI2",
+     "variable": "문5_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MF2",
+     "variable": "문6_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE1",
+     "variable": "문7_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE2",
+     "variable": "문7_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE3",
+     "variable": "문7_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA1",
+     "variable": "문11_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA2",
+     "variable": "문11_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA3",
+     "variable": "문11_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA4",
+     "variable": "문11_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA5",
+     "variable": "문11_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA6",
+     "variable": "문11_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDCYCLE",
+     "variable": "문11_4_01",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDEXP",
+     "variable": "문12_1_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "NONRDEXP",
+     "variable": "문12_1_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP1",
+     "variable": "문14_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP2",
+     "variable": "문14_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP3",
+     "variable": "문14_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND1",
+     "variable": "문17_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND2",
+     "variable": "문17_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND3",
+     "variable": "문17_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND4",
+     "variable": "문17_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND5",
+     "variable": "문17_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND6",
+     "variable": "문17_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND7",
+     "variable": "문17_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND8",
+     "variable": "문17_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP12",
+     "variable": "문19_12",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP13",
+     "variable": "문19_13",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP16",
+     "variable": "문19_16",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FORM",
+     "variable": "문31_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "LEGALSIZE",
+     "variable": "문31_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT1",
+     "variable": "문31_3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT2",
+     "variable": "문31_3_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT3",
+     "variable": "문31_3_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT4",
+     "variable": "문31_3_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT5",
+     "variable": "문31_3_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT6",
+     "variable": "문31_3_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT7",
+     "variable": "문31_3_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT8",
+     "variable": "문31_3_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT9",
+     "variable": "문31_3_9",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "LISTED",
+     "variable": "문31_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SALES",
+     "variable": "문32_3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "EXPORTS",
+     "variable": "문32_3_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "EMP",
+     "variable": "문33_1_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FEMALE",
+     "variable": "문33_2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MASTERS",
+     "variable": "문33_3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDSTAFF",
+     "variable": "문33_4_1",
+     "stem_found": true,
+     "item_found": true
+    }
+   ],
+   "unresolved": [],
+   "missing_in_inventory": [],
+   "missing_in_data": [],
+   "codebook_drift": [],
+   "n_items": 71,
+   "n_constructs": 35,
+   "wording_failures": []
+  },
+  "2024M": {
+   "n_rows": 4595,
+   "n_data_columns": 291,
+   "questionnaire_pages": 12,
+   "wording_checks": [
+    {
+     "construct": "ME1",
+     "variable": "Q1K2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT1",
+     "variable": "Q2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME2",
+     "variable": "Q1K2_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT2",
+     "variable": "Q2_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME3",
+     "variable": "Q1K2_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT3",
+     "variable": "Q2_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME4",
+     "variable": "Q1K2_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT4",
+     "variable": "Q2_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME5",
+     "variable": "Q1K2_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT5",
+     "variable": "Q2_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME6",
+     "variable": "Q1K2_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT6",
+     "variable": "Q2_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME7",
+     "variable": "Q1K2_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT7",
+     "variable": "Q2_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME8",
+     "variable": "Q1K2_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT8",
+     "variable": "Q2_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PI1",
+     "variable": "Q5_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MF1",
+     "variable": "Q6_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PI2",
+     "variable": "Q5_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MF2",
+     "variable": "Q6_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE1",
+     "variable": "Q7_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE2",
+     "variable": "Q7_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE3",
+     "variable": "Q7_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA1",
+     "variable": "Q11_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA2",
+     "variable": "Q11_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA3",
+     "variable": "Q11_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA4",
+     "variable": "Q11_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA5",
+     "variable": "Q11_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA6",
+     "variable": "Q11_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDCYCLE",
+     "variable": "Q11K4K1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDEXP",
+     "variable": "Q12K1_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "NONRDEXP",
+     "variable": "Q12K1_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP1",
+     "variable": "Q14_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP2",
+     "variable": "Q14_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP3",
+     "variable": "Q14_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND1",
+     "variable": "Q17_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND2",
+     "variable": "Q17_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND3",
+     "variable": "Q17_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND4",
+     "variable": "Q17_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND5",
+     "variable": "Q17_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND6",
+     "variable": "Q17_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND7",
+     "variable": "Q17_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND8",
+     "variable": "Q17_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP12",
+     "variable": "Q19_12",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP13",
+     "variable": "Q19_13",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP16",
+     "variable": "Q19_16",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FORM",
+     "variable": "Q31K1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "LEGALSIZE",
+     "variable": "Q31K2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT1",
+     "variable": "Q31K3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT2",
+     "variable": "Q31K3_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT3",
+     "variable": "Q31K3_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT4",
+     "variable": "Q31K3_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT5",
+     "variable": "Q31K3_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT6",
+     "variable": "Q31K3_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT7",
+     "variable": "Q31K3_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT8",
+     "variable": "Q31K3_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT9",
+     "variable": "Q31K3_9998",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "LISTED",
+     "variable": "Q31K4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SALES",
+     "variable": "Q32_3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "EXPORTS",
+     "variable": "Q32_3_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "EMP",
+     "variable": "Q33K1_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FEMALE",
+     "variable": "Q33K2_1_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MASTERS",
+     "variable": "Q33K2_1_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDSTAFF",
+     "variable": "Q33K2_1_3",
+     "stem_found": true,
+     "item_found": true
+    }
+   ],
+   "unresolved": [],
+   "missing_in_inventory": [],
+   "missing_in_data": [],
+   "codebook_drift": [],
+   "n_items": 71,
+   "n_constructs": 35,
+   "wording_failures": []
+  },
+  "2023S": {
+   "n_rows": 4000,
+   "n_data_columns": 351,
+   "questionnaire_pages": 15,
+   "wording_checks": [
+    {
+     "construct": "ME1",
+     "variable": "문1_2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT1",
+     "variable": "문2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME2",
+     "variable": "문1_2_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT2",
+     "variable": "문2_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME3",
+     "variable": "문1_2_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT3",
+     "variable": "문2_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME4",
+     "variable": "문1_2_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT4",
+     "variable": "문2_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME5",
+     "variable": "문1_2_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT5",
+     "variable": "문2_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME6",
+     "variable": "문1_2_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT6",
+     "variable": "문2_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME7",
+     "variable": "문1_2_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT7",
+     "variable": "문2_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME8",
+     "variable": "문1_2_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT8",
+     "variable": "문2_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PI1",
+     "variable": "문5_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MF1",
+     "variable": "문6_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PI2",
+     "variable": "문5_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MF2",
+     "variable": "문6_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE1",
+     "variable": "문7_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE2",
+     "variable": "문7_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE3",
+     "variable": "문7_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA1",
+     "variable": "문11_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA2",
+     "variable": "문11_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA3",
+     "variable": "문11_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA4",
+     "variable": "문11_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA5",
+     "variable": "문11_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA6",
+     "variable": "문11_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDCYCLE",
+     "variable": "문11_4_01",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDEXP",
+     "variable": "문12_1_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "NONRDEXP",
+     "variable": "문12_1_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP1",
+     "variable": "문14_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP2",
+     "variable": "문14_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP3",
+     "variable": "문14_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND1",
+     "variable": "문17_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND2",
+     "variable": "문17_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND3",
+     "variable": "문17_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND4",
+     "variable": "문17_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND5",
+     "variable": "문17_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND6",
+     "variable": "문17_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND7",
+     "variable": "문17_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND8",
+     "variable": "문17_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP12",
+     "variable": "문19_12",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP13",
+     "variable": "문19_13",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP16",
+     "variable": "문19_16",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FORM",
+     "variable": "문31_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "LEGALSIZE",
+     "variable": "문31_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT1",
+     "variable": "문31_3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT2",
+     "variable": "문31_3_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT3",
+     "variable": "문31_3_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT4",
+     "variable": "문31_3_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT5",
+     "variable": "문31_3_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT6",
+     "variable": "문31_3_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT7",
+     "variable": "문31_3_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT8",
+     "variable": "문31_3_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT9",
+     "variable": "문31_3_9",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "LISTED",
+     "variable": "문31_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SALES",
+     "variable": "문32_3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "EXPORTS",
+     "variable": "문32_3_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "EMP",
+     "variable": "문33_1_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FEMALE",
+     "variable": "문33_2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MASTERS",
+     "variable": "문33_3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDSTAFF",
+     "variable": "문33_4_1",
+     "stem_found": true,
+     "item_found": true
+    }
+   ],
+   "unresolved": [],
+   "missing_in_inventory": [],
+   "missing_in_data": [],
+   "codebook_drift": [],
+   "n_items": 71,
+   "n_constructs": 35,
+   "wording_failures": []
+  },
+  "2025S": {
+   "n_rows": 4000,
+   "n_data_columns": 358,
+   "questionnaire_pages": 14,
+   "wording_checks": [
+    {
+     "construct": "ME1",
+     "variable": "Q1K2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT1",
+     "variable": "Q2_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME2",
+     "variable": "Q1K2_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT2",
+     "variable": "Q2_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME3",
+     "variable": "Q1K2_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT3",
+     "variable": "Q2_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME4",
+     "variable": "Q1K2_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT4",
+     "variable": "Q2_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME5",
+     "variable": "Q1K2_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT5",
+     "variable": "Q2_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME6",
+     "variable": "Q1K2_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT6",
+     "variable": "Q2_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME7",
+     "variable": "Q1K2_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT7",
+     "variable": "Q2_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "ME8",
+     "variable": "Q1K2_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PROT8",
+     "variable": "Q2_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PI1",
+     "variable": "Q5_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MF1",
+     "variable": "Q6_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "PI2",
+     "variable": "Q5_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MF2",
+     "variable": "Q6_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE1",
+     "variable": "Q7_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE2",
+     "variable": "Q7_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SHARE3",
+     "variable": "Q7_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA1",
+     "variable": "Q11_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA2",
+     "variable": "Q11_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA3",
+     "variable": "Q11_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA4",
+     "variable": "Q11_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA5",
+     "variable": "Q11_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "IA6",
+     "variable": "Q11_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDCYCLE",
+     "variable": "Q11K4K1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDEXP",
+     "variable": "Q12K1_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "NONRDEXP",
+     "variable": "Q12K1_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP1",
+     "variable": "Q14_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP2",
+     "variable": "Q14_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "COOP3",
+     "variable": "Q14_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND1",
+     "variable": "Q17_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND2",
+     "variable": "Q17_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND3",
+     "variable": "Q17_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND4",
+     "variable": "Q17_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND5",
+     "variable": "Q17_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND6",
+     "variable": "Q17_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND7",
+     "variable": "Q17_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FUND8",
+     "variable": "Q17_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP12",
+     "variable": "Q19_12",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP13",
+     "variable": "Q19_13",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "HAMP16",
+     "variable": "Q19_16",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FORM",
+     "variable": "Q31K1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "LEGALSIZE",
+     "variable": "Q31K2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT1",
+     "variable": "Q31K3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT2",
+     "variable": "Q31K3_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT3",
+     "variable": "Q31K3_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT4",
+     "variable": "Q31K3_4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT5",
+     "variable": "Q31K3_5",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT6",
+     "variable": "Q31K3_6",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT7",
+     "variable": "Q31K3_7",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT8",
+     "variable": "Q31K3_8",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "CERT9",
+     "variable": "Q31K3_9998",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "LISTED",
+     "variable": "Q31K4",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "SALES",
+     "variable": "Q32_3_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "EXPORTS",
+     "variable": "Q32_3_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "EMP",
+     "variable": "Q33K1_3",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "FEMALE",
+     "variable": "Q33K2_1_1",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "MASTERS",
+     "variable": "Q33K2_1_2",
+     "stem_found": true,
+     "item_found": true
+    },
+    {
+     "construct": "RDSTAFF",
+     "variable": "Q33K2_1_3",
+     "stem_found": true,
+     "item_found": true
+    }
+   ],
+   "unresolved": [],
+   "missing_in_inventory": [],
+   "missing_in_data": [],
+   "codebook_drift": [],
+   "n_items": 73,
+   "n_constructs": 35,
+   "wording_failures": []
+  }
+ },
+ "status": "PASS"
+}

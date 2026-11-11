@@ -1,0 +1,3683 @@
+{
+ "_meta": {
+  "project": "Escape or Exit",
+  "built": "2026-11-09 20:00 KST",
+  "rule": "Variable meanings come only from the wave's codebook row, the wave's questionnaire wording (verified against the PDF text) and the observed data values. See per-wave item_map_<wave>.json."
+ },
+ "constructs": {
+  "ME1": {
+   "block": "문1-2",
+   "item_key": "1",
+   "short_label_en": "products become outdated quickly",
+   "waves": {
+    "2022M": {
+     "variable": "문1_2_1",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q1K2_1",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문1_2_1",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q1K2_1",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PROT1": {
+   "block": "문2",
+   "item_key": "1",
+   "short_label_en": "patent application",
+   "waves": {
+    "2022M": {
+     "variable": "문2_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q2_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문2_1",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q2_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "ME2": {
+   "block": "문1-2",
+   "item_key": "2",
+   "short_label_en": "future technological developments hard to predict",
+   "waves": {
+    "2022M": {
+     "variable": "문1_2_2",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q1K2_2",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문1_2_2",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q1K2_2",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PROT2": {
+   "block": "문2",
+   "item_key": "2",
+   "short_label_en": "utility model registration",
+   "waves": {
+    "2022M": {
+     "variable": "문2_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q2_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문2_2",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q2_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "ME3": {
+   "block": "문1-2",
+   "item_key": "3",
+   "short_label_en": "competitor products easily substitute ours",
+   "waves": {
+    "2022M": {
+     "variable": "문1_2_3",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q1K2_3",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문1_2_3",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q1K2_3",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PROT3": {
+   "block": "문2",
+   "item_key": "3",
+   "short_label_en": "design right registration",
+   "waves": {
+    "2022M": {
+     "variable": "문2_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q2_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문2_3",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q2_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "ME4": {
+   "block": "문1-2",
+   "item_key": "4",
+   "short_label_en": "entry of new competitors threatens market position",
+   "waves": {
+    "2022M": {
+     "variable": "문1_2_4",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q1K2_4",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문1_2_4",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q1K2_4",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PROT4": {
+   "block": "문2",
+   "item_key": "4",
+   "short_label_en": "trademark registration",
+   "waves": {
+    "2022M": {
+     "variable": "문2_4",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q2_4",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문2_4",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q2_4",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "ME5": {
+   "block": "문1-2",
+   "item_key": "5",
+   "short_label_en": "competitors' actions hard to predict",
+   "waves": {
+    "2022M": {
+     "variable": "문1_2_5",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q1K2_5",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문1_2_5",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q1K2_5",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PROT5": {
+   "block": "문2",
+   "item_key": "5",
+   "short_label_en": "copyright claim",
+   "waves": {
+    "2022M": {
+     "variable": "문2_5",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q2_5",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문2_5",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q2_5",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "ME6": {
+   "block": "문1-2",
+   "item_key": "6",
+   "short_label_en": "changes in demand hard to predict",
+   "waves": {
+    "2022M": {
+     "variable": "문1_2_6",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q1K2_6",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문1_2_6",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q1K2_6",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PROT6": {
+   "block": "문2",
+   "item_key": "6",
+   "short_label_en": "trade secret protection",
+   "waves": {
+    "2022M": {
+     "variable": "문2_6",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q2_6",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문2_6",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q2_6",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "ME7": {
+   "block": "문1-2",
+   "item_key": "7",
+   "short_label_en": "strong competition from abroad",
+   "waves": {
+    "2022M": {
+     "variable": "문1_2_7",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q1K2_7",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문1_2_7",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q1K2_7",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PROT7": {
+   "block": "문2",
+   "item_key": "7",
+   "short_label_en": "complex design",
+   "waves": {
+    "2022M": {
+     "variable": "문2_7",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q2_7",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문2_7",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q2_7",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "ME8": {
+   "block": "문1-2",
+   "item_key": "8",
+   "short_label_en": "price increases lead to loss of customers",
+   "waves": {
+    "2022M": {
+     "variable": "문1_2_8",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q1K2_8",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문1_2_8",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q1K2_8",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PROT8": {
+   "block": "문2",
+   "item_key": "8",
+   "short_label_en": "lead-time advantage: entering the market ahead of competitors",
+   "waves": {
+    "2022M": {
+     "variable": "문2_8",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q2_8",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문2_8",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q2_8",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "PI1": {
+   "block": "문5",
+   "item_key": "1",
+   "short_label_en": "product (goods) innovation introduced",
+   "waves": {
+    "2022M": {
+     "variable": "문5_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q5_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문5_1",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q5_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "MF1": {
+   "block": "문6",
+   "item_key": "1",
+   "short_label_en": "new-to-market product innovation (ahead of competitors)",
+   "waves": {
+    "2022M": {
+     "variable": "문6_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1243
+    },
+    "2024M": {
+     "variable": "Q6_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1866
+    },
+    "2023S": {
+     "variable": "문6_1",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 710
+    },
+    "2025S": {
+     "variable": "Q6_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1082
+    }
+   }
+  },
+  "PI2": {
+   "block": "문5",
+   "item_key": "2",
+   "short_label_en": "service innovation introduced",
+   "waves": {
+    "2022M": {
+     "variable": "문5_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q5_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문5_2",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q5_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "MF2": {
+   "block": "문6",
+   "item_key": "2",
+   "short_label_en": "new-to-firm product innovation",
+   "waves": {
+    "2022M": {
+     "variable": "문6_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1243
+    },
+    "2024M": {
+     "variable": "Q6_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1866
+    },
+    "2023S": {
+     "variable": "문6_2",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 710
+    },
+    "2025S": {
+     "variable": "Q6_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1082
+    }
+   }
+  },
+  "SHARE1": {
+   "block": "문7",
+   "item_key": "1",
+   "short_label_en": "sales share of new-to-market products (%)",
+   "waves": {
+    "2022M": {
+     "variable": "문7_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1243
+    },
+    "2024M": {
+     "variable": "Q7_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1866
+    },
+    "2023S": {
+     "variable": "문7_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 710
+    },
+    "2025S": {
+     "variable": "Q7_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1082
+    }
+   }
+  },
+  "SHARE2": {
+   "block": "문7",
+   "item_key": "2",
+   "short_label_en": "sales share of new-to-firm products (%)",
+   "waves": {
+    "2022M": {
+     "variable": "문7_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1243
+    },
+    "2024M": {
+     "variable": "Q7_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1866
+    },
+    "2023S": {
+     "variable": "문7_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 710
+    },
+    "2025S": {
+     "variable": "Q7_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1082
+    }
+   }
+  },
+  "SHARE3": {
+   "block": "문7",
+   "item_key": "3",
+   "short_label_en": "sales share of unchanged products (%)",
+   "waves": {
+    "2022M": {
+     "variable": "문7_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1243
+    },
+    "2024M": {
+     "variable": "Q7_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1866
+    },
+    "2023S": {
+     "variable": "문7_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 710
+    },
+    "2025S": {
+     "variable": "Q7_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1082
+    }
+   }
+  },
+  "IA1": {
+   "block": "문11",
+   "item_key": "1",
+   "short_label_en": "innovation activity completed within the period",
+   "waves": {
+    "2022M": {
+     "variable": "문11_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q11_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문11_1",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q11_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "IA2": {
+   "block": "문11",
+   "item_key": "2",
+   "short_label_en": "innovation activity ongoing at year-end",
+   "waves": {
+    "2022M": {
+     "variable": "문11_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q11_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문11_2",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q11_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "IA3": {
+   "block": "문11",
+   "item_key": "3",
+   "short_label_en": "innovation activity abandoned or suspended",
+   "waves": {
+    "2022M": {
+     "variable": "문11_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q11_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문11_3",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q11_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "IA4": {
+   "block": "문11",
+   "item_key": "4",
+   "short_label_en": "in-house R&D",
+   "waves": {
+    "2022M": {
+     "variable": "문11_4",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q11_4",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문11_4",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q11_4",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "IA5": {
+   "block": "문11",
+   "item_key": "5",
+   "short_label_en": "collaborative R&D",
+   "waves": {
+    "2022M": {
+     "variable": "문11_5",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q11_5",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문11_5",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q11_5",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "IA6": {
+   "block": "문11",
+   "item_key": "6",
+   "short_label_en": "contracted-out R&D",
+   "waves": {
+    "2022M": {
+     "variable": "문11_6",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q11_6",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문11_6",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q11_6",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "RDCYCLE": {
+   "block": "문11-4-1",
+   "item_key": "1",
+   "short_label_en": "in-house R&D: continuous (1) vs occasional (2)",
+   "waves": {
+    "2022M": {
+     "variable": "문11_4_01",
+     "data_coding": "as printed 1/2",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2
+     },
+     "n_nonnull": 2157
+    },
+    "2024M": {
+     "variable": "Q11K4K1",
+     "data_coding": "as printed 1/2",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2
+     },
+     "n_nonnull": 2309
+    },
+    "2023S": {
+     "variable": "문11_4_01",
+     "data_coding": "as printed 1/2",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2
+     },
+     "n_nonnull": 1080
+    },
+    "2025S": {
+     "variable": "Q11K4K1",
+     "data_coding": "as printed 1/2",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2
+     },
+     "n_nonnull": 1293
+    }
+   }
+  },
+  "RDEXP": {
+   "block": "문12",
+   "item_key": "1",
+   "short_label_en": "R&D expenditure in the reference year (million KRW)",
+   "waves": {
+    "2022M": {
+     "variable": "문12_1_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 2222
+    },
+    "2024M": {
+     "variable": "Q12K1_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 2495
+    },
+    "2023S": {
+     "variable": "문12_1_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1613
+    },
+    "2025S": {
+     "variable": "Q12K1_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1658
+    }
+   }
+  },
+  "NONRDEXP": {
+   "block": "문12",
+   "item_key": "2",
+   "short_label_en": "non-R&D innovation expenditure (million KRW)",
+   "waves": {
+    "2022M": {
+     "variable": "문12_1_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 2222
+    },
+    "2024M": {
+     "variable": "Q12K1_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 2495
+    },
+    "2023S": {
+     "variable": "문12_1_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1613
+    },
+    "2025S": {
+     "variable": "Q12K1_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 1658
+    }
+   }
+  },
+  "COOP1": {
+   "block": "문14",
+   "item_key": "1",
+   "short_label_en": "cooperated on R&D",
+   "waves": {
+    "2022M": {
+     "variable": "문14_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 2222
+    },
+    "2024M": {
+     "variable": "Q14_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 2495
+    },
+    "2023S": {
+     "variable": "문14_1",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 1613
+    },
+    "2025S": {
+     "variable": "Q14_1",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1658
+    }
+   }
+  },
+  "COOP2": {
+   "block": "문14",
+   "item_key": "2",
+   "short_label_en": "cooperated on non-R&D innovation",
+   "waves": {
+    "2022M": {
+     "variable": "문14_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 2222
+    },
+    "2024M": {
+     "variable": "Q14_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 2495
+    },
+    "2023S": {
+     "variable": "문14_2",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 1613
+    },
+    "2025S": {
+     "variable": "Q14_2",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1658
+    }
+   }
+  },
+  "COOP3": {
+   "block": "문14",
+   "item_key": "3",
+   "short_label_en": "cooperated on general (non-innovation) activities",
+   "waves": {
+    "2022M": {
+     "variable": "문14_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 2222
+    },
+    "2024M": {
+     "variable": "Q14_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 2495
+    },
+    "2023S": {
+     "variable": "문14_3",
+     "data_coding": "data 1 예 / 2 아니오 (questionnaire prints 1/0)",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 0
+     },
+     "n_nonnull": 1613
+    },
+    "2025S": {
+     "variable": "Q14_3",
+     "data_coding": "as printed: 1 예 / 0 아니오",
+     "recode_to_printed": {
+      "1": 1,
+      "0": 0
+     },
+     "n_nonnull": 1658
+    }
+   }
+  },
+  "FUND1": {
+   "block": "문17",
+   "item_key": "1",
+   "short_label_en": "own funds",
+   "waves": {
+    "2022M": {
+     "variable": "문17_1",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q17_1",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문17_1",
+     "data_coding": "data 1-4 = printed 0-3 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q17_1",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FUND2": {
+   "block": "문17",
+   "item_key": "2",
+   "short_label_en": "group/affiliate funds",
+   "waves": {
+    "2022M": {
+     "variable": "문17_2",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q17_2",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문17_2",
+     "data_coding": "data 1-4 = printed 0-3 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q17_2",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FUND3": {
+   "block": "문17",
+   "item_key": "3",
+   "short_label_en": "bank loans/investment",
+   "waves": {
+    "2022M": {
+     "variable": "문17_3",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q17_3",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문17_3",
+     "data_coding": "data 1-4 = printed 0-3 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q17_3",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FUND4": {
+   "block": "문17",
+   "item_key": "4",
+   "short_label_en": "equity issue",
+   "waves": {
+    "2022M": {
+     "variable": "문17_4",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q17_4",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문17_4",
+     "data_coding": "data 1-4 = printed 0-3 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q17_4",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FUND5": {
+   "block": "문17",
+   "item_key": "5",
+   "short_label_en": "bond issue",
+   "waves": {
+    "2022M": {
+     "variable": "문17_5",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q17_5",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문17_5",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q17_5",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FUND6": {
+   "block": "문17",
+   "item_key": "6",
+   "short_label_en": "angel/VC/accelerator investment",
+   "waves": {
+    "2022M": {
+     "variable": "문17_6",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q17_6",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문17_6",
+     "data_coding": "data 1-4 = printed 0-3 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q17_6",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FUND7": {
+   "block": "문17",
+   "item_key": "7",
+   "short_label_en": "central-government funds",
+   "waves": {
+    "2022M": {
+     "variable": "문17_7",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q17_7",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문17_7",
+     "data_coding": "data 1-4 = printed 0-3 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q17_7",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FUND8": {
+   "block": "문17",
+   "item_key": "8",
+   "short_label_en": "local-government funds",
+   "waves": {
+    "2022M": {
+     "variable": "문17_8",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q17_8",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문17_8",
+     "data_coding": "data 1-4 = printed 0-3 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q17_8",
+     "data_coding": "as printed 0-3",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "HAMP12": {
+   "block": "문19",
+   "item_key": "12",
+   "short_label_en": "hampering factor: uncertain market demand for innovations",
+   "waves": {
+    "2022M": {
+     "variable": "문19_12",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q19_12",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문19_12",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q19_12",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "HAMP13": {
+   "block": "문19",
+   "item_key": "13",
+   "short_label_en": "hampering factor: excessive market competition leaves no capacity to innovate",
+   "waves": {
+    "2022M": {
+     "variable": "문19_13",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q19_13",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문19_13",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q19_13",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "HAMP16": {
+   "block": "문19",
+   "item_key": "16",
+   "short_label_en": "reason not to innovate: weak competitive pressure",
+   "waves": {
+    "2022M": {
+     "variable": "문19_16",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q19_16",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문19_16",
+     "data_coding": "data 1-6 = printed 0-5 (+1 shift)",
+     "recode_to_printed": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q19_16",
+     "data_coding": "as printed 0-5",
+     "recode_to_printed": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FORM": {
+   "block": "문31",
+   "item_key": "form",
+   "short_label_en": "firm type: independent / domestic-group affiliate / foreign-group affiliate",
+   "waves": {
+    "2022M": {
+     "variable": "문31_1",
+     "data_coding": "as printed 1/2/3",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q31K1",
+     "data_coding": "as printed 1/2/3",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문31_1",
+     "data_coding": "as printed 1/2/3",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q31K1",
+     "data_coding": "as printed 1/2/3",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "LEGALSIZE": {
+   "block": "문31",
+   "item_key": "legal_size",
+   "short_label_en": "statutory firm size: small / medium / mid-sized / large",
+   "waves": {
+    "2022M": {
+     "variable": "문31_2",
+     "data_coding": "as printed 1-4",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q31K2",
+     "data_coding": "as printed 1-4",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문31_2",
+     "data_coding": "as printed 1-4",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q31K2",
+     "data_coding": "as printed 1-4",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "CERT1": {
+   "block": "문31",
+   "item_key": "cert1",
+   "short_label_en": "certified venture firm",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_1",
+     "data_coding": "tick column: value 1 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "1": 1
+     },
+     "n_nonnull": 397
+    },
+    "2024M": {
+     "variable": "Q31K3_1",
+     "data_coding": "tick column: value 1 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "1": 1
+     },
+     "n_nonnull": 526
+    },
+    "2023S": {
+     "variable": "문31_3_1",
+     "data_coding": "tick column: value 1 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "1": 1
+     },
+     "n_nonnull": 126
+    },
+    "2025S": {
+     "variable": "Q31K3_1",
+     "data_coding": "tick column: value 1 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "1": 1
+     },
+     "n_nonnull": 90
+    }
+   }
+  },
+  "CERT2": {
+   "block": "문31",
+   "item_key": "cert2",
+   "short_label_en": "has a registered R&D institute or dedicated R&D department",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_2",
+     "data_coding": "tick column: value 2 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "2": 1
+     },
+     "n_nonnull": 1776
+    },
+    "2024M": {
+     "variable": "Q31K3_2",
+     "data_coding": "tick column: value 2 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "2": 1
+     },
+     "n_nonnull": 1400
+    },
+    "2023S": {
+     "variable": "문31_3_2",
+     "data_coding": "tick column: value 2 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "2": 1
+     },
+     "n_nonnull": 484
+    },
+    "2025S": {
+     "variable": "Q31K3_2",
+     "data_coding": "tick column: value 2 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "2": 1
+     },
+     "n_nonnull": 422
+    }
+   }
+  },
+  "CERT3": {
+   "block": "문31",
+   "item_key": "cert3",
+   "short_label_en": "Inno-Biz certification",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_3",
+     "data_coding": "tick column: value 3 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "3": 1
+     },
+     "n_nonnull": 427
+    },
+    "2024M": {
+     "variable": "Q31K3_3",
+     "data_coding": "tick column: value 3 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "3": 1
+     },
+     "n_nonnull": 663
+    },
+    "2023S": {
+     "variable": "문31_3_3",
+     "data_coding": "tick column: value 3 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "3": 1
+     },
+     "n_nonnull": 79
+    },
+    "2025S": {
+     "variable": "Q31K3_3",
+     "data_coding": "tick column: value 3 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "3": 1
+     },
+     "n_nonnull": 54
+    }
+   }
+  },
+  "CERT4": {
+   "block": "문31",
+   "item_key": "cert4",
+   "short_label_en": "Main-Biz certification",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_4",
+     "data_coding": "tick column: value 4 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "4": 1
+     },
+     "n_nonnull": 170
+    },
+    "2024M": {
+     "variable": "Q31K3_4",
+     "data_coding": "tick column: value 4 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "4": 1
+     },
+     "n_nonnull": 199
+    },
+    "2023S": {
+     "variable": "문31_3_4",
+     "data_coding": "tick column: value 4 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "4": 1
+     },
+     "n_nonnull": 51
+    },
+    "2025S": {
+     "variable": "Q31K3_4",
+     "data_coding": "tick column: value 4 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "4": 1
+     },
+     "n_nonnull": 35
+    }
+   }
+  },
+  "CERT5": {
+   "block": "문31",
+   "item_key": "cert5",
+   "short_label_en": "Green-Biz certification",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_5",
+     "data_coding": "tick column: value 5 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "5": 1
+     },
+     "n_nonnull": 15
+    },
+    "2024M": {
+     "variable": "Q31K3_5",
+     "data_coding": "tick column: value 5 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "5": 1
+     },
+     "n_nonnull": 78
+    },
+    "2023S": {
+     "variable": "문31_3_5",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 0
+    },
+    "2025S": {
+     "variable": "Q31K3_5",
+     "data_coding": "tick column: value 5 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "5": 1
+     },
+     "n_nonnull": 8
+    }
+   }
+  },
+  "CERT6": {
+   "block": "문31",
+   "item_key": "cert6",
+   "short_label_en": "parts & materials specialist firm",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_6",
+     "data_coding": "tick column: value 6 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "6": 1
+     },
+     "n_nonnull": 101
+    },
+    "2024M": {
+     "variable": "Q31K3_6",
+     "data_coding": "tick column: value 6 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "6": 1
+     },
+     "n_nonnull": 80
+    },
+    "2023S": {
+     "variable": "문31_3_6",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 0
+    },
+    "2025S": {
+     "variable": "Q31K3_6",
+     "data_coding": "tick column: value 6 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "6": 1
+     },
+     "n_nonnull": 1
+    }
+   }
+  },
+  "CERT7": {
+   "block": "문31",
+   "item_key": "cert7",
+   "short_label_en": "ISO certification",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_7",
+     "data_coding": "tick column: value 7 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "7": 1
+     },
+     "n_nonnull": 600
+    },
+    "2024M": {
+     "variable": "Q31K3_7",
+     "data_coding": "tick column: value 7 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "7": 1
+     },
+     "n_nonnull": 1177
+    },
+    "2023S": {
+     "variable": "문31_3_7",
+     "data_coding": "tick column: value 7 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "7": 1
+     },
+     "n_nonnull": 89
+    },
+    "2025S": {
+     "variable": "Q31K3_7",
+     "data_coding": "tick column: value 7 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "7": 1
+     },
+     "n_nonnull": 50
+    }
+   }
+  },
+  "CERT8": {
+   "block": "문31",
+   "item_key": "cert8",
+   "short_label_en": "women-owned firm",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_8",
+     "data_coding": "tick column: value 8 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "8": 1
+     },
+     "n_nonnull": 46
+    },
+    "2024M": {
+     "variable": "Q31K3_8",
+     "data_coding": "tick column: value 8 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "8": 1
+     },
+     "n_nonnull": 47
+    },
+    "2023S": {
+     "variable": "문31_3_8",
+     "data_coding": "tick column: value 8 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "8": 1
+     },
+     "n_nonnull": 38
+    },
+    "2025S": {
+     "variable": "Q31K3_8",
+     "data_coding": "tick column: value 8 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "8": 1
+     },
+     "n_nonnull": 15
+    }
+   }
+  },
+  "CERT9": {
+   "block": "문31",
+   "item_key": "cert9",
+   "short_label_en": "no certification",
+   "waves": {
+    "2022M": {
+     "variable": "문31_3_9",
+     "data_coding": "tick column: value 9 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "9": 1
+     },
+     "n_nonnull": 1685
+    },
+    "2024M": {
+     "variable": "Q31K3_9998",
+     "data_coding": "tick column: value 9 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "9": 1
+     },
+     "n_nonnull": 2274
+    },
+    "2023S": {
+     "variable": "문31_3_9",
+     "data_coding": "tick column: data 9998 = '9. 해당사항 없음'",
+     "recode_to_printed": {
+      "9998": 1
+     },
+     "n_nonnull": 3342
+    },
+    "2025S": {
+     "variable": "Q31K3_9998",
+     "data_coding": "tick column: value 9 when ticked, blank otherwise",
+     "recode_to_printed": {
+      "9": 1
+     },
+     "n_nonnull": 3468
+    }
+   }
+  },
+  "LISTED": {
+   "block": "문31",
+   "item_key": "listed",
+   "short_label_en": "stock-market listing: KOSPI / KOSDAQ / KONEX / not listed",
+   "waves": {
+    "2022M": {
+     "variable": "문31_4",
+     "data_coding": "as printed 1-4",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+     },
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q31K4",
+     "data_coding": "as printed 1-4",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+     },
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문31_4",
+     "data_coding": "data 9998 = printed 4 '해당사항 없음'",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "9998": 4
+     },
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q31K4",
+     "data_coding": "as printed 1-4",
+     "recode_to_printed": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+     },
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "SALES": {
+   "block": "문32",
+   "item_key": "sales",
+   "short_label_en": "sales in the reference year (million KRW)",
+   "waves": {
+    "2022M": {
+     "variable": "문32_3_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q32_3_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문32_3_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q32_3_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "EXPORTS": {
+   "block": "문32",
+   "item_key": "exports",
+   "short_label_en": "exports in the reference year (million KRW)",
+   "waves": {
+    "2022M": {
+     "variable": "문32_3_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q32_3_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문32_3_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 202
+    },
+    "2025S": {
+     "variable": "Q32_3_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "EMP": {
+   "block": "문33",
+   "item_key": "emp",
+   "short_label_en": "regular employees in the reference year",
+   "waves": {
+    "2022M": {
+     "variable": "문33_1_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q33K1_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문33_1_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q33K1_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "FEMALE": {
+   "block": "문33",
+   "item_key": "female",
+   "short_label_en": "share of women among regular employees (%)",
+   "waves": {
+    "2022M": {
+     "variable": "문33_2_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q33K2_1_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문33_2_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q33K2_1_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "MASTERS": {
+   "block": "문33",
+   "item_key": "masters",
+   "short_label_en": "share with a master's degree or higher (%)",
+   "waves": {
+    "2022M": {
+     "variable": "문33_3_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q33K2_1_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문33_3_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q33K2_1_2",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    }
+   }
+  },
+  "RDSTAFF": {
+   "block": "문33",
+   "item_key": "rd_staff",
+   "short_label_en": "share of dedicated R&D staff among regular employees (%)",
+   "waves": {
+    "2022M": {
+     "variable": "문33_4_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2024M": {
+     "variable": "Q33K2_1_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4595
+    },
+    "2023S": {
+     "variable": "문33_4_1",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    },
+    "2025S": {
+     "variable": "Q33K2_1_3",
+     "data_coding": "numeric entry (as reported)",
+     "recode_to_printed": null,
+     "n_nonnull": 4000
+    }
+   }
+  }
+ },
+ "register": {
+  "ID": {
+   "waves": {
+    "2022M": {
+     "variable": "ID",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1.0,
+      "max": 4000.0,
+      "n_unique": 4000
+     }
+    },
+    "2024M": {
+     "variable": "2024제조ID",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4595,
+      "min": 1.0,
+      "max": 4595.0,
+      "n_unique": 4595
+     }
+    },
+    "2023S": {
+     "variable": "ID",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1.0,
+      "max": 4000.0,
+      "n_unique": 4000
+     }
+    },
+    "2025S": {
+     "variable": "응답자 ID",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1.0,
+      "max": 4000.0,
+      "n_unique": 4000
+     }
+    }
+   }
+  },
+  "INDUSTRY2": {
+   "waves": {
+    "2022M": {
+     "variable": "업종(중분류)",
+     "values": [
+      "10. 식료품 제조업",
+      "11. 음료 제조업",
+      "13. 섬유제품 제조업; 의복제외",
+      "14. 의복, 의복액세서리 및 모피제품 제조업",
+      "15. 가죽, 가방 및 신발 제조업",
+      "16. 목재 및 나무제품 제조업;가구제외",
+      "17. 펄프, 종이 및 종이제품 제조업",
+      "18. 인쇄 및 기록매체 복제업"
+     ],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 10.0,
+      "max": 34.0,
+      "n_unique": 24
+     }
+    },
+    "2024M": {
+     "variable": "업종",
+     "values": [
+      "10. 식료품 제조업",
+      "11. 음료 제조업",
+      "13. 섬유제품 제조업; 의복제외",
+      "14. 의복, 의복액세서리 및 모피제품 제조업",
+      "15. 가죽, 가방 및 신발 제조업",
+      "16. 목재 및 나무제품 제조업;가구제외",
+      "17. 펄프, 종이 및 종이제품 제조업",
+      "18. 인쇄 및 기록매체 복제업"
+     ],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4595,
+      "min": 10.0,
+      "max": 34.0,
+      "n_unique": 24
+     }
+    },
+    "2023S": {
+     "variable": "업종(중분류)",
+     "values": [
+      "45. 자동차 및 부품 판매업",
+      "46. 도매 및 상품중개업",
+      "47. 소매업; 자동차 제외",
+      "49. 육상운송 및 파이프라인 운송업",
+      "50. 수상 운송업",
+      "51. 항공 운송업",
+      "52. 창고 및 운송관련",
+      "55. 숙박업"
+     ],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 45.0,
+      "max": 96.0,
+      "n_unique": 33
+     }
+    },
+    "2025S": {
+     "variable": "BR_GI_MCLS_CD",
+     "values": [
+      "45. 자동차 및 부품 판매업",
+      "46. 도매 및 상품중개업",
+      "47. 소매업; 자동체 제외",
+      "49. 육상운송 및 파이프라인 운송업",
+      "50. 수상 운송업",
+      "51. 항공 운송업",
+      "52. 창고 및 운송관련",
+      "55. 숙박업"
+     ],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 45.0,
+      "max": 96.0,
+      "n_unique": 33
+     }
+    }
+   }
+  },
+  "SIZECLASS": {
+   "waves": {
+    "2022M": {
+     "variable": "종사자 수\n규모",
+     "values": [
+      "1. 10~49인",
+      "2. 50~99인",
+      "3. 100~299인",
+      "4. 300~499인",
+      "5. 500인 이상"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4000,
+      "value_counts": {
+       "1": 2306,
+       "2": 392,
+       "3": 774,
+       "4": 219,
+       "5": 309
+      }
+     }
+    },
+    "2024M": {
+     "variable": "종사자규모",
+     "values": [
+      "1. 10~49인",
+      "2. 50~99인",
+      "3. 100~299인",
+      "4. 300~499인",
+      "5. 500인 이상"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4595,
+      "value_counts": {
+       "1": 2702,
+       "2": 466,
+       "3": 893,
+       "4": 206,
+       "5": 328
+      }
+     }
+    },
+    "2023S": {
+     "variable": "규모(2022년 응답 기준)",
+     "values": [
+      "1. 10~29인",
+      "2. 30~49인",
+      "3. 50~99인",
+      "4. 100~299인",
+      "5. 300~499인",
+      "6. 500인 이상"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4000,
+      "value_counts": {
+       "1": 1323,
+       "2": 372,
+       "3": 505,
+       "4": 962,
+       "5": 289,
+       "6": 549
+      }
+     }
+    },
+    "2025S": {
+     "variable": "size",
+     "values": [
+      "1.5-9인",
+      "2.10-29인",
+      "3.30-49인",
+      "4.50-99인",
+      "5.100-299인",
+      "6.300-499인",
+      "7.500인 이상"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4000,
+      "value_counts": {
+       "2": 1435,
+       "3": 305,
+       "4": 430,
+       "5": 926,
+       "6": 305,
+       "7": 599
+      }
+     }
+    }
+   }
+  },
+  "FOUNDYEAR": {
+   "waves": {
+    "2022M": {
+     "variable": "SQ2",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1933.0,
+      "max": 2019.0,
+      "n_unique": 75
+     }
+    },
+    "2024M": {
+     "variable": "설립연도",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4595,
+      "min": 1933.0,
+      "max": 2022.0,
+      "n_unique": 80
+     }
+    },
+    "2023S": {
+     "variable": "SQ2",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1904.0,
+      "max": 2022.0,
+      "n_unique": 87
+     }
+    },
+    "2025S": {
+     "variable": "OPBIZ_DE_3",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 30.0,
+      "max": 2022.0,
+      "n_unique": 85
+     }
+    }
+   }
+  },
+  "REGION": {
+   "waves": {
+    "2022M": {
+     "variable": "SQ4_2",
+     "values": [
+      "11. 서울",
+      "21. 부산",
+      "22. 대구",
+      "23. 인천",
+      "24. 광주",
+      "25. 대전",
+      "26. 울산",
+      "27. 세종"
+     ],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 11.0,
+      "max": 39.0,
+      "n_unique": 17
+     }
+    },
+    "2024M": {
+     "variable": "지역",
+     "values": [
+      "1.서울",
+      "2.부산",
+      "3.대구",
+      "4.인천",
+      "5.광주",
+      "6.대전",
+      "7.울산",
+      "8.세종"
+     ],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4595,
+      "min": 1.0,
+      "max": 17.0,
+      "n_unique": 17
+     }
+    },
+    "2023S": {
+     "variable": "SQ4_2",
+     "values": [
+      "11. 서울",
+      "21. 부산",
+      "22. 대구",
+      "23. 인천",
+      "24. 광주",
+      "25. 대전",
+      "26. 울산",
+      "27. 세종"
+     ],
+     "observed": {
+      "type": "text",
+      "n_nonnull": 4000,
+      "n_unique": 17,
+      "examples": [
+       "11. 서울",
+       "31. 경기",
+       "21. 부산",
+       "23. 인천",
+       "22. 대구",
+       "38. 경남"
+      ]
+     }
+    },
+    "2025S": {
+     "variable": "region",
+     "values": [
+      "1.서울",
+      "2.부산",
+      "3.대구",
+      "4.인천",
+      "5.광주",
+      "6.대전",
+      "7.울산",
+      "8.세종"
+     ],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1.0,
+      "max": 17.0,
+      "n_unique": 17
+     }
+    }
+   }
+  },
+  "SALESCLASS": {
+   "waves": {
+    "2022M": {
+     "variable": "매출액\n규모",
+     "values": [
+      "1. 10억원 미만",
+      "2. 10억원 이상~50억원 미만",
+      "3. 50억원 이상~100억원 미만",
+      "4. 100억원 이상~500억원 미만",
+      "5. 500억원 이상~1000억원 미만",
+      "6. 1000억원 이상"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4000,
+      "value_counts": {
+       "1": 78,
+       "2": 1276,
+       "3": 614,
+       "4": 995,
+       "5": 328,
+       "6": 709
+      }
+     }
+    }
+   }
+  },
+  "WEIGHT": {
+   "waves": {
+    "2022M": {
+     "variable": "WT1",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1.0,
+      "max": 30.470588235294116,
+      "n_unique": 94
+     }
+    },
+    "2024M": {
+     "variable": "WT1",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4595,
+      "min": 1.0,
+      "max": 26.428571428571427,
+      "n_unique": 95
+     }
+    },
+    "2023S": {
+     "variable": "WT1",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1.0,
+      "max": 54.4230769230769,
+      "n_unique": 143
+     }
+    },
+    "2025S": {
+     "variable": "WT1",
+     "values": [],
+     "observed": {
+      "type": "numeric",
+      "n_nonnull": 4000,
+      "min": 1.0,
+      "max": 77.2631578947368,
+      "n_unique": 158
+     }
+    }
+   }
+  },
+  "SBR_SCALE": {
+   "waves": {
+    "2024M": {
+     "variable": "법정유형",
+     "values": [
+      "1. 대기업",
+      "2. 중기업",
+      "3. 소기업"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4595,
+      "value_counts": {
+       "1": 790,
+       "2": 1499,
+       "3": 2306
+      }
+     }
+    },
+    "2025S": {
+     "variable": "scale",
+     "values": [
+      "1. 대기업",
+      "2. 중기업",
+      "3. 소기업"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4000,
+      "value_counts": {
+       "1": 948,
+       "2": 2185,
+       "3": 867
+      }
+     }
+    }
+   }
+  },
+  "INDUSTRY1": {
+   "waves": {
+    "2023S": {
+     "variable": "업종(대분류)",
+     "values": [
+      "1.도매 및 소매업",
+      "2. 운수 및 창고업",
+      "3. 숙박 및 음식점업",
+      "4. 정보통신업",
+      "5. 금융 및 보험업",
+      "6. 부동산업",
+      "7. 전문, 과학 및 기술서비스업",
+      "8. 사업시설 관리, 사업지원 및 임대서비스업"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4000,
+      "value_counts": {
+       "1": 807,
+       "2": 479,
+       "3": 164,
+       "4": 530,
+       "5": 258,
+       "6": 160,
+       "7": 426,
+       "8": 692,
+       "9": 70,
+       "10": 291,
+       "11": 52,
+       "12": 71
+      }
+     }
+    },
+    "2025S": {
+     "variable": "BR_GI_LCLS_CD",
+     "values": [
+      "G.도매 및 소매업",
+      "H.운수 및 창고업",
+      "I.숙박 및 음식점업",
+      "J.정보통신업",
+      "K.금융 및 보험업",
+      "L.부동산업",
+      "M.전문, 과학 및 기술 서비스업",
+      "N.사업시설 관리, 사업지원 및 임대 서비스업"
+     ],
+     "observed": {
+      "type": "text",
+      "n_nonnull": 4000,
+      "n_unique": 12,
+      "examples": [
+       "G",
+       "N",
+       "J",
+       "M",
+       "H",
+       "Q"
+      ]
+     }
+    }
+   }
+  },
+  "SIZECLASS_SBR": {
+   "waves": {
+    "2025S": {
+     "variable": "size_SBR",
+     "values": [
+      "1.5-9인",
+      "2.10-29인",
+      "3.30-49인",
+      "4.50-99인",
+      "5.100-299인",
+      "6.300-499인",
+      "7.500인 이상"
+     ],
+     "observed": {
+      "type": "coded",
+      "n_nonnull": 4000,
+      "value_counts": {
+       "2": 1471,
+       "3": 272,
+       "4": 459,
+       "5": 983,
+       "6": 262,
+       "7": 553
+      }
+     }
+    }
+   }
+  }
+ },
+ "analysis_constructs": {
+  "quit_any": {
+   "label": "Abandoned or suspended innovation activity (main exit outcome)",
+   "construct_ids": [
+    "IA3",
+    "IA1",
+    "IA2",
+    "IA4",
+    "IA5",
+    "IA6"
+   ],
+   "rule": "quit_any = 1 if IA3 == yes, 0 if IA3 == no; defined only for firms with any innovation activity (IA1..IA6 any yes); recoded to printed yes=1/no=0 first"
+  },
+  "exit_strict": {
+   "label": "Abandoned without any completed activity",
+   "construct_ids": [
+    "IA3",
+    "IA1"
+   ],
+   "rule": "exit_strict = 1 if IA3 == yes and IA1 == no, else 0; same population as quit_any"
+  },
+  "exit_full": {
+   "label": "Abandoned with neither completed nor ongoing activity",
+   "construct_ids": [
+    "IA3",
+    "IA1",
+    "IA2"
+   ],
+   "rule": "exit_full = 1 if IA3 == yes and IA1 == no and IA2 == no, else 0; same population as quit_any"
+  },
+  "preempt_strategy": {
+   "label": "Protected products by entering the market ahead of competitors (lead-time; main preemption outcome)",
+   "construct_ids": [
+    "PROT8"
+   ],
+   "rule": "preempt_strategy = PROT8 recoded yes=1/no=0; all firms"
+  },
+  "market_first": {
+   "label": "New-to-market product innovation (secondary preemption outcome)",
+   "construct_ids": [
+    "MF1",
+    "PI1",
+    "PI2"
+   ],
+   "rule": "market_first = MF1 recoded yes=1/no=0 among product innovators (PI1 or PI2 == yes); missing for non-innovators (selection handled separately)"
+  },
+  "entry_threat": {
+   "label": "Perceived threat of entry by new competitors",
+   "construct_ids": [
+    "ME4"
+   ],
+   "rule": "ME4 on printed 0-5 scale (0 = does not apply); after wave-specific recode"
+  },
+  "rival_unpredictability": {
+   "label": "Competitors' actions are difficult to predict (observation noise proxy)",
+   "construct_ids": [
+    "ME5"
+   ],
+   "rule": "ME5 on printed 0-5 scale"
+  },
+  "substitutability": {
+   "label": "Competitor products easily substitute ours",
+   "construct_ids": [
+    "ME3"
+   ],
+   "rule": "ME3 on printed 0-5 scale"
+  },
+  "foreign_competition": {
+   "label": "Strong competition from abroad",
+   "construct_ids": [
+    "ME7"
+   ],
+   "rule": "ME7 on printed 0-5 scale"
+  },
+  "obsolescence": {
+   "label": "Products become outdated quickly",
+   "construct_ids": [
+    "ME1"
+   ],
+   "rule": "ME1 on printed 0-5 scale"
+  },
+  "placebo_demand": {
+   "label": "Placebo: changes in demand difficult to predict",
+   "construct_ids": [
+    "ME6"
+   ],
+   "rule": "ME6 on printed 0-5 scale"
+  },
+  "placebo_price": {
+   "label": "Placebo: price increases lead to loss of customers",
+   "construct_ids": [
+    "ME8"
+   ],
+   "rule": "ME8 on printed 0-5 scale"
+  },
+  "tech_uncertainty": {
+   "label": "Future technological developments difficult to predict (control)",
+   "construct_ids": [
+    "ME2"
+   ],
+   "rule": "ME2 on printed 0-5 scale"
+  },
+  "rd_staff_share": {
+   "label": "Share of dedicated R&D staff among regular employees (main technology-gap proxy)",
+   "construct_ids": [
+    "RDSTAFF"
+   ],
+   "rule": "percentage 0-100 as reported; ranked within industry (2-digit) x wave for the gap tercile"
+  },
+  "rd_intensity": {
+   "label": "R&D expenditure / sales (secondary gap proxy, innovation-active firms only)",
+   "construct_ids": [
+    "RDEXP",
+    "SALES"
+   ],
+   "rule": "RDEXP / SALES, both million KRW, reference calendar year; defined only where IA1..IA6 any yes and SALES > 0"
+  },
+  "export_share": {
+   "label": "Exports / sales in the reference year",
+   "construct_ids": [
+    "EXPORTS",
+    "SALES"
+   ],
+   "rule": "EXPORTS / SALES; exports missing treated as 0 only where the questionnaire blank means no exports — verified in Task 3 against value distribution, otherwise missing"
+  },
+  "masters_share": {
+   "label": "Share of employees with a master's degree or higher",
+   "construct_ids": [
+    "MASTERS"
+   ],
+   "rule": "percentage 0-100 as reported"
+  },
+  "cert_venture": {
+   "label": "Venture-firm certification",
+   "construct_ids": [
+    "CERT1"
+   ],
+   "rule": "1 if the multi-response column is ticked (value == item code), else 0"
+  },
+  "cert_rd_institute": {
+   "label": "Registered R&D institute / dedicated R&D department",
+   "construct_ids": [
+    "CERT2"
+   ],
+   "rule": "1 if ticked, else 0"
+  },
+  "cert_innobiz": {
+   "label": "Inno-Biz certification",
+   "construct_ids": [
+    "CERT3"
+   ],
+   "rule": "1 if ticked, else 0"
+  },
+  "group_affiliate": {
+   "label": "Firm type: independent / domestic-group affiliate / foreign-group affiliate",
+   "construct_ids": [
+    "FORM"
+   ],
+   "rule": "categorical 1/2/3 as printed"
+  },
+  "legal_size": {
+   "label": "Statutory firm size class",
+   "construct_ids": [
+    "LEGALSIZE"
+   ],
+   "rule": "categorical 1 small / 2 medium / 3 mid-sized / 4 large as printed"
+  },
+  "listed": {
+   "label": "Stock-market listing",
+   "construct_ids": [
+    "LISTED"
+   ],
+   "rule": "1 if KOSPI/KOSDAQ/KONEX (codes 1-3), 0 if '해당사항 없음' (code 4 or data sentinel 9998)"
+  },
+  "portfolio_breadth": {
+   "label": "Number of innovation-activity types reported (portfolio-size control)",
+   "construct_ids": [
+    "IA1",
+    "IA2",
+    "IA4",
+    "IA5",
+    "IA6"
+   ],
+   "rule": "count of yes among IA1, IA2, IA4, IA5, IA6 (IA3 excluded because it is the outcome)"
+  },
+  "rd_continuous": {
+   "label": "In-house R&D performed continuously (vs occasionally)",
+   "construct_ids": [
+    "RDCYCLE",
+    "IA4"
+   ],
+   "rule": "1 if RDCYCLE == 1, 0 if RDCYCLE == 2; missing where IA4 == no"
+  },
+  "coop_rd": {
+   "label": "Cooperated on R&D",
+   "construct_ids": [
+    "COOP1"
+   ],
+   "rule": "recoded yes=1/no=0; innovation-active firms only"
+  },
+  "funding_public_attempt": {
+   "label": "Attempted central- or local-government funding",
+   "construct_ids": [
+    "FUND7",
+    "FUND8"
+   ],
+   "rule": "1 if FUND7 or FUND8 on printed scale >= 1 (attempted), else 0"
+  },
+  "funding_bank_attempt": {
+   "label": "Attempted bank financing",
+   "construct_ids": [
+    "FUND3"
+   ],
+   "rule": "1 if FUND3 printed >= 1, else 0"
+  },
+  "hamp_competition": {
+   "label": "Hampering factor: excessive competition (auxiliary)",
+   "construct_ids": [
+    "HAMP13"
+   ],
+   "rule": "HAMP13 on printed 0-5 scale"
+  },
+  "hamp_weak_competition": {
+   "label": "Reason not to innovate: weak competitive pressure (auxiliary)",
+   "construct_ids": [
+    "HAMP16"
+   ],
+   "rule": "HAMP16 on printed 0-5 scale"
+  },
+  "hamp_demand_uncertainty": {
+   "label": "Hampering factor: uncertain demand (auxiliary)",
+   "construct_ids": [
+    "HAMP12"
+   ],
+   "rule": "HAMP12 on printed 0-5 scale"
+  },
+  "sales_share_new_to_market": {
+   "label": "Sales share of new-to-market products (%)",
+   "construct_ids": [
+    "SHARE1",
+    "PI1",
+    "PI2"
+   ],
+   "rule": "percentage among product innovators"
+  },
+  "employees": {
+   "label": "Regular employees in the reference year",
+   "construct_ids": [
+    "EMP"
+   ],
+   "rule": "count as reported"
+  },
+  "firm_age": {
+   "label": "Firm age in the reference year",
+   "construct_ids": [
+    "FOUNDYEAR"
+   ],
+   "rule": "y2 - founding year"
+  },
+  "female_share": {
+   "label": "Share of women among regular employees (%)",
+   "construct_ids": [
+    "FEMALE"
+   ],
+   "rule": "percentage as reported (control)"
+  }
+ }
+}

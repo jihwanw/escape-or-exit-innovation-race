@@ -1,0 +1,73 @@
+Source: Eurostat, The Community Innovation Survey 2020 harmonised questionnaire (final version), https://ec.europa.eu/eurostat/cache/website/cis/Questionnaires/CIS2020.pdf — downloaded 2026-11-06, text extracted with pdftotext -layout. Excerpt of items that KIS 2022M/2024M/2023S/2025S 문1-1, 문1-2 and 문11 mirror.
+
+--- CIS 2020 §2.1 (strategies) and §2.2 (business environment), lines 66-119 of the extracted text ---
+  2.1       During the three years 2018 to 2020, how important were the following
+            strategies to the economic performance of your enterprise?
+
+
+                                                                                    Degree of importance
+
+
+                                                                                                                    Not
+                                                                        High        Medium           Low          important
+Focus on improving your existing goods or services                                                                
+
+Focus on introducing new goods or services                                                                        
+
+Focus on low-price (price leadership)                                                                             
+
+Focus on high-quality (quality leadership)                                                                        
+
+Focus on a broad range of goods or services                                                                       
+
+Focus on one or a small number of key goods or services                                                           
+
+Focus on satisfying established customer groups                                                                   
+
+Focus on reaching out to new customer groups                                                                      
+
+Focus on standardised goods or services                                                                           
+
+Focus on customer-specific solutions                                                                              
+
+
+
+
+                                                             3
+2.2         During the three years 2018 to 2020, to what extent do the following
+            characteristics describe the conditions faced by your enterprise ?
+
+
+                                                                            Applies         Applies          Applies         Applies
+                                                                             fully         somewhat         very little      not all
+                                                                                             Tick one box per row
+    Goods or services become outdated quickly                                                                                 
+    Future technological developments are difficult to
+                                                                                                                              
+    predict
+    Competitor goods or services are easily substituted
+                                                                                                                              
+    with those of your enterprise
+    Entry of new competitors leads to a major threat of
+                                                                                                                              
+    your enterprises’ market position
+    Competitor’s actions are difficult to predict                                                                             
+    Changes in demand are difficult to predict                                                                                
+    Strong competition from abroad                                                                                            
+    Price increases lead to loss of clients                                                                                   
+
+--- CIS 2020 abandoned/suspended innovation activities, lines 390-403 ---
+
+                                                                                                                   Yes            No
+
+ Ongoing innovation activities at the end of 2020**                                                                              
+
+ Abandoned or suspended innovation activities***                                                                                 
+
+ Completed innovation activities1 ****                                                                                           
+
+* Please see the annex for definitions of internal and external R&D.
+** The innovation activity was not completed at the end of 2020 and will be continued in 2021.
+*** The innovation activity was discontinued during 2018 and 2020 either with plans to resume the activity later (‘suspended activity’) or
+     without such plans (‘abandoned activity’)
+**** The innovation activity was completed at the end of 2020 but has not resulted in the introduction of an innovation by the end of 2020,

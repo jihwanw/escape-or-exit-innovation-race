@@ -1,0 +1,40 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\footnotesize
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l c c r r r r r r r r }
+\toprule
+\multicolumn{3}{c}{} & \multicolumn{2}{c}{Claude (fable-5), EN} & \multicolumn{2}{c}{Claude (fable-5), KO} & \multicolumn{2}{c}{GPT-5.6, EN} & \multicolumn{2}{c}{GPT-5.6, KO} \\ \cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+Position & Threat & Noise & Accel. & Quit & Accel. & Quit & Accel. & Quit & Accel. & Quit \\
+\midrule
+behind & no & no & 0.00 & 0.55 & 0.00 & 0.03 & 0.00 & 0.00 & 0.00 & 0.00 \\
+ & no & yes & 0.00 & 0.33 & 0.00 & 0.20 & 0.00 & 0.00 & 0.00 & 0.03 \\
+ & yes & no & 0.00 & 1.00 & 0.00 & 1.00 & 0.00 & 0.60 & 0.00 & 0.58 \\
+ & yes & yes & 0.00 & 0.90 & 0.00 & 0.83 & 0.00 & 0.08 & 0.00 & 0.13 \\
+\midrule
+level & no & no & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+ & no & yes & 0.05 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+ & yes & no & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\
+ & yes & yes & 0.00 & 0.00 & 0.05 & 0.00 & 0.03 & 0.00 & 0.03 & 0.00 \\
+\midrule
+ahead & no & no & 0.30 & 0.00 & 0.00 & 0.00 & 0.05 & 0.00 & 0.00 & 0.00 \\
+ & no & yes & 0.60 & 0.00 & 0.33 & 0.00 & 0.25 & 0.00 & 0.33 & 0.00 \\
+ & yes & no & 0.98 & 0.00 & 0.88 & 0.00 & 0.58 & 0.00 & 0.78 & 0.00 \\
+ & yes & yes & 1.00 & 0.00 & 1.00 & 0.00 & 0.78 & 0.00 & 0.75 & 0.00 \\
+\midrule
+Model period-1 policy, behind & no & -- & \multicolumn{2}{c}{0.00 / 0.00} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} \\
+ & yes & -- & \multicolumn{2}{c}{0.00 / 0.39} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} \\
+Model period-1 policy, level & no & -- & \multicolumn{2}{c}{0.00 / 0.00} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} \\
+ & yes & -- & \multicolumn{2}{c}{0.00 / 0.00} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} \\
+Model period-1 policy, ahead & no & -- & \multicolumn{2}{c}{0.00 / 0.00} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} \\
+ & yes & -- & \multicolumn{2}{c}{0.14 / 0.00} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} & \multicolumn{2}{c}{} \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Stage A: share of the one-shot period-1 decision (n = 40 personas per cell and arm). The last six rows give the model's period-1 equilibrium action probabilities (accelerate / stop) for the agent's seat at the true state; the observation-noise cell is not distinguished because the model is solved at the true state. Source: results/04\_agent\_stage\_a.json.}
+\end{document}

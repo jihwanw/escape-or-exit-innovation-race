@@ -1,0 +1,33 @@
+{
+ "tests": {
+  "T1_value_ranges": {
+   "pass": true,
+   "detail": "47 columns within printed code sets"
+  },
+  "T2_filters": {
+   "pass": true,
+   "detail": "{\"MF1_nonmissing_among_non_innovators\": 0, \"SHARE1_nonmissing_among_non_innovators\": 0, \"RDEXP_nonmissing_among_inactive\": 0, \"COOP1_nonmissing_among_inactive\": 0, \"RDCYCLE_nonmissing_where_IA4_no\": 0, \"quit_any_defined_only_if_active\": 0, \"product_innovators_without_completed_activity_IA1\": 0, \"product_innovators_total\": 4901}"
+  },
+  "T3_2023S_recode_vs_inventory": {
+   "pass": true,
+   "detail": "45 recoded 2023S variables reproduce the inventory's observed frequencies"
+  },
+  "T4_no_silent_zero_fill": {
+   "pass": true,
+   "detail": "{\"2022M\": {\"RDEXP_missing\": 1778, \"n_inactive\": 1778, \"MF1_missing\": 2757, \"n_non_product_innovators\": 2757, \"exports_blank_as_zero_flag\": 0}, \"2023S\": {\"RDEXP_missing\": 2387, \"n_inactive\": 2387, \"MF1_missing\": 3290, \"n_non_product_innovators\": 3290, \"exports_blank_as_zero_flag\": 1}, \"2024M\": {\"RDEXP_missing\": 2119, \"n_inactive\": 2100, \"MF1_missing\": 2729, \"n_non_product_innovators\": 2729, \"exports_blank_as_zero_flag\": 0}, \"2025S\": {\"RDEXP_missing\": 2342, \"n_inactive\": 2342, \"MF1_missing\": 2918, \"n_non_product_innovators\": 2918, \"exports_blank_as_zero_flag\": 0}}"
+  },
+  "T5_harmonisation": {
+   "pass": true,
+   "detail": "{\"2022M\": {\"size_band_values\": [1.0, 2.0, 3.0, 4.0, 5.0], \"size_band_missing\": 0, \"firm_age_min\": 2.0, \"firm_age_missing\": 0, \"weight_min\": 1.0, \"section_values\": [\"C\"]}, \"2023S\": {\"size_band_values\": [1.0, 2.0, 3.0, 4.0, 5.0], \"size_band_missing\": 0, \"firm_age_min\": 0.0, \"firm_age_missing\": 0, \"weight_min\": 1.0, \"section_values\": [\"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\", \"N\", \"P\", \"Q\", \"R\", \"S\"], \"section_mismatch_vs_register\": 0}, \"2024M\": {\"size_band_values\": [1.0, 2.0, 3.0, 4.0, 5.0], \"size_band_missing\": 0, \"firm_age_min\": 1.0, \"firm_age_missing\": 0, \"weight_min\": 1.0, \"section_values\": [\"C\"]}, \"2025S\": {\"size_band_values\": [1.0, 2.0, 3.0, 4.0, 5.0], \"size_band_missing\": 0, \"firm_age_min\": 2.0, \"firm_age_missing\": 1, \"weight_min\": 1.0, \"section_values\": [\"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\", \"N\", \"P\", \"Q\", \"R\", \"S\"], \"section_mismatch_vs_register\": 0}}"
+  },
+  "T6_embargo": {
+   "pass": true,
+   "detail": "build summary carries the embargo note and no outcome x treatment statistic"
+  },
+  "T7_gate_A_variables": {
+   "pass": true,
+   "detail": "{\"2022M\": {\"gap3_counts\": {\"0\": 1826, \"1\": 1223, \"2\": 951}, \"gap3_missing\": 0, \"gap3_zero_equals_share_zero\": true, \"gap3_1_below_or_at_median\": true, \"gap3_2_above_median\": true, \"median_source\": {\"industry2\": 3976, \"section\": 24}, \"market_first_main_nonmissing\": 1243, \"me_mean8_nonmissing\": 4000, \"entry_threat_resid_mean_abs\": 3.671729587040318e-15}, \"2023S\": {\"gap3_counts\": {\"0\": 3367, \"1\": 380, \"2\": 253}, \"gap3_missing\": 0, \"gap3_zero_equals_share_zero\": true, \"gap3_1_below_or_at_median\": true, \"gap3_2_above_median\": true, \"median_source\": {\"industry2\": 2196, \"wave\": 1385, \"section\": 419}, \"market_first_main_nonmissing\": 0, \"me_mean8_nonmissing\": 4000, \"entry_threat_resid_mean_abs\": 4.0181191707233666e-15}, \"2024M\": {\"gap3_counts\": {\"0\": 2065, \"1\": 1385, \"2\": 1145}, \"gap3_missing\": 0, \"gap3_zero_equals_share_zero\": true, \"gap3_1_below_or_at_median\": true, \"gap3_2_above_median\": true, \"median_source\": {\"industry2\": 4542, \"section\": 53}, \"market_first_main_nonmissing\": 1866, \"me_mean8_nonmissing\": 4595, \"entry_threat_resid_mean_abs\": 2.9334049395797827e-15}, \"2025S\": {\"gap3_counts\": {\"0\": 3171, \"1\": 474, \"2\": 355}, \"gap3_missing\": 0, \"gap3_zero_equals_share_zero\": true, \"gap3_1_below_or_at_median\": true, \"gap3_2_above_median\": true, \"median_source\": {\"industry2\": 2919, \"section\": 787, \"wave\": 294}, \"market_first_main_nonmissing\": 0, \"me_mean8_nonmissing\": 4000, \"entry_threat_resid_mean_abs\": -1.225686219186173e-16}}"
+  }
+ },
+ "status": "PASS"
+}

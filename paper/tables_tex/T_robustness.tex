@@ -1,0 +1,32 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\footnotesize
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{p{5.6cm} r r r r r}
+\toprule
+Specification & H1 (pre-emption) & H2 (quit) & H4 (asym.) & H5 (baseline) & H6 (est.) \\
+\midrule
+Main (pre-registered) & +0.0144 (0.016) & +0.0057 (0.209) & +0.0101 (0.056) & +0.0279 (0.007) & -0.0418 \\
+\midrule
+Raw 0--5 threat item & +0.0203 (0.003) & -0.0000 (0.528) & +0.0227 ($<$0.001) & +0.0628 ($<$0.001) & -0.0418 \\
+Industry $\times$ wave FE & +0.0141 (0.013) & +0.0052 (0.244) & +0.0108 (0.060) & +0.0131 (0.161) & +0.0020 \\
+KIS sampling weights & +0.0131 (0.003) & +0.0133 (0.117) & +0.0072 (0.151) & +0.0224 (0.060) & +0.0001 \\
+Excluding 2023S & +0.0160 (0.003) & +0.0103 (0.191) & +0.0143 (0.020) & +0.0247 (0.017) & -0.0562 \\
+Manufacturing only & +0.0198 (0.003) & -0.0019 (0.629) & +0.0168 (0.007) & +0.0115 (0.227) & -0.0543 \\
+Services only & -0.0057 (0.930) & +0.0079 (0.161) & -0.0120 (0.980) & +0.0257 (0.030) & -0.0277 \\
+Quit = abandoned without completion & +0.0144 (0.013) & +0.0039 (0.214) & +0.0101 (0.070) & -0.0059 (0.749) & -0.0418 \\
+Quit = abandoned, nothing completed/ongoing & +0.0144 (0.013) & +0.0039 (0.217) & +0.0101 (0.070) & +0.0041 (0.301) & -0.0418 \\
+\midrule
+Gap proxy = R\&D intensity groups [exploratory] & +0.0099 (0.048) & +0.0008 (0.463) & -0.0091 (0.755) & +0.0583 (0.001) & -0.1263 \\
+Threat residual on eight-item mean, standardised [exploratory] & +0.0067 (0.181) & +0.0089 (0.103) & +0.0054 (0.223) & +0.0281 (0.008) & -- \\
+Threat residual on leave-one-out mean, standardised [exploratory] & +0.0173 (0.013) & +0.0091 (0.105) & +0.0109 (0.065) & +0.0283 (0.008) & -- \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Estimate (one-sided wild bootstrap $p$; 299 draws for pre-registered robustness rows, 999 for the main and exploratory rows). Pre-registered robustness specifications are reported, not used for decisions; the two quit-definition rows change only the abandonment outcome, so their H1 and H4 entries repeat the main pre-emption model. The R\&D-intensity proxy row is exploratory (innovation-active firms only, N = 7,969). The two threat-residual rows rebuild the treatment as the within-wave residual of the entry-threat item on the eight-item mean (the recipe in the registration text) or on the mean of the other seven items, standardised, with the same index as the response-propensity control; H6 does not use the perceived treatment. Sources: results/06\_kis\_main.json, results/07b\_robustness\_gap\_proxy.json, results/07d\_robustness\_threat\_residual.json.}
+\end{document}

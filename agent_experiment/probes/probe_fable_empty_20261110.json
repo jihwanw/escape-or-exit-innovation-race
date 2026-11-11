@@ -1,0 +1,18 @@
+{
+ "probe": "fable empty-response state g1t0n0 t=2",
+ "stop_reason": "refusal",
+ "usage": {
+  "input_tokens": 1450,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "cache_creation": {
+   "ephemeral_5m_input_tokens": 0,
+   "ephemeral_1h_input_tokens": 0
+  },
+  "output_tokens": 0,
+  "service_tier": "standard"
+ },
+ "blocks": [],
+ "seconds": 2.125678062438965,
+ "prompt_sha256": "ec6453ed3b3759a0eb3d7537164177040c97988724562cd2f0be68d44ed31ee0"
+}

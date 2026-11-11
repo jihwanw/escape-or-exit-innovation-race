@@ -1,0 +1,94 @@
+{
+ "built": "2026-11-10 08:32 KST",
+ "reference_periods": {
+  "2022M": [
+   2019,
+   2021
+  ],
+  "2023S": [
+   2020,
+   2022
+  ],
+  "2024M": [
+   2021,
+   2023
+  ],
+  "2025S": [
+   2022,
+   2024
+  ]
+ },
+ "source": "data/entry_rates_industry_year.csv (KOSIS DT_6BD1101 T04 신생률, 전국)",
+ "look_ahead_violations": [],
+ "coverage": {
+  "2022M": {
+   "n_firms": 4000,
+   "n_firms_missing_entry_rate": 0,
+   "industries_missing": [],
+   "n_years_per_cell": [
+    3
+   ],
+   "entry_rate_pct": {
+    "min": 4.333333333333333,
+    "p50": 7.733333333333333,
+    "max": 13.833333333333334,
+    "sd_across_firms": 2.0443204453113517
+   },
+   "n_industry_cells": 24
+  },
+  "2023S": {
+   "n_firms": 4000,
+   "n_firms_missing_entry_rate": 0,
+   "industries_missing": [],
+   "n_years_per_cell": [
+    3
+   ],
+   "entry_rate_pct": {
+    "min": 5.233333333333333,
+    "p50": 16.3,
+    "max": 25.566666666666666,
+    "sd_across_firms": 5.043252581053407
+   },
+   "n_industry_cells": 33
+  },
+  "2024M": {
+   "n_firms": 4595,
+   "n_firms_missing_entry_rate": 0,
+   "industries_missing": [],
+   "n_years_per_cell": [
+    3
+   ],
+   "entry_rate_pct": {
+    "min": 3.533333333333333,
+    "p50": 6.666666666666667,
+    "max": 12.633333333333333,
+    "sd_across_firms": 1.7859992416637989
+   },
+   "n_industry_cells": 24
+  },
+  "2025S": {
+   "n_firms": 4000,
+   "n_firms_missing_entry_rate": 0,
+   "industries_missing": [],
+   "n_years_per_cell": [
+    3
+   ],
+   "entry_rate_pct": {
+    "min": 5.0,
+    "p50": 11.766666666666666,
+    "max": 23.866666666666664,
+    "sd_across_firms": 4.6899447975602175
+   },
+   "n_industry_cells": 33
+  }
+ },
+ "n_panel_rows": 16595,
+ "columns_added": [
+  "entry_rate",
+  "entry_rate_last",
+  "log_active_firms",
+  "entry_n_years",
+  "entry_rate_z"
+ ],
+ "embargo": "no outcome column read or summarised in this step"
+}

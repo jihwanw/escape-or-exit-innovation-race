@@ -1,0 +1,30 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\footnotesize
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l p{7.2cm} r r r r l}
+\toprule
+Prediction & Statement (threat version, $\theta$: 0 $\to$ 0.7) & Grid points & Informative (\%) & Sign holds (\%) & Strict monotone (\%) & Candidate \\
+\midrule
+P1 & Threat raises leader acceleration (leader one stage from completion) & 576 & 50 & 100 & 95 & yes \\
+P1\_all & Threat raises leader acceleration (all leaders) & 1,152 & 49 & 52 & 48 & no \\
+P1\_far & Threat raises leader acceleration (leader $\geq$ 2 stages away) & 576 & 48 & 3 & 3 & no \\
+P2 & Threat raises laggard quitting & 1,152 & 30 & 100 & 100 & yes \\
+P2\_far & Threat raises laggard quitting (laggard $\geq$ 2 away) & 1,152 & 30 & 100 & 100 & yes \\
+P3 & Quit effect of threat: laggard $>$ leader & 1,152 & 54 & 54 & 52 & no \\
+P3\_near & Quit effect: laggard $>$ leader (near) & 576 & 44 & 100 & 100 & yes \\
+P4 & Acceleration effect: leader $>$ laggard & 1,152 & 67 & 66 & 60 & no \\
+P4\_near & Acceleration effect: leader $>$ laggard (near) & 576 & 74 & 100 & 94 & yes \\
+P7 & Laggard quits more than leader & 1,152 & 97 & 100 & 100 & yes \\
+P8 & Threat raises leader's first-launch probability & 1,152 & 70 & 63 & 63 & no \\
+P8\_near & Threat raises first-launch (near) & 576 & 74 & 100 & 100 & yes \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Grid: 1,152 parameter points $\times$ 6 $\theta$ values $\times$ 3 equilibrium-selection rules. 'Informative' = the outcome moves with $\theta$; 'holds' = end-point sign agrees among informative points; candidate = holds $\geq$ 90\% and strict monotone $\geq$ 50\% under all three selection rules. Source: results/03\_model\_predictions.json.}
+\end{document}

@@ -1,0 +1,13 @@
+{
+ "status": "PASS",
+ "n_bib_entries": 56,
+ "n_keys_cited_in_map": 56,
+ "cited_keys_missing_from_bib": [],
+ "bib_keys_not_cited_in_map": [],
+ "claim_lines_total": 27,
+ "claim_lines_without_citation": [],
+ "verification_levels": {
+  "V_read_today": 6,
+  "B_biblio_only_content_from_memory": 44
+ }
+}

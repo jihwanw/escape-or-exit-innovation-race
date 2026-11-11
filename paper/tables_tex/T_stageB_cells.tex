@@ -1,0 +1,33 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\footnotesize
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l c c r r r r r r r r }
+\toprule
+\multicolumn{3}{c}{} & \multicolumn{2}{c}{Claude (fable-5), EN} & \multicolumn{2}{c}{Claude (fable-5), KO} & \multicolumn{2}{c}{GPT-5.6, EN} & \multicolumn{2}{c}{GPT-5.6, KO} \\ \cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}\cmidrule(lr){10-11}
+Position & Threat & Noise & Accel. & Quit & Accel. & Quit & Accel. & Quit & Accel. & Quit \\
+\midrule
+behind & no & no & 0.08 & 0.79 & 0.22 & 0.57 & 0.38 & 0.33 & 0.38 & 0.21 \\
+ & no & yes & 0.04 & 0.75 & 0.17 & 0.46 & 0.21 & 0.54 & 0.21 & 0.33 \\
+ & yes & no & 0.00 & 1.00 & 0.00 & 1.00 & 0.04 & 0.96 & 0.04 & 0.96 \\
+ & yes & yes & 0.04 & 0.92 & 0.00 & 1.00 & 0.08 & 0.71 & 0.04 & 0.75 \\
+\midrule
+level & no & no & 0.79 & 0.21 & 0.29 & 0.57 & 0.79 & 0.17 & 0.38 & 0.42 \\
+ & no & yes & 0.54 & 0.42 & 0.46 & 0.50 & 0.58 & 0.29 & 0.46 & 0.46 \\
+ & yes & no & 0.21 & 0.58 & 0.21 & 0.54 & 0.21 & 0.58 & 0.21 & 0.54 \\
+ & yes & yes & 0.17 & 0.63 & 0.25 & 0.46 & 0.17 & 0.58 & 0.25 & 0.46 \\
+\midrule
+ahead & no & no & 0.50 & 0.00 & 0.46 & 0.00 & 0.29 & 0.00 & 0.46 & 0.00 \\
+ & no & yes & 0.67 & 0.00 & 0.63 & 0.00 & 0.63 & 0.00 & 0.63 & 0.00 \\
+ & yes & no & 0.46 & 0.00 & 0.71 & 0.00 & 0.50 & 0.00 & 0.67 & 0.00 \\
+ & yes & yes & 0.38 & 0.00 & 0.63 & 0.04 & 0.42 & 0.00 & 0.42 & 0.04 \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Stage B: share of episodes in which the agent accelerated at least once / stopped (n = 24 per cell and arm, completed episodes). Source: results/05\_agent\_stage\_b.json.}
+\end{document}

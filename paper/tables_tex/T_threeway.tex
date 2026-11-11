@@ -1,0 +1,24 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\small
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l c c c r l r l}
+\toprule
+Hypothesis & Theory & Agents: Stage A & Agents: Stage B & KIS estimate & 95\% wild CI & $p$ (one-sided) & KIS decision \\
+\midrule
+H1 & + & + & + & +0.0144 & [+0.0019, +0.0266] & 0.016 & directional \\
+H2 & + & + & + & +0.0057 & [-0.0095, +0.0204] & 0.209 & directional \\
+H3 & + & + & + & -0.0033 & [-0.0206, +0.0128] & 0.675 & not supported \\
+H4 & + & + & + & +0.0101 & [-0.0024, +0.0230] & 0.056 & directional \\
+H5 & + & + & + & +0.0279 & [+0.0049, +0.0497] & 0.007 & supported \\
+H6 & not + & n/a & 0 & -0.0418 & [-0.1072, +0.0215] & -- & inconclusive \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Theory sign from the model grid; agent signs = consensus of four model $\times$ language arms (frozen before the survey test); KIS from the pre-registered models. H6 is an equivalence test (90\% CI within $\pm$0.010); its KIS column shows the 95\% CI for reference. Source: results/06\_threeway\_table.json.}
+\end{document}

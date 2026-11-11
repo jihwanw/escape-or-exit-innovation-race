@@ -1,0 +1,223 @@
+{
+ "rows": [
+  {
+   "hypothesis": "H1",
+   "theory_sign": "+",
+   "agent_stage_a": "+",
+   "agent_stage_b": "+",
+   "kis_estimate": 0.014399148496551028,
+   "kis_ci95_wild": [
+    0.0019474205797083421,
+    0.026646369645778482
+   ],
+   "kis_ci90_wild": [
+    0.004043690354891768,
+    0.02508260407235541
+   ],
+   "kis_p_one_sided_wild": 0.016016016016016016,
+   "kis_holm_wild": 0.06406406406406406,
+   "kis_decision": "directional",
+   "n": 16594,
+   "clusters": 114,
+   "robustness_signs": {
+    "raw_threat_0_5": "+ (p<.05)",
+    "fe_industry_x_wave": "+ (p<.05)",
+    "weighted": "+ (p<.05)",
+    "excl_2023S": "+ (p<.05)",
+    "manufacturing_only": "+ (p<.05)",
+    "services_only": "-",
+    "exit_strict": "+ (p<.05)",
+    "exit_full": "+ (p<.05)"
+   }
+  },
+  {
+   "hypothesis": "H2",
+   "theory_sign": "+",
+   "agent_stage_a": "+",
+   "agent_stage_b": "+",
+   "kis_estimate": 0.005663548102984079,
+   "kis_ci95_wild": [
+    -0.009534856674294783,
+    0.020442032896648206
+   ],
+   "kis_ci90_wild": [
+    -0.006706805503209184,
+    0.01748219372405793
+   ],
+   "kis_p_one_sided_wild": 0.2092092092092092,
+   "kis_holm_wild": 0.4184184184184184,
+   "kis_decision": "directional",
+   "n": 7987,
+   "clusters": 112,
+   "robustness_signs": {
+    "raw_threat_0_5": "-",
+    "fe_industry_x_wave": "+",
+    "weighted": "+",
+    "excl_2023S": "+",
+    "manufacturing_only": "-",
+    "services_only": "+",
+    "exit_strict": "+",
+    "exit_full": "+"
+   }
+  },
+  {
+   "hypothesis": "H3",
+   "theory_sign": "+",
+   "agent_stage_a": "+",
+   "agent_stage_b": "+",
+   "kis_estimate": -0.0033464099658972717,
+   "kis_ci95_wild": [
+    -0.02058353199299224,
+    0.012809051697044474
+   ],
+   "kis_ci90_wild": [
+    -0.017864313039099897,
+    0.010473215075947269
+   ],
+   "kis_p_one_sided_wild": 0.6746746746746747,
+   "kis_holm_wild": 0.6746746746746747,
+   "kis_decision": "not supported",
+   "n": 7987,
+   "clusters": 112,
+   "robustness_signs": {
+    "raw_threat_0_5": "-",
+    "fe_industry_x_wave": "-",
+    "weighted": "-",
+    "excl_2023S": "-",
+    "manufacturing_only": "-",
+    "services_only": "+",
+    "exit_strict": "-",
+    "exit_full": "-"
+   }
+  },
+  {
+   "hypothesis": "H4",
+   "theory_sign": "+",
+   "agent_stage_a": "+",
+   "agent_stage_b": "+",
+   "kis_estimate": 0.010107473640022544,
+   "kis_ci95_wild": [
+    -0.002358068974445463,
+    0.022977163464543357
+   ],
+   "kis_ci90_wild": [
+    -0.000172992835087463,
+    0.021031552058829193
+   ],
+   "kis_p_one_sided_wild": 0.056056056056056056,
+   "kis_holm_wild": 0.16816816816816815,
+   "kis_decision": "directional",
+   "n": 16594,
+   "clusters": 114,
+   "robustness_signs": {
+    "raw_threat_0_5": "+ (p<.05)",
+    "fe_industry_x_wave": "+",
+    "weighted": "+",
+    "excl_2023S": "+ (p<.05)",
+    "manufacturing_only": "+ (p<.05)",
+    "services_only": "-",
+    "exit_strict": "+",
+    "exit_full": "+"
+   }
+  },
+  {
+   "hypothesis": "H5",
+   "theory_sign": "+",
+   "agent_stage_a": "+",
+   "agent_stage_b": "+",
+   "kis_estimate": 0.027948912330530484,
+   "kis_ci95_wild": [
+    0.00494478465402547,
+    0.04966472624008132
+   ],
+   "kis_ci90_wild": [
+    0.0076887983682479046,
+    0.045789625179790634
+   ],
+   "kis_p_one_sided_wild": 0.007007007007007007,
+   "kis_holm_wild": 0.035035035035035036,
+   "kis_decision": "supported",
+   "n": 7987,
+   "clusters": 112,
+   "robustness_signs": {
+    "raw_threat_0_5": "+ (p<.05)",
+    "fe_industry_x_wave": "+",
+    "weighted": "+",
+    "excl_2023S": "+ (p<.05)",
+    "manufacturing_only": "+",
+    "services_only": "+ (p<.05)",
+    "exit_strict": "-",
+    "exit_full": "+"
+   }
+  },
+  {
+   "hypothesis": "H6",
+   "theory_sign": "not +",
+   "agent_stage_a": null,
+   "agent_stage_b": "0",
+   "kis_estimate": -0.041820453343517625,
+   "kis_ci95_wild": [
+    -0.10723052955558618,
+    0.021485123165233044
+   ],
+   "kis_ci90_wild": [
+    -0.0952529809319613,
+    0.01459258406707254
+   ],
+   "kis_p_one_sided_wild": 0.8858858858858859,
+   "kis_holm_wild": null,
+   "kis_decision": "inconclusive",
+   "n": 16594,
+   "clusters": 114,
+   "robustness_signs": {
+    "raw_threat_0_5": "-",
+    "fe_industry_x_wave": "+",
+    "weighted": "+",
+    "excl_2023S": "-",
+    "manufacturing_only": "-",
+    "services_only": "-",
+    "exit_strict": "-",
+    "exit_full": "-"
+   }
+  }
+ ],
+ "extra": {
+  "H2_objective": {
+   "estimate": 0.11192854793572632,
+   "ci95_wild": [
+    -0.02993330737010369,
+    0.26006135055246404
+   ],
+   "p_one_sided_wild": 0.07207207207207207,
+   "note": "entry_rate_z x g0; slopes for g0/g1/g2 are x_g0 +0.112, x_g1 +0.120, x_g2 +0.107; with industry x wave FE the slope is -0.0137 — a between-industry level association, not laggard-specific"
+  },
+  "placebo": {
+   "placebo_demand_resid": {
+    "quit_x_g0": {
+     "estimate": 0.0022503672033054602,
+     "p_two_sided_wild": 0.6446446446446447
+    },
+    "preempt_x_g2": {
+     "estimate": -0.01492921729194717,
+     "p_two_sided_wild": 0.06406406406406406
+    }
+   },
+   "placebo_price_resid": {
+    "quit_x_g0": {
+     "estimate": -0.0017035444497257247,
+     "p_two_sided_wild": 0.7387387387387387
+    },
+    "preempt_x_g2": {
+     "estimate": -0.005217701345422532,
+     "p_two_sided_wild": 0.45345345345345345
+    }
+   }
+  },
+  "H2_falsified_both_nonpositive": false
+ },
+ "sources": {
+  "predictions": "prereg/agent_predictions_v1.json",
+  "kis": "results/06_kis_main.json"
+ },
+ "built": "2026-11-10 15:25 KST"
+}

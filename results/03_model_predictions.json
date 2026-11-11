@@ -1,0 +1,2033 @@
+{
+ "built": "2026-11-10 02:33 KST",
+ "source_grid": "03_grid_outcomes.parquet",
+ "n_rows": 145152,
+ "theta_grid": [
+  0.0,
+  0.1,
+  0.2,
+  0.35,
+  0.5,
+  0.7
+ ],
+ "sigma_grid": [
+  0.0,
+  0.1,
+  0.25,
+  0.4
+ ],
+ "n_grid_points": 1152,
+ "theta": {
+  "threat": {
+   "laggard": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader accelerates (escape entry)",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.4722,
+      "flat": 0.5035,
+      "violated": 0.0243
+     },
+     "end_to_end": {
+      "holds": 0.4965,
+      "flat": 0.5035
+     }
+    },
+    "P1_all": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader accelerates, all leaders",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2439,
+      "flat": 0.4887,
+      "violated": 0.2674
+     },
+     "end_to_end": {
+      "holds": 0.2561,
+      "flat": 0.5122,
+      "violated": 0.2318
+     }
+    },
+    "P1_far": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL>=2",
+     "description": "theta \u2191 \u2192 leader accelerates, leaders with nL>=2",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0156,
+      "flat": 0.474,
+      "violated": 0.5104
+     },
+     "end_to_end": {
+      "holds": 0.0156,
+      "flat": 0.5208,
+      "violated": 0.4635
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 laggard quits",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "end_to_end": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     }
+    },
+    "P2_far": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "nF>=2",
+     "description": "theta \u2191 \u2192 laggard quits, laggards with nF>=2",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "end_to_end": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     }
+    },
+    "P3": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on quitting: laggard > leader",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.283,
+      "flat": 0.4557,
+      "violated": 0.2613
+     },
+     "end_to_end": {
+      "holds": 0.2917,
+      "flat": 0.4557,
+      "violated": 0.2526
+     }
+    },
+    "P3_near": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on quitting: laggard > leader, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.4375,
+      "flat": 0.5625
+     },
+     "end_to_end": {
+      "holds": 0.4375,
+      "flat": 0.5625
+     }
+    },
+    "P4": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on accelerating: leader > laggard",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.4245,
+      "flat": 0.2977,
+      "violated": 0.2778
+     },
+     "end_to_end": {
+      "holds": 0.4436,
+      "flat": 0.3264,
+      "violated": 0.23
+     }
+    },
+    "P4_near": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on accelerating: leader > laggard, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.7049,
+      "flat": 0.2465,
+      "violated": 0.0486
+     },
+     "end_to_end": {
+      "holds": 0.7396,
+      "flat": 0.2569,
+      "violated": 0.0035
+     }
+    },
+    "P7": {
+     "outcome": "level_quit_gap",
+     "direction": 1,
+     "domain": "all",
+     "description": "laggard quits more than leader (level, d>=1, any theta)",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     },
+     "end_to_end": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader first to market",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     },
+     "end_to_end": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     }
+    },
+    "P8_near": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader first to market, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.7396,
+      "flat": 0.2604
+     },
+     "end_to_end": {
+      "holds": 0.7396,
+      "flat": 0.2604
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "all",
+     "description": "theta effect on leader quitting (reported)",
+     "n_points": 1152,
+     "strict": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     },
+     "end_to_end": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     }
+    },
+    "P2L_far": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "nL>=2",
+     "description": "theta effect on leader quitting, nL>=2 (reported)",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.474,
+      "up": 0.526
+     },
+     "end_to_end": {
+      "flat": 0.474,
+      "up": 0.526
+     }
+    }
+   },
+   "leader": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader accelerates (escape entry)",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.4722,
+      "flat": 0.5035,
+      "violated": 0.0243
+     },
+     "end_to_end": {
+      "holds": 0.4965,
+      "flat": 0.5035
+     }
+    },
+    "P1_all": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader accelerates, all leaders",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2439,
+      "flat": 0.4887,
+      "violated": 0.2674
+     },
+     "end_to_end": {
+      "holds": 0.2561,
+      "flat": 0.5122,
+      "violated": 0.2318
+     }
+    },
+    "P1_far": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL>=2",
+     "description": "theta \u2191 \u2192 leader accelerates, leaders with nL>=2",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0156,
+      "flat": 0.474,
+      "violated": 0.5104
+     },
+     "end_to_end": {
+      "holds": 0.0156,
+      "flat": 0.5208,
+      "violated": 0.4635
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 laggard quits",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "end_to_end": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     }
+    },
+    "P2_far": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "nF>=2",
+     "description": "theta \u2191 \u2192 laggard quits, laggards with nF>=2",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "end_to_end": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     }
+    },
+    "P3": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on quitting: laggard > leader",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.283,
+      "flat": 0.4557,
+      "violated": 0.2613
+     },
+     "end_to_end": {
+      "holds": 0.2917,
+      "flat": 0.4557,
+      "violated": 0.2526
+     }
+    },
+    "P3_near": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on quitting: laggard > leader, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.4375,
+      "flat": 0.5625
+     },
+     "end_to_end": {
+      "holds": 0.4375,
+      "flat": 0.5625
+     }
+    },
+    "P4": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on accelerating: leader > laggard",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.4245,
+      "flat": 0.2977,
+      "violated": 0.2778
+     },
+     "end_to_end": {
+      "holds": 0.4436,
+      "flat": 0.3264,
+      "violated": 0.23
+     }
+    },
+    "P4_near": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on accelerating: leader > laggard, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.7049,
+      "flat": 0.2465,
+      "violated": 0.0486
+     },
+     "end_to_end": {
+      "holds": 0.7396,
+      "flat": 0.2569,
+      "violated": 0.0035
+     }
+    },
+    "P7": {
+     "outcome": "level_quit_gap",
+     "direction": 1,
+     "domain": "all",
+     "description": "laggard quits more than leader (level, d>=1, any theta)",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     },
+     "end_to_end": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader first to market",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     },
+     "end_to_end": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     }
+    },
+    "P8_near": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader first to market, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.7396,
+      "flat": 0.2604
+     },
+     "end_to_end": {
+      "holds": 0.7396,
+      "flat": 0.2604
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "all",
+     "description": "theta effect on leader quitting (reported)",
+     "n_points": 1152,
+     "strict": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     },
+     "end_to_end": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     }
+    },
+    "P2L_far": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "nL>=2",
+     "description": "theta effect on leader quitting, nL>=2 (reported)",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.474,
+      "up": 0.526
+     },
+     "end_to_end": {
+      "flat": 0.474,
+      "up": 0.526
+     }
+    }
+   },
+   "welfare": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader accelerates (escape entry)",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.4722,
+      "flat": 0.5035,
+      "violated": 0.0243
+     },
+     "end_to_end": {
+      "holds": 0.4965,
+      "flat": 0.5035
+     }
+    },
+    "P1_all": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader accelerates, all leaders",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2439,
+      "flat": 0.4887,
+      "violated": 0.2674
+     },
+     "end_to_end": {
+      "holds": 0.2561,
+      "flat": 0.5122,
+      "violated": 0.2318
+     }
+    },
+    "P1_far": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL>=2",
+     "description": "theta \u2191 \u2192 leader accelerates, leaders with nL>=2",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0156,
+      "flat": 0.474,
+      "violated": 0.5104
+     },
+     "end_to_end": {
+      "holds": 0.0156,
+      "flat": 0.5208,
+      "violated": 0.4635
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 laggard quits",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "end_to_end": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     }
+    },
+    "P2_far": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "nF>=2",
+     "description": "theta \u2191 \u2192 laggard quits, laggards with nF>=2",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     },
+     "end_to_end": {
+      "holds": 0.2969,
+      "flat": 0.7031
+     }
+    },
+    "P3": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on quitting: laggard > leader",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.283,
+      "flat": 0.4557,
+      "violated": 0.2613
+     },
+     "end_to_end": {
+      "holds": 0.2917,
+      "flat": 0.4557,
+      "violated": 0.2526
+     }
+    },
+    "P3_near": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on quitting: laggard > leader, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.4375,
+      "flat": 0.5625
+     },
+     "end_to_end": {
+      "holds": 0.4375,
+      "flat": 0.5625
+     }
+    },
+    "P4": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on accelerating: leader > laggard",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.4245,
+      "flat": 0.2977,
+      "violated": 0.2778
+     },
+     "end_to_end": {
+      "holds": 0.4436,
+      "flat": 0.3264,
+      "violated": 0.23
+     }
+    },
+    "P4_near": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on accelerating: leader > laggard, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.7049,
+      "flat": 0.2465,
+      "violated": 0.0486
+     },
+     "end_to_end": {
+      "holds": 0.7396,
+      "flat": 0.2569,
+      "violated": 0.0035
+     }
+    },
+    "P7": {
+     "outcome": "level_quit_gap",
+     "direction": 1,
+     "domain": "all",
+     "description": "laggard quits more than leader (level, d>=1, any theta)",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     },
+     "end_to_end": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader first to market",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     },
+     "end_to_end": {
+      "holds": 0.4401,
+      "flat": 0.2969,
+      "violated": 0.263
+     }
+    },
+    "P8_near": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader first to market, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.7396,
+      "flat": 0.2604
+     },
+     "end_to_end": {
+      "holds": 0.7396,
+      "flat": 0.2604
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "all",
+     "description": "theta effect on leader quitting (reported)",
+     "n_points": 1152,
+     "strict": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     },
+     "end_to_end": {
+      "flat": 0.6953,
+      "up": 0.263,
+      "down": 0.0417
+     }
+    },
+    "P2L_far": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "nL>=2",
+     "description": "theta effect on leader quitting, nL>=2 (reported)",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.474,
+      "up": 0.526
+     },
+     "end_to_end": {
+      "flat": 0.474,
+      "up": 0.526
+     }
+    }
+   }
+  },
+  "unconditional": {
+   "laggard": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader accelerates (escape entry)",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0139,
+      "flat": 0.066,
+      "violated": 0.9201
+     },
+     "end_to_end": {
+      "holds": 0.0903,
+      "flat": 0.066,
+      "violated": 0.8438
+     }
+    },
+    "P1_all": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader accelerates, all leaders",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0069,
+      "flat": 0.1684,
+      "violated": 0.8247
+     },
+     "end_to_end": {
+      "holds": 0.0451,
+      "flat": 0.1684,
+      "violated": 0.7865
+     }
+    },
+    "P1_far": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL>=2",
+     "description": "theta \u2191 \u2192 leader accelerates, leaders with nL>=2",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.2708,
+      "violated": 0.7292
+     },
+     "end_to_end": {
+      "flat": 0.2708,
+      "violated": 0.7292
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 laggard quits",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "end_to_end": {
+      "holds": 0.3108,
+      "flat": 0.6823,
+      "violated": 0.0069
+     }
+    },
+    "P2_far": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "nF>=2",
+     "description": "theta \u2191 \u2192 laggard quits, laggards with nF>=2",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "end_to_end": {
+      "holds": 0.3108,
+      "flat": 0.6823,
+      "violated": 0.0069
+     }
+    },
+    "P3": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on quitting: laggard > leader",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.1806,
+      "flat": 0.2812,
+      "violated": 0.5382
+     },
+     "end_to_end": {
+      "holds": 0.2205,
+      "flat": 0.2812,
+      "violated": 0.4983
+     }
+    },
+    "P3_near": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on quitting: laggard > leader, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.2917,
+      "flat": 0.3576,
+      "violated": 0.3507
+     },
+     "end_to_end": {
+      "holds": 0.3438,
+      "flat": 0.3576,
+      "violated": 0.2986
+     }
+    },
+    "P4": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on accelerating: leader > laggard",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0903,
+      "flat": 0.1181,
+      "violated": 0.7917
+     },
+     "end_to_end": {
+      "holds": 0.2153,
+      "flat": 0.1198,
+      "violated": 0.6649
+     }
+    },
+    "P4_near": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on accelerating: leader > laggard, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.1042,
+      "flat": 0.0382,
+      "violated": 0.8576
+     },
+     "end_to_end": {
+      "holds": 0.3299,
+      "flat": 0.0417,
+      "violated": 0.6285
+     }
+    },
+    "P7": {
+     "outcome": "level_quit_gap",
+     "direction": 1,
+     "domain": "all",
+     "description": "laggard quits more than leader (level, d>=1, any theta)",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     },
+     "end_to_end": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader first to market",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0729,
+      "flat": 0.0998,
+      "violated": 0.8273
+     },
+     "end_to_end": {
+      "holds": 0.1146,
+      "flat": 0.0998,
+      "violated": 0.7856
+     }
+    },
+    "P8_near": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader first to market, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0868,
+      "flat": 0.0347,
+      "violated": 0.8785
+     },
+     "end_to_end": {
+      "holds": 0.1667,
+      "flat": 0.0347,
+      "violated": 0.7986
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "all",
+     "description": "theta effect on leader quitting (reported)",
+     "n_points": 1152,
+     "strict": {
+      "flat": 0.4132,
+      "up": 0.5347,
+      "down": 0.0243,
+      "nonmonotone": 0.0278
+     },
+     "end_to_end": {
+      "flat": 0.4358,
+      "up": 0.5382,
+      "down": 0.026
+     }
+    },
+    "P2L_far": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "nL>=2",
+     "description": "theta effect on leader quitting, nL>=2 (reported)",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.25,
+      "up": 0.7292,
+      "nonmonotone": 0.0208
+     },
+     "end_to_end": {
+      "flat": 0.2708,
+      "up": 0.7292
+     }
+    }
+   },
+   "leader": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader accelerates (escape entry)",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0139,
+      "flat": 0.066,
+      "violated": 0.9201
+     },
+     "end_to_end": {
+      "holds": 0.0903,
+      "flat": 0.066,
+      "violated": 0.8438
+     }
+    },
+    "P1_all": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader accelerates, all leaders",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0069,
+      "flat": 0.1684,
+      "violated": 0.8247
+     },
+     "end_to_end": {
+      "holds": 0.0451,
+      "flat": 0.1684,
+      "violated": 0.7865
+     }
+    },
+    "P1_far": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL>=2",
+     "description": "theta \u2191 \u2192 leader accelerates, leaders with nL>=2",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.2708,
+      "violated": 0.7292
+     },
+     "end_to_end": {
+      "flat": 0.2708,
+      "violated": 0.7292
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 laggard quits",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "end_to_end": {
+      "holds": 0.3108,
+      "flat": 0.6823,
+      "violated": 0.0069
+     }
+    },
+    "P2_far": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "nF>=2",
+     "description": "theta \u2191 \u2192 laggard quits, laggards with nF>=2",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "end_to_end": {
+      "holds": 0.3108,
+      "flat": 0.6823,
+      "violated": 0.0069
+     }
+    },
+    "P3": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on quitting: laggard > leader",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.1806,
+      "flat": 0.2812,
+      "violated": 0.5382
+     },
+     "end_to_end": {
+      "holds": 0.2205,
+      "flat": 0.2812,
+      "violated": 0.4983
+     }
+    },
+    "P3_near": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on quitting: laggard > leader, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.2917,
+      "flat": 0.3576,
+      "violated": 0.3507
+     },
+     "end_to_end": {
+      "holds": 0.3438,
+      "flat": 0.3576,
+      "violated": 0.2986
+     }
+    },
+    "P4": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on accelerating: leader > laggard",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0903,
+      "flat": 0.1181,
+      "violated": 0.7917
+     },
+     "end_to_end": {
+      "holds": 0.2153,
+      "flat": 0.1198,
+      "violated": 0.6649
+     }
+    },
+    "P4_near": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on accelerating: leader > laggard, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.1042,
+      "flat": 0.0382,
+      "violated": 0.8576
+     },
+     "end_to_end": {
+      "holds": 0.3299,
+      "flat": 0.0417,
+      "violated": 0.6285
+     }
+    },
+    "P7": {
+     "outcome": "level_quit_gap",
+     "direction": 1,
+     "domain": "all",
+     "description": "laggard quits more than leader (level, d>=1, any theta)",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     },
+     "end_to_end": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader first to market",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0729,
+      "flat": 0.0998,
+      "violated": 0.8273
+     },
+     "end_to_end": {
+      "holds": 0.1146,
+      "flat": 0.0998,
+      "violated": 0.7856
+     }
+    },
+    "P8_near": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader first to market, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0868,
+      "flat": 0.0347,
+      "violated": 0.8785
+     },
+     "end_to_end": {
+      "holds": 0.1667,
+      "flat": 0.0347,
+      "violated": 0.7986
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "all",
+     "description": "theta effect on leader quitting (reported)",
+     "n_points": 1152,
+     "strict": {
+      "flat": 0.4132,
+      "up": 0.5347,
+      "down": 0.0243,
+      "nonmonotone": 0.0278
+     },
+     "end_to_end": {
+      "flat": 0.4358,
+      "up": 0.5382,
+      "down": 0.026
+     }
+    },
+    "P2L_far": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "nL>=2",
+     "description": "theta effect on leader quitting, nL>=2 (reported)",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.25,
+      "up": 0.7292,
+      "nonmonotone": 0.0208
+     },
+     "end_to_end": {
+      "flat": 0.2708,
+      "up": 0.7292
+     }
+    }
+   },
+   "welfare": {
+    "P1": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader accelerates (escape entry)",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0139,
+      "flat": 0.066,
+      "violated": 0.9201
+     },
+     "end_to_end": {
+      "holds": 0.0903,
+      "flat": 0.066,
+      "violated": 0.8438
+     }
+    },
+    "P1_all": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader accelerates, all leaders",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0069,
+      "flat": 0.1684,
+      "violated": 0.8247
+     },
+     "end_to_end": {
+      "holds": 0.0451,
+      "flat": 0.1684,
+      "violated": 0.7865
+     }
+    },
+    "P1_far": {
+     "outcome": "P_accel_L",
+     "direction": 1,
+     "domain": "nL>=2",
+     "description": "theta \u2191 \u2192 leader accelerates, leaders with nL>=2",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.2708,
+      "violated": 0.7292
+     },
+     "end_to_end": {
+      "flat": 0.2708,
+      "violated": 0.7292
+     }
+    },
+    "P2": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 laggard quits",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "end_to_end": {
+      "holds": 0.3108,
+      "flat": 0.6823,
+      "violated": 0.0069
+     }
+    },
+    "P2_far": {
+     "outcome": "P_quit_F",
+     "direction": 1,
+     "domain": "nF>=2",
+     "description": "theta \u2191 \u2192 laggard quits, laggards with nF>=2",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.309,
+      "flat": 0.6823,
+      "violated": 0.0087
+     },
+     "end_to_end": {
+      "holds": 0.3108,
+      "flat": 0.6823,
+      "violated": 0.0069
+     }
+    },
+    "P3": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on quitting: laggard > leader",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.1806,
+      "flat": 0.2812,
+      "violated": 0.5382
+     },
+     "end_to_end": {
+      "holds": 0.2205,
+      "flat": 0.2812,
+      "violated": 0.4983
+     }
+    },
+    "P3_near": {
+     "outcome": "dquit",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on quitting: laggard > leader, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.2917,
+      "flat": 0.3576,
+      "violated": 0.3507
+     },
+     "end_to_end": {
+      "holds": 0.3438,
+      "flat": 0.3576,
+      "violated": 0.2986
+     }
+    },
+    "P4": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta effect on accelerating: leader > laggard",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0903,
+      "flat": 0.1181,
+      "violated": 0.7917
+     },
+     "end_to_end": {
+      "holds": 0.2153,
+      "flat": 0.1198,
+      "violated": 0.6649
+     }
+    },
+    "P4_near": {
+     "outcome": "daccel",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta effect on accelerating: leader > laggard, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.1042,
+      "flat": 0.0382,
+      "violated": 0.8576
+     },
+     "end_to_end": {
+      "holds": 0.3299,
+      "flat": 0.0417,
+      "violated": 0.6285
+     }
+    },
+    "P7": {
+     "outcome": "level_quit_gap",
+     "direction": 1,
+     "domain": "all",
+     "description": "laggard quits more than leader (level, d>=1, any theta)",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     },
+     "end_to_end": {
+      "holds": 0.9688,
+      "flat": 0.0312
+     }
+    },
+    "P8": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "all",
+     "description": "theta \u2191 \u2192 leader first to market",
+     "n_points": 1152,
+     "strict": {
+      "holds": 0.0729,
+      "flat": 0.0998,
+      "violated": 0.8273
+     },
+     "end_to_end": {
+      "holds": 0.1146,
+      "flat": 0.0998,
+      "violated": 0.7856
+     }
+    },
+    "P8_near": {
+     "outcome": "P_first_L",
+     "direction": 1,
+     "domain": "nL==1",
+     "description": "theta \u2191 \u2192 leader first to market, nL==1",
+     "n_points": 576,
+     "strict": {
+      "holds": 0.0868,
+      "flat": 0.0347,
+      "violated": 0.8785
+     },
+     "end_to_end": {
+      "holds": 0.1667,
+      "flat": 0.0347,
+      "violated": 0.7986
+     }
+    },
+    "P2L": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "all",
+     "description": "theta effect on leader quitting (reported)",
+     "n_points": 1152,
+     "strict": {
+      "flat": 0.4132,
+      "up": 0.5347,
+      "down": 0.0243,
+      "nonmonotone": 0.0278
+     },
+     "end_to_end": {
+      "flat": 0.4358,
+      "up": 0.5382,
+      "down": 0.026
+     }
+    },
+    "P2L_far": {
+     "outcome": "P_quit_L",
+     "direction": 0,
+     "domain": "nL>=2",
+     "description": "theta effect on leader quitting, nL>=2 (reported)",
+     "n_points": 576,
+     "strict": {
+      "flat": 0.25,
+      "up": 0.7292,
+      "nonmonotone": 0.0208
+     },
+     "end_to_end": {
+      "flat": 0.2708,
+      "up": 0.7292
+     }
+    }
+   }
+  }
+ },
+ "sigma": {
+  "tremble": {
+   "threat:P5": {
+    "outcome": "P_quit_F",
+    "description": "sigma effect on laggard quitting",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.7677,
+     "up": 0.0946,
+     "down": 0.0972,
+     "nonmonotone": 0.0405
+    },
+    "end_to_end": {
+     "flat": 0.7677,
+     "up": 0.1291,
+     "down": 0.1033
+    }
+   },
+   "threat:P6": {
+    "outcome": "P_accel_L",
+    "description": "sigma effect on leader acceleration",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.7367,
+     "up": 0.0749,
+     "down": 0.1317,
+     "nonmonotone": 0.0567
+    },
+    "end_to_end": {
+     "flat": 0.7367,
+     "up": 0.102,
+     "down": 0.1613
+    }
+   },
+   "threat:P5L": {
+    "outcome": "P_quit_L",
+    "description": "sigma effect on leader quitting",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.5457,
+     "up": 0.321,
+     "down": 0.1026,
+     "nonmonotone": 0.0307
+    },
+    "end_to_end": {
+     "flat": 0.5457,
+     "up": 0.3497,
+     "down": 0.1046
+    }
+   },
+   "threat:P6F": {
+    "outcome": "P_accel_F",
+    "description": "sigma effect on laggard acceleration",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.8539,
+     "up": 0.0943,
+     "down": 0.0179,
+     "nonmonotone": 0.0339
+    },
+    "end_to_end": {
+     "flat": 0.8539,
+     "up": 0.1007,
+     "down": 0.0454
+    }
+   },
+   "unconditional:P5": {
+    "outcome": "P_quit_F",
+    "description": "sigma effect on laggard quitting",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.7636,
+     "up": 0.0903,
+     "down": 0.0891,
+     "nonmonotone": 0.057
+    },
+    "end_to_end": {
+     "flat": 0.7636,
+     "up": 0.136,
+     "down": 0.1004
+    }
+   },
+   "unconditional:P6": {
+    "outcome": "P_accel_L",
+    "description": "sigma effect on leader acceleration",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.545,
+     "up": 0.0906,
+     "down": 0.251,
+     "nonmonotone": 0.1134
+    },
+    "end_to_end": {
+     "flat": 0.545,
+     "up": 0.1554,
+     "down": 0.2996
+    }
+   },
+   "unconditional:P5L": {
+    "outcome": "P_quit_L",
+    "description": "sigma effect on leader quitting",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.3793,
+     "up": 0.4323,
+     "down": 0.1315,
+     "nonmonotone": 0.0569
+    },
+    "end_to_end": {
+     "flat": 0.3802,
+     "up": 0.478,
+     "down": 0.1418
+    }
+   },
+   "unconditional:P6F": {
+    "outcome": "P_accel_F",
+    "description": "sigma effect on laggard acceleration",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.8261,
+     "up": 0.0992,
+     "down": 0.0269,
+     "nonmonotone": 0.0477
+    },
+    "end_to_end": {
+     "flat": 0.8261,
+     "up": 0.1111,
+     "down": 0.0628
+    }
+   }
+  },
+  "obs_noise": {
+   "threat:P5": {
+    "outcome": "P_quit_F",
+    "description": "sigma effect on laggard quitting",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.6774,
+     "up": 0.0315,
+     "down": 0.2911
+    },
+    "end_to_end": {
+     "flat": 0.6774,
+     "up": 0.0315,
+     "down": 0.2911
+    }
+   },
+   "threat:P6": {
+    "outcome": "P_accel_L",
+    "description": "sigma effect on leader acceleration",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.8817,
+     "up": 0.0544,
+     "down": 0.0639
+    },
+    "end_to_end": {
+     "flat": 0.8817,
+     "up": 0.0544,
+     "down": 0.0639
+    }
+   },
+   "threat:P5L": {
+    "outcome": "P_quit_L",
+    "description": "sigma effect on leader quitting",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.8108,
+     "up": 0.1892
+    },
+    "end_to_end": {
+     "flat": 0.8108,
+     "up": 0.1892
+    }
+   },
+   "threat:P6F": {
+    "outcome": "P_accel_F",
+    "description": "sigma effect on laggard acceleration",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.6785,
+     "up": 0.294,
+     "down": 0.0275
+    },
+    "end_to_end": {
+     "flat": 0.6785,
+     "up": 0.294,
+     "down": 0.0275
+    }
+   },
+   "unconditional:P5": {
+    "outcome": "P_quit_F",
+    "description": "sigma effect on laggard quitting",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.6432,
+     "up": 0.0301,
+     "down": 0.3267
+    },
+    "end_to_end": {
+     "flat": 0.6432,
+     "up": 0.0301,
+     "down": 0.3267
+    }
+   },
+   "unconditional:P6": {
+    "outcome": "P_accel_L",
+    "description": "sigma effect on leader acceleration",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.7545,
+     "up": 0.1207,
+     "down": 0.1246,
+     "nonmonotone": 0.0003
+    },
+    "end_to_end": {
+     "flat": 0.7545,
+     "up": 0.1209,
+     "down": 0.1246
+    }
+   },
+   "unconditional:P5L": {
+    "outcome": "P_quit_L",
+    "description": "sigma effect on leader quitting",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.7577,
+     "up": 0.2331,
+     "down": 0.0087,
+     "nonmonotone": 0.0006
+    },
+    "end_to_end": {
+     "flat": 0.7577,
+     "up": 0.2334,
+     "down": 0.009
+    }
+   },
+   "unconditional:P6F": {
+    "outcome": "P_accel_F",
+    "description": "sigma effect on laggard acceleration",
+    "n_series": 6912,
+    "strict": {
+     "flat": 0.6484,
+     "up": 0.3226,
+     "down": 0.0284,
+     "nonmonotone": 0.0006
+    },
+    "end_to_end": {
+     "flat": 0.6484,
+     "up": 0.3232,
+     "down": 0.0284
+    }
+   }
+  }
+ },
+ "decisions": {
+  "P1": {
+   "candidate": true,
+   "domain": "nL==1",
+   "n_points": 576,
+   "share_informative_e2e": 0.4965,
+   "e2e_holds_among_informative": 1.0,
+   "strict_holds_among_informative": 0.9511,
+   "alt_rules_e2e_ok": true,
+   "end_to_end": {
+    "holds": 0.4965,
+    "flat": 0.5035
+   },
+   "strict": {
+    "holds": 0.4722,
+    "flat": 0.5035,
+    "violated": 0.0243
+   }
+  },
+  "P1_all": {
+   "candidate": false,
+   "domain": "all",
+   "n_points": 1152,
+   "share_informative_e2e": 0.4879,
+   "e2e_holds_among_informative": 0.5249,
+   "strict_holds_among_informative": 0.477,
+   "alt_rules_e2e_ok": false,
+   "end_to_end": {
+    "holds": 0.2561,
+    "flat": 0.5122,
+    "violated": 0.2318
+   },
+   "strict": {
+    "holds": 0.2439,
+    "flat": 0.4887,
+    "violated": 0.2674
+   }
+  },
+  "P1_far": {
+   "candidate": false,
+   "domain": "nL>=2",
+   "n_points": 576,
+   "share_informative_e2e": 0.4791,
+   "e2e_holds_among_informative": 0.0326,
+   "strict_holds_among_informative": 0.0297,
+   "alt_rules_e2e_ok": false,
+   "end_to_end": {
+    "holds": 0.0156,
+    "flat": 0.5208,
+    "violated": 0.4635
+   },
+   "strict": {
+    "holds": 0.0156,
+    "flat": 0.474,
+    "violated": 0.5104
+   }
+  },
+  "P2": {
+   "candidate": true,
+   "domain": "all",
+   "n_points": 1152,
+   "share_informative_e2e": 0.2969,
+   "e2e_holds_among_informative": 1.0,
+   "strict_holds_among_informative": 1.0,
+   "alt_rules_e2e_ok": true,
+   "end_to_end": {
+    "holds": 0.2969,
+    "flat": 0.7031
+   },
+   "strict": {
+    "holds": 0.2969,
+    "flat": 0.7031
+   }
+  },
+  "P2_far": {
+   "candidate": true,
+   "domain": "nF>=2",
+   "n_points": 1152,
+   "share_informative_e2e": 0.2969,
+   "e2e_holds_among_informative": 1.0,
+   "strict_holds_among_informative": 1.0,
+   "alt_rules_e2e_ok": true,
+   "end_to_end": {
+    "holds": 0.2969,
+    "flat": 0.7031
+   },
+   "strict": {
+    "holds": 0.2969,
+    "flat": 0.7031
+   }
+  },
+  "P3": {
+   "candidate": false,
+   "domain": "all",
+   "n_points": 1152,
+   "share_informative_e2e": 0.5443,
+   "e2e_holds_among_informative": 0.5359,
+   "strict_holds_among_informative": 0.5199,
+   "alt_rules_e2e_ok": false,
+   "end_to_end": {
+    "holds": 0.2917,
+    "flat": 0.4557,
+    "violated": 0.2526
+   },
+   "strict": {
+    "holds": 0.283,
+    "flat": 0.4557,
+    "violated": 0.2613
+   }
+  },
+  "P3_near": {
+   "candidate": true,
+   "domain": "nL==1",
+   "n_points": 576,
+   "share_informative_e2e": 0.4375,
+   "e2e_holds_among_informative": 1.0,
+   "strict_holds_among_informative": 1.0,
+   "alt_rules_e2e_ok": true,
+   "end_to_end": {
+    "holds": 0.4375,
+    "flat": 0.5625
+   },
+   "strict": {
+    "holds": 0.4375,
+    "flat": 0.5625
+   }
+  },
+  "P4": {
+   "candidate": false,
+   "domain": "all",
+   "n_points": 1152,
+   "share_informative_e2e": 0.6736,
+   "e2e_holds_among_informative": 0.6586,
+   "strict_holds_among_informative": 0.6044,
+   "alt_rules_e2e_ok": false,
+   "end_to_end": {
+    "holds": 0.4436,
+    "flat": 0.3264,
+    "violated": 0.23
+   },
+   "strict": {
+    "holds": 0.4245,
+    "flat": 0.2977,
+    "violated": 0.2778
+   }
+  },
+  "P4_near": {
+   "candidate": true,
+   "domain": "nL==1",
+   "n_points": 576,
+   "share_informative_e2e": 0.7431,
+   "e2e_holds_among_informative": 0.9953,
+   "strict_holds_among_informative": 0.9355,
+   "alt_rules_e2e_ok": true,
+   "end_to_end": {
+    "holds": 0.7396,
+    "flat": 0.2569,
+    "violated": 0.0035
+   },
+   "strict": {
+    "holds": 0.7049,
+    "flat": 0.2465,
+    "violated": 0.0486
+   }
+  },
+  "P7": {
+   "candidate": true,
+   "domain": "all",
+   "n_points": 1152,
+   "share_informative_e2e": 0.9688,
+   "e2e_holds_among_informative": 1.0,
+   "strict_holds_among_informative": 1.0,
+   "alt_rules_e2e_ok": true,
+   "end_to_end": {
+    "holds": 0.9688,
+    "flat": 0.0312
+   },
+   "strict": {
+    "holds": 0.9688,
+    "flat": 0.0312
+   }
+  },
+  "P8": {
+   "candidate": false,
+   "domain": "all",
+   "n_points": 1152,
+   "share_informative_e2e": 0.7031,
+   "e2e_holds_among_informative": 0.6259,
+   "strict_holds_among_informative": 0.6259,
+   "alt_rules_e2e_ok": false,
+   "end_to_end": {
+    "holds": 0.4401,
+    "flat": 0.2969,
+    "violated": 0.263
+   },
+   "strict": {
+    "holds": 0.4401,
+    "flat": 0.2969,
+    "violated": 0.263
+   }
+  },
+  "P8_near": {
+   "candidate": true,
+   "domain": "nL==1",
+   "n_points": 576,
+   "share_informative_e2e": 0.7396,
+   "e2e_holds_among_informative": 1.0,
+   "strict_holds_among_informative": 1.0,
+   "alt_rules_e2e_ok": true,
+   "end_to_end": {
+    "holds": 0.7396,
+    "flat": 0.2604
+   },
+   "strict": {
+    "holds": 0.7396,
+    "flat": 0.2604
+   }
+  },
+  "P5": {
+   "candidate": false,
+   "dominant_direction_share_informative": {
+    "tremble": [
+     "up",
+     0.5555,
+     0.2324
+    ],
+    "obs_noise": [
+     "down",
+     0.9024,
+     0.3226
+    ]
+   },
+   "end_to_end": {
+    "tremble": {
+     "flat": 0.7677,
+     "up": 0.1291,
+     "down": 0.1033
+    },
+    "obs_noise": {
+     "flat": 0.6774,
+     "up": 0.0315,
+     "down": 0.2911
+    }
+   }
+  },
+  "P6": {
+   "candidate": false,
+   "dominant_direction_share_informative": {
+    "tremble": [
+     "down",
+     0.6126,
+     0.2633
+    ],
+    "obs_noise": [
+     "down",
+     0.5402,
+     0.1183
+    ]
+   },
+   "end_to_end": {
+    "tremble": {
+     "flat": 0.7367,
+     "up": 0.102,
+     "down": 0.1613
+    },
+    "obs_noise": {
+     "flat": 0.8817,
+     "up": 0.0544,
+     "down": 0.0639
+    }
+   }
+  }
+ },
+ "levels": {
+  "nL==1": {
+   "thr_P_accel_L": {
+    "0.0": 0.9642,
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.35": 1.0,
+    "0.5": 1.0,
+    "0.7": 1.0
+   },
+   "thr_P_quit_F": {
+    "0.0": 1.0,
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.35": 1.0,
+    "0.5": 1.0,
+    "0.7": 1.0
+   },
+   "thr_P_quit_L": {
+    "0.0": 0.0,
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.35": 0.0,
+    "0.5": 0.0,
+    "0.7": 0.0
+   },
+   "thr_P_first_L": {
+    "0.0": 0.9388,
+    "0.1": 0.9571,
+    "0.2": 0.9571,
+    "0.35": 0.9571,
+    "0.5": 0.9571,
+    "0.7": 0.9571
+   },
+   "thr_P_accel_F": {
+    "0.0": 0.0,
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.35": 0.0,
+    "0.5": 0.0,
+    "0.7": 0.0
+   }
+  },
+  "nL>=2": {
+   "thr_P_accel_L": {
+    "0.0": 1.0,
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.35": 1.0,
+    "0.5": 0.875,
+    "0.7": 0.6638
+   },
+   "thr_P_quit_F": {
+    "0.0": 1.0,
+    "0.1": 1.0,
+    "0.2": 1.0,
+    "0.35": 1.0,
+    "0.5": 1.0,
+    "0.7": 1.0
+   },
+   "thr_P_quit_L": {
+    "0.0": 0.1225,
+    "0.1": 0.1225,
+    "0.2": 0.1225,
+    "0.35": 0.2012,
+    "0.5": 0.25,
+    "0.7": 0.2638
+   },
+   "thr_P_first_L": {
+    "0.0": 0.7183,
+    "0.1": 0.6906,
+    "0.2": 0.6906,
+    "0.35": 0.687,
+    "0.5": 0.6321,
+    "0.7": 0.575
+   },
+   "thr_P_accel_F": {
+    "0.0": 0.0,
+    "0.1": 0.0,
+    "0.2": 0.0,
+    "0.35": 0.0,
+    "0.5": 0.0,
+    "0.7": 0.0
+   }
+  }
+ },
+ "multiplicity": {
+  "share_runs_with_multiple_equilibria": 0.38078703703703703,
+  "share_runs_with_mixed_equilibria": 0.10416666666666667
+ }
+}

@@ -1,0 +1,25 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\footnotesize
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{p{6.3cm} r r l r r l l}
+\toprule
+Hypothesis (pre-registered) & Estimate & Cluster SE & Wild CI & $p$ (one-sided, wild) & Holm & Decision & N / clusters \\
+\midrule
+H1 Escape: threat $\times$ frontier $\to$ pre-emption & +0.0144 & 0.0063 & [+0.0019, +0.0266] & 0.016 & 0.064 & directional & 16,594 / 114 \\
+H2 Exit: threat $\times$ laggard $\to$ quit & +0.0057 & 0.0070 & [-0.0095, +0.0204] & 0.209 & 0.418 & directional & 7,987 / 112 \\
+H2 (objective): entry rate $\times$ laggard $\to$ quit & +0.1119 & 0.0474 & [-0.0299, +0.2601] & 0.072 & -- & -- & 7,987 / 112 \\
+H3 Quit asymmetry: laggard $-$ frontier & -0.0033 & 0.0082 & [-0.0206, +0.0128] & 0.675 & 0.675 & not supported & 7,987 / 112 \\
+H4 Pre-emption asymmetry: frontier $-$ laggard & +0.0101 & 0.0062 & [-0.0024, +0.0230] & 0.056 & 0.168 & directional & 16,594 / 114 \\
+H5 Baseline: laggard $-$ frontier quit & +0.0279 & 0.0106 & [+0.0049, +0.0497] & 0.007 & 0.035 & supported & 7,987 / 112 \\
+H6 Entry rate $\times$ frontier $\to$ pre-emption (TOST) & -0.0418 & 0.0220 & [-0.0953, +0.0146] (90\%) & 0.210 (2-s.) & -- & inconclusive & 16,594 / 114 \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Linear probability models with industry (2-digit) and wave fixed effects and controls; estimate = change in probability per unit of the treatment within the gap group (perceived threat: within-wave residual of the entry-threat item on the other seven market-environment items, pooled SD 1.005; entry rate: standardised; H5: difference of group intercepts at average threat). Inference: wild cluster bootstrap-t, Rademacher, 999 draws, clusters = industry $\times$ wave; Holm across H1--H5. Decision rule as pre-registered (OSF tj9uv). Source: results/06\_kis\_main.json.}
+\end{document}

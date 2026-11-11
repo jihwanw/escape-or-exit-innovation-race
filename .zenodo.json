@@ -1,0 +1,24 @@
+{
+  "title": "Perceived entry threat is associated with pre-emption by frontier firms, and the predicted abandonment response of laggards is not detected: a pre-registered innovation-race test with Korean survey data and LLM agents",
+  "upload_type": "software",
+  "description": "Reproduction package for the manuscript \"Perceived entry threat is associated with pre-emption by frontier firms, and the predicted abandonment response of laggards is not detected: a pre-registered innovation-race test with Korean survey data and LLM agents\" (Woo, 2026). The repository holds the race-model solver and its comparative statics, the LLM-agent experiment scripts, prompts and redacted logs, the audited Korean Innovation Survey item maps and the pre-registration package, the pre-registered analysis script and robustness scripts, every aggregate result file behind the manuscript's numbers, and the generators of the manuscript's numbers, tables and figures. The licensed KIS microdata are not redistributed.",
+  "creators": [
+    {
+      "name": "Woo, Jihwan",
+      "affiliation": "Amazon Web Services, Seoul, Republic of Korea",
+      "orcid": "0000-0002-0424-0242"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "entry threat",
+    "innovation race",
+    "pre-emption",
+    "abandoned innovation",
+    "Korean Innovation Survey",
+    "preregistration",
+    "LLM agents",
+    "reproduction code"
+  ]
+}

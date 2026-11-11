@@ -1,0 +1,205 @@
+{
+ "placebo_share_by_cell_design": {
+  "g0t0n0": 0.55,
+  "g0t0n1": 0.45,
+  "g0t1n0": 0.575,
+  "g0t1n1": 0.475,
+  "g1t0n0": 0.5,
+  "g1t0n1": 0.425,
+  "g1t1n0": 0.55,
+  "g1t1n1": 0.675,
+  "g2t0n0": 0.45,
+  "g2t0n1": 0.475,
+  "g2t1n0": 0.375,
+  "g2t1n1": 0.575
+ },
+ "placebo_share_range": [
+  0.375,
+  0.675
+ ],
+ "arms": {
+  "fable/en": {
+   "is_A": {
+    "marginal_contrast": 0.10345366463509922,
+    "stratified_contrast": 0.025884484228474,
+    "stratified_boot_ci95": [
+     0.008333333333333333,
+     0.043706293706293704
+    ],
+    "ols_cell_fe_coef": 0.025849177526169515,
+    "ols_cluster_se": 0.011668983009909172,
+    "ols_p": 0.026746067303512748,
+    "degenerate_no_variance": false
+   },
+   "is_Q": {
+    "marginal_contrast": 0.008334635620149022,
+    "stratified_contrast": 0.0,
+    "stratified_boot_ci95": [
+     0.0,
+     0.0
+    ],
+    "ols_cell_fe_coef": 9.697104230710352e-16,
+    "ols_cluster_se": null,
+    "ols_p": null,
+    "degenerate_no_variance": true
+   },
+   "within_cell_accel_diff": {
+    "000": 0.0,
+    "001": 0.0,
+    "010": 0.0,
+    "011": 0.0,
+    "100": -0.05,
+    "101": 0.0,
+    "110": 0.0,
+    "111": 0.0,
+    "200": 0.0,
+    "201": 0.0,
+    "210": 0.0,
+    "211": 0.36061381074168797
+   }
+  },
+  "fable/ko": {
+   "is_A": {
+    "marginal_contrast": 0.08308589883836018,
+    "stratified_contrast": 0.013091787439613527,
+    "stratified_boot_ci95": [
+     -0.004636437908496731,
+     0.027195771151363256
+    ],
+    "ols_cell_fe_coef": 0.013031403546250596,
+    "ols_cluster_se": 0.010566014208455774,
+    "ols_p": 0.21745191977389977,
+    "degenerate_no_variance": false
+   },
+   "is_Q": {
+    "marginal_contrast": 0.00020836589050376997,
+    "stratified_contrast": -0.010101010101010102,
+    "stratified_boot_ci95": [
+     -0.022727272727272724,
+     0.005208333333333333
+    ],
+    "ols_cell_fe_coef": -0.010254219183933863,
+    "ols_cluster_se": 0.008504904296388772,
+    "ols_p": 0.2279397125129039,
+    "degenerate_no_variance": false
+   },
+   "within_cell_accel_diff": {
+    "000": 0.0,
+    "001": 0.0,
+    "010": 0.0,
+    "011": 0.0,
+    "100": 0.0,
+    "101": 0.0,
+    "110": 0.0,
+    "111": 0.0,
+    "200": 0.0,
+    "201": 0.0,
+    "210": 0.026666666666666665,
+    "211": 0.13043478260869565
+   }
+  },
+  "gpt56/en": {
+   "is_A": {
+    "marginal_contrast": 0.06198885242485805,
+    "stratified_contrast": -0.007246376811594203,
+    "stratified_boot_ci95": [
+     -0.02830109126984127,
+     0.01251290376290376
+    ],
+    "ols_cell_fe_coef": -0.00726340525528741,
+    "ols_cluster_se": 0.013687578704673131,
+    "ols_p": 0.5956567012784715,
+    "degenerate_no_variance": false
+   },
+   "is_Q": {
+    "marginal_contrast": 0.008647184455904566,
+    "stratified_contrast": -0.0016835016835016852,
+    "stratified_boot_ci95": [
+     -0.016838686232068592,
+     0.012820512820512822
+    ],
+    "ols_cell_fe_coef": -0.0017090365306558458,
+    "ols_cluster_se": 0.010122410807634426,
+    "ols_p": 0.8659249275620136,
+    "degenerate_no_variance": false
+   },
+   "within_cell_accel_diff": {
+    "000": 0.0,
+    "001": 0.0,
+    "010": 0.0,
+    "011": 0.0,
+    "100": 0.0,
+    "101": -0.08695652173913043,
+    "110": 0.0,
+    "111": 0.0,
+    "200": 0.0,
+    "201": 0.0,
+    "210": 0.0,
+    "211": 0.0
+   }
+  },
+  "gpt56/ko": {
+   "is_A": {
+    "marginal_contrast": 0.07084440277126633,
+    "stratified_contrast": 0.008934204550146572,
+    "stratified_boot_ci95": [
+     -0.012016173245614027,
+     0.03299479166666666
+    ],
+    "ols_cell_fe_coef": 0.007477034821619221,
+    "ols_cluster_se": 0.012723100388282699,
+    "ols_p": 0.5567511555292688,
+    "degenerate_no_variance": false
+   },
+   "is_Q": {
+    "marginal_contrast": 0.008334635620149022,
+    "stratified_contrast": 0.0,
+    "stratified_boot_ci95": [
+     0.0,
+     0.0
+    ],
+    "ols_cell_fe_coef": 8.569533971325427e-16,
+    "ols_cluster_se": null,
+    "ols_p": null,
+    "degenerate_no_variance": true
+   },
+   "within_cell_accel_diff": {
+    "000": 0.0,
+    "001": 0.0,
+    "010": 0.0,
+    "011": 0.0,
+    "100": -0.05,
+    "101": 0.0,
+    "110": 0.0,
+    "111": 0.19373219373219364,
+    "200": 0.0,
+    "201": 0.0,
+    "210": -0.08,
+    "211": 0.043478260869565216
+   }
+  }
+ },
+ "pooled_accel": {
+  "ols_coef": 0.009773552659688028,
+  "cluster_se": 0.006235205399455039,
+  "p": 0.11700280343262823
+ },
+ "fable_en_g2t1n1_by_placebo": {
+  "0": {
+   "mean": 0.11764705882352941,
+   "n": 17
+  },
+  "1": {
+   "mean": 0.4782608695652174,
+   "n": 23
+  }
+ },
+ "gap0_quit_ceiling": {
+  "fable/en": 1.0,
+  "fable/ko": 0.975,
+  "gpt56/en": 0.9625,
+  "gpt56/ko": 1.0
+ },
+ "decision": "Diagnosis of the Stage A v2 placebo result (2026-11-10), kill test (iii).\n\nThe v2 summary reported placebo_accel = +0.06..+0.10 with 95 % CIs excluding 0 in 3 of 4 model/language arms. Two things\nwere checked before concluding anything (rule: a result this clean is a bug first):\n 1. Estimator. The v2 summariser used the MARGINAL contrast mean(accelerate | placebo=1) - mean(accelerate | placebo=0)\n    over all cells. The placebo was randomised within persona x (gap, threat, noise) cell, and by chance its share ranged\n    from 0.375 to 0.675 across the 12 cells (stage_a_design.csv); cells differ enormously in acceleration (0 to 100 %).\n    The marginal contrast therefore inherits the cell imbalance. The correct estimand is the WITHIN-CELL contrast.\n    This script reports both, with a persona-cluster bootstrap and a cell-fixed-effects OLS with persona-clustered SEs.\n 2. Wording. Even within cells, the one arm with a non-zero stratified effect (fable/en, +0.026, p = 0.027) is driven by the\n    single non-degenerate cell g2t1n1 (placebo=1: 0.48 vs placebo=0: 0.12, n = 23 vs 17). \"Moved head office to a new\n    building\" can plausibly be read as a signal of growth/financial slack, which is not irrelevant to a decision about\n    borrowing 40 % of the R&D budget. So the v2 placebo was a weak negative control regardless of significance.\nDecision recorded here: (a) the summariser is fixed to the stratified estimator; (b) the placebo is replaced by an attribute\nwith no plausible link to financing (founding-anniversary month: March vs September); (c) Stage A is re-run as v3 with the\npayoffs of the calibrated Stage B environment, so that Stage A is the period-1 decision of the same game (v2 wording\n\"launching after the rival barely covers the remaining cost\" was my own approximation and made quitting dominant for every\ngap-0 cell, p_quit = 0.88-1.00, a ceiling of the same kind as v1).\nWrites results/04_stage_a_v2_placebo_diagnosis.json. v2 logs are kept in agent_experiment/logs/v2_placebo_headoffice/.",
+ "built": "2026-11-10 11:24 KST"
+}

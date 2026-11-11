@@ -1,0 +1,1107 @@
+{
+ "generated": "2026-11-06 12:19 KST",
+ "n_candidates": 56,
+ "n_resolved": 53,
+ "n_unresolved": 3,
+ "status": "PASS",
+ "manual_entries": [
+  "gilbert1982preemptive (JSTOR 1831552)",
+  "reinganum1983uncertain (OpenAlex W2170753634)",
+  "holm1979simple (JSTOR 4615733)"
+ ],
+ "first_page_only": [
+  "harris1985perfect",
+  "harris1987racing",
+  "grossman1987dynamic",
+  "loury1979market",
+  "lee1980market",
+  "choi1991dynamic",
+  "doraszelski2003rd",
+  "love2023dynamics",
+  "chen2023emergence",
+  "isaac1988appropriability",
+  "heckman1979sample"
+ ],
+ "resolved": [
+  {
+   "key": "aghion2009entry",
+   "axis": "A1",
+   "doi": "10.1162/rest.91.1.20",
+   "type": "journal-article",
+   "title": "The Effects of Entry on Incumbent Innovation and Productivity",
+   "year": 2009,
+   "container": "Review of Economics and Statistics",
+   "volume": "91",
+   "issue": "1",
+   "page": "20-32",
+   "authors": [
+    "Aghion",
+    "Blundell",
+    "Griffith",
+    "Howitt",
+    "Prantl"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "aghion2005competition",
+   "axis": "A1",
+   "doi": "10.1093/qje/120.2.701",
+   "type": "journal-article",
+   "title": "Competition and Innovation: an Inverted-U Relationship",
+   "year": 2005,
+   "container": "The Quarterly Journal of Economics",
+   "volume": "120",
+   "issue": "2",
+   "page": "701-728",
+   "authors": [
+    "Aghion",
+    "Bloom",
+    "Blundell",
+    "Griffith",
+    "Howitt"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "aghion2004entry",
+   "axis": "A1",
+   "doi": "10.1162/154247604323067970",
+   "type": "journal-article",
+   "title": "Entry and Productivity Growth: Evidence from Microlevel Panel Data",
+   "year": 2004,
+   "container": "Journal of the European Economic Association",
+   "volume": "2",
+   "issue": "2-3",
+   "page": "265-276",
+   "authors": [
+    "Aghion",
+    "Blundell",
+    "Griffith",
+    "Howitt",
+    "Prantl"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "aghion2001competition",
+   "axis": "A1",
+   "doi": "10.1111/1467-937x.00177",
+   "type": "journal-article",
+   "title": "Competition, Imitation and Growth with Step-by-Step Innovation",
+   "year": 2001,
+   "container": "Review of Economic Studies",
+   "volume": "68",
+   "issue": "3",
+   "page": "467-492",
+   "authors": [
+    "Aghion",
+    "Harris",
+    "Howitt",
+    "Vickers"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "tang2006competition",
+   "axis": "A1",
+   "doi": "10.1016/j.respol.2005.08.004",
+   "type": "journal-article",
+   "title": "Competition and innovation behaviour",
+   "year": 2006,
+   "container": "Research Policy",
+   "volume": "35",
+   "issue": "1",
+   "page": "68-82",
+   "authors": [
+    "Tang"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "peneder2014competition",
+   "axis": "A1",
+   "doi": "10.1007/s00191-013-0310-z",
+   "type": "journal-article",
+   "title": "Competition, R&amp;D and innovation: testing the inverted-U in a simultaneous system",
+   "year": 2014,
+   "container": "Journal of Evolutionary Economics",
+   "volume": "24",
+   "issue": "3",
+   "page": "653-687",
+   "authors": [
+    "Peneder",
+    "Woerter"
+   ],
+   "title_similarity": 0.976,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "beneito2015competitive",
+   "axis": "A1",
+   "doi": "10.1111/joie.12079",
+   "type": "journal-article",
+   "title": "Competitive Pressure and Innovation at the Firm Level",
+   "year": 2015,
+   "container": "The Journal of Industrial Economics",
+   "volume": "63",
+   "issue": "3",
+   "page": "422-457",
+   "authors": [
+    "Beneito",
+    "Coscollá‐Girona",
+    "Rochina‐Barrachina",
+    "Sanchis"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "friesenbichler2016innovation",
+   "axis": "A1",
+   "doi": "10.1111/ecot.12100",
+   "type": "journal-article",
+   "title": "Innovation, competition and productivity",
+   "year": 2016,
+   "container": "Economics of Transition",
+   "volume": "24",
+   "issue": "3",
+   "page": "535-580",
+   "authors": [
+    "Friesenbichler",
+    "Peneder"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "hashmi2013competition",
+   "axis": "A1",
+   "doi": "10.1162/rest_a_00364",
+   "type": "journal-article",
+   "title": "Competition and Innovation: The Inverted-U Relationship Revisited",
+   "year": 2013,
+   "container": "The Review of Economics and Statistics",
+   "volume": "95",
+   "issue": "5",
+   "page": "1653-1668",
+   "authors": [
+    "Hashmi"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "crowley2017competition",
+   "axis": "A1",
+   "doi": "10.1080/10438599.2016.1233627",
+   "type": "journal-article",
+   "title": "Does more competition increase business-level innovation? Evidence from domestically focused firms in emerging economies",
+   "year": 2017,
+   "container": "Economics of Innovation and New Technology",
+   "volume": "26",
+   "issue": "5",
+   "page": "477-488",
+   "authors": [
+    "Crowley",
+    "Jordan"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "vives2008innovation",
+   "axis": "A1",
+   "doi": "10.1111/j.1467-6451.2008.00356.x",
+   "type": "journal-article",
+   "title": "INNOVATION AND COMPETITIVE PRESSURE<sup>*</sup>",
+   "year": 2008,
+   "container": "The Journal of Industrial Economics",
+   "volume": "56",
+   "issue": "3",
+   "page": "419-469",
+   "authors": [
+    "VIVES"
+   ],
+   "title_similarity": 0.864,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "woerter2019competitive",
+   "axis": "A1",
+   "doi": "10.1007/s11151-018-9656-6",
+   "type": "journal-article",
+   "title": "Competitive Pressure and Diversification into Green R&amp;D",
+   "year": 2019,
+   "container": "Review of Industrial Organization",
+   "volume": "55",
+   "issue": "2",
+   "page": "301-325",
+   "authors": [
+    "Stucki",
+    "Woerter"
+   ],
+   "title_similarity": 0.965,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "bloom2016trade",
+   "axis": "A1",
+   "doi": "10.1093/restud/rdv039",
+   "type": "journal-article",
+   "title": "Trade Induced Technical Change? The Impact of Chinese Imports on Innovation, IT and Productivity",
+   "year": 2016,
+   "container": "The Review of Economic Studies",
+   "volume": "83",
+   "issue": "1",
+   "page": "87-117",
+   "authors": [
+    "Bloom",
+    "Draca",
+    "Van Reenen"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "autor2020foreign",
+   "axis": "A1",
+   "doi": "10.1257/aeri.20180481",
+   "type": "journal-article",
+   "title": "Foreign Competition and Domestic Innovation: Evidence from US Patents",
+   "year": 2020,
+   "container": "American Economic Review: Insights",
+   "volume": "2",
+   "issue": "3",
+   "page": "357-374",
+   "authors": [
+    "Autor",
+    "Dorn",
+    "Hanson",
+    "Pisano",
+    "Shu"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "kueng2016emerging",
+   "axis": "A1",
+   "doi": "10.3386/w22840",
+   "type": "report",
+   "title": "The Impact of Emerging Market Competition on Innovation and Business Strategy",
+   "year": 2016,
+   "container": "",
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "authors": [
+    "Kueng",
+    "Li",
+    "Yang"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "lieberman1988first",
+   "axis": "A1",
+   "doi": "10.1002/smj.4250090706",
+   "type": "journal-article",
+   "title": "First-mover advantages",
+   "year": 1988,
+   "container": "Strategic Management Journal",
+   "volume": "9",
+   "issue": "S1",
+   "page": "41-58",
+   "authors": [
+    "Lieberman",
+    "Montgomery"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "deste2012what",
+   "axis": "A1",
+   "doi": "10.1016/j.respol.2011.09.008",
+   "type": "journal-article",
+   "title": "What hampers innovation? Revealed barriers versus deterring barriers",
+   "year": 2012,
+   "container": "Research Policy",
+   "volume": "41",
+   "issue": "2",
+   "page": "482-488",
+   "authors": [
+    "D’Este",
+    "Iammarino",
+    "Savona",
+    "von Tunzelmann"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "fudenberg1983preemption",
+   "axis": "A2",
+   "doi": "10.1016/0014-2921(83)90087-9",
+   "type": "journal-article",
+   "title": "Preemption, leapfrogging and competition in patent races",
+   "year": 1983,
+   "container": "European Economic Review",
+   "volume": "22",
+   "issue": "1",
+   "page": "3-31",
+   "authors": [
+    "Fudenberg",
+    "Gilbert",
+    "Stiglitz",
+    "Tirole"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "harris1985perfect",
+   "axis": "A2",
+   "doi": "10.2307/2297616",
+   "type": "journal-article",
+   "title": "Perfect Equilibrium in a Model of a Race",
+   "year": 1985,
+   "container": "The Review of Economic Studies",
+   "volume": "52",
+   "issue": "2",
+   "page": "193",
+   "authors": [
+    "Harris",
+    "Vickers"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": "193-193"
+  },
+  {
+   "key": "harris1987racing",
+   "axis": "A2",
+   "doi": "10.2307/2297442",
+   "type": "journal-article",
+   "title": "Racing with Uncertainty",
+   "year": 1987,
+   "container": "The Review of Economic Studies",
+   "volume": "54",
+   "issue": "1",
+   "page": "1",
+   "authors": [
+    "Harris",
+    "Vickers"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": "1-1"
+  },
+  {
+   "key": "grossman1987dynamic",
+   "axis": "A2",
+   "doi": "10.2307/2232884",
+   "type": "journal-article",
+   "title": "Dynamic R &amp; D Competition",
+   "year": 1987,
+   "container": "The Economic Journal",
+   "volume": "97",
+   "issue": "386",
+   "page": "372",
+   "authors": [
+    "Grossman",
+    "Shapiro"
+   ],
+   "title_similarity": 0.885,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": "372-372"
+  },
+  {
+   "key": "loury1979market",
+   "axis": "A2",
+   "doi": "10.2307/1883165",
+   "type": "journal-article",
+   "title": "Market Structure and Innovation",
+   "year": 1979,
+   "container": "The Quarterly Journal of Economics",
+   "volume": "93",
+   "issue": "3",
+   "page": "395",
+   "authors": [
+    "Loury"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": "395-395"
+  },
+  {
+   "key": "lee1980market",
+   "axis": "A2",
+   "doi": "10.2307/1884551",
+   "type": "journal-article",
+   "title": "Market Structure and Innovation: A Reformulation",
+   "year": 1980,
+   "container": "The Quarterly Journal of Economics",
+   "volume": "94",
+   "issue": "2",
+   "page": "429",
+   "authors": [
+    "Lee",
+    "Wilde"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": "429-429"
+  },
+  {
+   "key": "choi1991dynamic",
+   "axis": "A2",
+   "doi": "10.2307/2600992",
+   "type": "journal-article",
+   "title": "Dynamic R&amp;D Competition under \"Hazard Rate\" Uncertainty",
+   "year": 1991,
+   "container": "The RAND Journal of Economics",
+   "volume": "22",
+   "issue": "4",
+   "page": "596",
+   "authors": [
+    "Choi"
+   ],
+   "title_similarity": 0.946,
+   "resolved_via": "search",
+   "openalex_pages": "596-596"
+  },
+  {
+   "key": "doraszelski2003rd",
+   "axis": "A2",
+   "doi": "10.2307/3087441",
+   "type": "journal-article",
+   "title": "An R&amp;D Race with Knowledge Accumulation",
+   "year": 2003,
+   "container": "The RAND Journal of Economics",
+   "volume": "34",
+   "issue": "1",
+   "page": "20",
+   "authors": [
+    "Doraszelski"
+   ],
+   "title_similarity": 0.951,
+   "resolved_via": "search",
+   "openalex_pages": "20-20"
+  },
+  {
+   "key": "leoncini2016learning",
+   "axis": "A3",
+   "doi": "10.1016/j.respol.2015.10.006",
+   "type": "journal-article",
+   "title": "Learning-by-failing. An empirical exercise on CIS data",
+   "year": 2016,
+   "container": "Research Policy",
+   "volume": "45",
+   "issue": "2",
+   "page": "376-386",
+   "authors": [
+    "Leoncini"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "deste2018exploring",
+   "axis": "A3",
+   "doi": "10.1093/icc/dtx044",
+   "type": "journal-article",
+   "title": "Exploring and yet failing less: learning from past and current exploration in R&amp;D",
+   "year": 2018,
+   "container": "Industrial and Corporate Change",
+   "volume": "27",
+   "issue": "3",
+   "page": "525-553",
+   "authors": [
+    "D’Este",
+    "Marzucchi",
+    "Rentocchini"
+   ],
+   "title_similarity": 0.976,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "garciavega2010determinants",
+   "axis": "A3",
+   "doi": "10.1016/s1138-5758(10)70024-4",
+   "type": "journal-article",
+   "title": "Determinants of Abandoning Innovative Activities: Evidence from Spanish Firms",
+   "year": 2010,
+   "container": "Cuadernos de Economía y Dirección de la Empresa",
+   "volume": "13",
+   "issue": "45",
+   "page": "69-91",
+   "authors": [
+    "Garcia-Vega",
+    "Lopez"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "lhuillery2009rd",
+   "axis": "A3",
+   "doi": "10.1016/j.respol.2008.09.002",
+   "type": "journal-article",
+   "title": "R&amp;D cooperation and failures in innovation projects: Empirical evidence from French CIS data",
+   "year": 2009,
+   "container": "Research Policy",
+   "volume": "38",
+   "issue": "1",
+   "page": "45-57",
+   "authors": [
+    "Lhuillery",
+    "Pfister"
+   ],
+   "title_similarity": 0.979,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "love2023dynamics",
+   "axis": "A3",
+   "doi": "10.1016/j.respol.2023.104842",
+   "type": "journal-article",
+   "title": "The dynamics of abandoned innovation activities: Learning from failure or learning to prevent failure?",
+   "year": 2023,
+   "container": "Research Policy",
+   "volume": "52",
+   "issue": "8",
+   "page": "104842",
+   "authors": [
+    "Love",
+    "Roper",
+    "Vahter"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": "104842-104842"
+  },
+  {
+   "key": "cefis2024innovation",
+   "axis": "A3",
+   "doi": "10.1016/j.strueco.2024.05.004",
+   "type": "journal-article",
+   "title": "Is innovation failure just a dead end?",
+   "year": 2024,
+   "container": "Structural Change and Economic Dynamics",
+   "volume": "70",
+   "issue": null,
+   "page": "481-493",
+   "authors": [
+    "Cefis",
+    "Leoncini",
+    "Marengo"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "klingebiel2021optionality",
+   "axis": "A3",
+   "doi": "10.5465/amd.2018.0024",
+   "type": "journal-article",
+   "title": "Optionality and Selectiveness in Innovation",
+   "year": 2021,
+   "container": "Academy of Management Discoveries",
+   "volume": "7",
+   "issue": "3",
+   "page": "328-342",
+   "authors": [
+    "Klingebiel",
+    "Rammer"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "vanbeers2017project",
+   "axis": "A3",
+   "doi": "10.1007/s10961-016-9554-8",
+   "type": "journal-article",
+   "title": "Project failures and innovation performance in university–firm collaborations",
+   "year": 2017,
+   "container": "The Journal of Technology Transfer",
+   "volume": "42",
+   "issue": "4",
+   "page": "865-883",
+   "authors": [
+    "Guzzini",
+    "Iacobucci"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "oi2026deficiency",
+   "axis": "A3",
+   "doi": "10.1007/s10961-025-10261-3",
+   "type": "journal-article",
+   "title": "Open innovation deficiency: evidence on project abandonment and delay",
+   "year": 2026,
+   "container": "The Journal of Technology Transfer",
+   "volume": "51",
+   "issue": "3",
+   "page": "1143-1180",
+   "authors": [
+    "van Criekingen",
+    "Freel",
+    "Czarnitzki"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "mairesse2010using",
+   "axis": "A3",
+   "doi": "10.1016/s0169-7218(10)02010-1",
+   "type": "book-chapter",
+   "title": "Using Innovation Surveys for Econometric Analysis",
+   "year": 2010,
+   "container": "Handbook of the Economics of Innovation Handbook of the Economics of Innovation, Volume 2",
+   "volume": null,
+   "issue": null,
+   "page": "1129-1155",
+   "authors": [
+    "Mairesse",
+    "Mohnen"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "laursen2006open",
+   "axis": "A3",
+   "doi": "10.1002/smj.507",
+   "type": "journal-article",
+   "title": "Open for innovation: the role of openness in explaining innovation performance among U.K. manufacturing firms",
+   "year": 2006,
+   "container": "Strategic Management Journal",
+   "volume": "27",
+   "issue": "2",
+   "page": "131-150",
+   "authors": [
+    "Laursen",
+    "Salter"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "oecd2018oslo",
+   "axis": "A3",
+   "doi": "10.1787/9789264304604-en",
+   "type": "book",
+   "title": "Oslo Manual 2018",
+   "year": 2018,
+   "container": "The Measurement of Scientific, Technological and Innovation Activities",
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "authors": [
+    null,
+    null
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "horton2023large",
+   "axis": "A4",
+   "doi": "10.3386/w31122",
+   "type": "report",
+   "title": "Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?",
+   "year": 2023,
+   "container": "",
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "authors": [
+    "Horton",
+    "Filippas",
+    "Manning"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "manning2024automated",
+   "axis": "A4",
+   "doi": "10.3386/w32381",
+   "type": "report",
+   "title": "Automated Social Science: Language Models as Scientist and Subjects",
+   "year": 2024,
+   "container": "",
+   "volume": null,
+   "issue": null,
+   "page": null,
+   "authors": [
+    "Manning",
+    "Zhu",
+    "Horton"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "akata2025playing",
+   "axis": "A4",
+   "doi": "10.1038/s41562-025-02172-y",
+   "type": "journal-article",
+   "title": "Playing repeated games with large language models",
+   "year": 2025,
+   "container": "Nature Human Behaviour",
+   "volume": "9",
+   "issue": "7",
+   "page": "1380-1390",
+   "authors": [
+    "Akata",
+    "Schulz",
+    "Coda-Forno",
+    "Oh",
+    "Bethge",
+    "Schulz"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "argyle2023out",
+   "axis": "A4",
+   "doi": "10.1017/pan.2023.2",
+   "type": "journal-article",
+   "title": "Out of One, Many: Using Language Models to Simulate Human Samples",
+   "year": 2023,
+   "container": "Political Analysis",
+   "volume": "31",
+   "issue": "3",
+   "page": "337-351",
+   "authors": [
+    "Argyle",
+    "Busby",
+    "Fulda",
+    "Gubler",
+    "Rytting",
+    "Wingate"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "chen2023emergence",
+   "axis": "A4",
+   "doi": "10.1073/pnas.2316205120",
+   "type": "journal-article",
+   "title": "The emergence of economic rationality of GPT",
+   "year": 2023,
+   "container": "Proceedings of the National Academy of Sciences",
+   "volume": "120",
+   "issue": "51",
+   "page": null,
+   "authors": [
+    "Chen",
+    "Liu",
+    "Shan",
+    "Zhong"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": "e2316205120-e2316205120"
+  },
+  {
+   "key": "gao2024large",
+   "axis": "A4",
+   "doi": "10.1057/s41599-024-03611-3",
+   "type": "journal-article",
+   "title": "Large language models empowered agent-based modeling and simulation: a survey and perspectives",
+   "year": 2024,
+   "container": "Humanities and Social Sciences Communications",
+   "volume": "11",
+   "issue": "1",
+   "page": null,
+   "authors": [
+    "Gao",
+    "Lan",
+    "Li",
+    "Yuan",
+    "Ding",
+    "Zhou",
+    "Xu",
+    "Li"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "park2023generative",
+   "axis": "A4",
+   "doi": "10.1145/3586183.3606763",
+   "type": "proceedings-article",
+   "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+   "year": 2023,
+   "container": "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology",
+   "volume": null,
+   "issue": null,
+   "page": "1-22",
+   "authors": [
+    "Park",
+    "O'Brien",
+    "Cai",
+    "Morris",
+    "Liang",
+    "Bernstein"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "isaac1988appropriability",
+   "axis": "A4",
+   "doi": "10.2307/1886068",
+   "type": "journal-article",
+   "title": "Appropriability and Market Structure in a Stochastic Invention Model",
+   "year": 1988,
+   "container": "The Quarterly Journal of Economics",
+   "volume": "103",
+   "issue": "4",
+   "page": "647",
+   "authors": [
+    "Isaac",
+    "Reynolds"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": "647-647"
+  },
+  {
+   "key": "zizzo2002racing",
+   "axis": "A4",
+   "doi": "10.1016/s0167-7187(01)00087-x",
+   "type": "journal-article",
+   "title": "Racing with uncertainty: a patent race experiment",
+   "year": 2002,
+   "container": "International Journal of Industrial Organization",
+   "volume": "20",
+   "issue": "6",
+   "page": "877-902",
+   "authors": [
+    "Zizzo"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "breitmoser2010understanding",
+   "axis": "A4",
+   "doi": "10.1007/s00199-009-0487-4",
+   "type": "journal-article",
+   "title": "Understanding perpetual R&amp;D races",
+   "year": 2010,
+   "container": "Economic Theory",
+   "volume": "44",
+   "issue": "3",
+   "page": "445-467",
+   "authors": [
+    "Breitmoser",
+    "Tan",
+    "Zizzo"
+   ],
+   "title_similarity": 0.943,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "silipo2005evolution",
+   "axis": "A4",
+   "doi": "10.1007/s00712-005-0115-0",
+   "type": "journal-article",
+   "title": "The Evolution of Cooperation in Patent Races:Theory and Experimental Evidence",
+   "year": 2005,
+   "container": "Journal of Economics",
+   "volume": "85",
+   "issue": "1",
+   "page": "1-38",
+   "authors": [
+    "Silipo"
+   ],
+   "title_similarity": 0.994,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "cameron2008bootstrap",
+   "axis": "M",
+   "doi": "10.1162/rest.90.3.414",
+   "type": "journal-article",
+   "title": "Bootstrap-Based Improvements for Inference with Clustered Errors",
+   "year": 2008,
+   "container": "Review of Economics and Statistics",
+   "volume": "90",
+   "issue": "3",
+   "page": "414-427",
+   "authors": [
+    "Cameron",
+    "Gelbach",
+    "Miller"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "heckman1979sample",
+   "axis": "M",
+   "doi": "10.2307/1912352",
+   "type": "journal-article",
+   "title": "Sample Selection Bias as a Specification Error",
+   "year": 1979,
+   "container": "Econometrica",
+   "volume": "47",
+   "issue": "1",
+   "page": "153",
+   "authors": [
+    "Heckman"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": "153-153"
+  },
+  {
+   "key": "nosek2018preregistration",
+   "axis": "M",
+   "doi": "10.1073/pnas.1708274114",
+   "type": "journal-article",
+   "title": "The preregistration revolution",
+   "year": 2018,
+   "container": "Proceedings of the National Academy of Sciences",
+   "volume": "115",
+   "issue": "11",
+   "page": "2600-2606",
+   "authors": [
+    "Nosek",
+    "Ebersole",
+    "DeHaven",
+    "Mellor"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "doi_hint_verified",
+   "openalex_pages": null
+  },
+  {
+   "key": "weston2019recommendations",
+   "axis": "M",
+   "doi": "10.1177/2515245919848684",
+   "type": "journal-article",
+   "title": "Recommendations for Increasing the Transparency of Analysis of Preexisting Data Sets",
+   "year": 2019,
+   "container": "Advances in Methods and Practices in Psychological Science",
+   "volume": "2",
+   "issue": "3",
+   "page": "214-227",
+   "authors": [
+    "Weston",
+    "Ritchie",
+    "Rohrer",
+    "Przybylski"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  },
+  {
+   "key": "oster2019unobservable",
+   "axis": "M",
+   "doi": "10.1080/07350015.2016.1227711",
+   "type": "journal-article",
+   "title": "Unobservable Selection and Coefficient Stability: Theory and Evidence",
+   "year": 2019,
+   "container": "Journal of Business &amp; Economic Statistics",
+   "volume": "37",
+   "issue": "2",
+   "page": "187-204",
+   "authors": [
+    "Oster"
+   ],
+   "title_similarity": 1.0,
+   "resolved_via": "search",
+   "openalex_pages": null
+  }
+ ],
+ "unresolved": [
+  {
+   "key": "gilbert1982preemptive",
+   "query": "Preemptive patenting and the persistence of monopoly",
+   "expected_families": [
+    "Gilbert",
+    "Newbery"
+   ],
+   "expected_year": 1982,
+   "axis": "A1"
+  },
+  {
+   "key": "reinganum1983uncertain",
+   "query": "Uncertain innovation and the persistence of monopoly",
+   "expected_families": [
+    "Reinganum"
+   ],
+   "expected_year": 1983,
+   "axis": "A1"
+  },
+  {
+   "key": "holm1979simple",
+   "query": "A simple sequentially rejective multiple test procedure",
+   "expected_families": [
+    "Holm"
+   ],
+   "expected_year": 1979,
+   "axis": "M"
+  }
+ ]
+}

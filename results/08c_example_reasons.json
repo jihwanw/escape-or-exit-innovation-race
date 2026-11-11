@@ -1,0 +1,129 @@
+{
+ "built": "2026-11-11 02:15 KST",
+ "rule": "first English Stage A call in design order with the stated decision, cell and both-judge code; text from agent_experiment/logs_public",
+ "examples": {
+  "accelerate_frontier_threat": {
+   "uid": "A:D00021:fable",
+   "design_id": "D00021",
+   "model": "fable",
+   "lang": "en",
+   "gap": 2,
+   "threat": 1,
+   "noise": 0,
+   "decision": "A",
+   "reason_public_log": "Needing only one stage while the rival needs two, an 80% chance of launching first this period locks in the full 10 billion before possible new-entrant entry halves future profits. The extra 1.7 billion cost is outweighed by the ~30% higher chance of capturing the first-mover payoff (~7 billion value gap).",
+   "judge_codes": {
+    "fable": {
+     "id": "A:D00021:fable",
+     "M1": 1,
+     "M2": 1,
+     "M3": 0,
+     "M4": 1,
+     "M5": 1,
+     "M6": 0,
+     "M7": 0,
+     "M8": 0,
+     "M9": 0,
+     "M10": 0,
+     "primary": "M1"
+    },
+    "gpt56": {
+     "id": "A:D00021:fable",
+     "M1": 1,
+     "M2": 1,
+     "M3": 0,
+     "M4": 1,
+     "M5": 1,
+     "M6": 0,
+     "M7": 0,
+     "M8": 0,
+     "M9": 0,
+     "M10": 0,
+     "primary": "M1"
+    }
+   }
+  },
+  "stop_laggard_threat": {
+   "uid": "A:D00005:fable",
+   "design_id": "D00005",
+   "model": "fable",
+   "lang": "en",
+   "gap": 0,
+   "threat": 1,
+   "noise": 0,
+   "decision": "Q",
+   "reason_public_log": "Being one stage behind, we would most likely launch second (≈3 billion, likely halved by new entry), while needing two successes in three periods; the expected revenue (~1–2 billion) does not cover expected development costs under either Continue or Accelerate. Stopping and redeploying resources to the existing business is the only choice with non-negative expected value.",
+   "judge_codes": {
+    "fable": {
+     "id": "A:D00005:fable",
+     "M1": 0,
+     "M2": 0,
+     "M3": 1,
+     "M4": 1,
+     "M5": 1,
+     "M6": 1,
+     "M7": 0,
+     "M8": 0,
+     "M9": 0,
+     "M10": 0,
+     "primary": "M5"
+    },
+    "gpt56": {
+     "id": "A:D00005:fable",
+     "M1": 0,
+     "M2": 0,
+     "M3": 1,
+     "M4": 1,
+     "M5": 1,
+     "M6": 1,
+     "M7": 0,
+     "M8": 0,
+     "M9": 0,
+     "M10": 0,
+     "primary": "M5"
+    }
+   }
+  },
+  "continue_level_nothreat": {
+   "uid": "A:D00009:fable",
+   "design_id": "D00009",
+   "model": "fable",
+   "lang": "en",
+   "gap": 1,
+   "threat": 0,
+   "noise": 0,
+   "decision": "C",
+   "reason_public_log": "With 2 stages left in 3 periods, accelerating costs 7.5bn at full run against at most ~6-7bn expected revenue, so it barely breaks even, whereas continuing keeps costs low (~2.2bn expected) while still giving a meaningful chance to finish and positive expected profit against any rival strategy. Since the rival faces the same economics and is likely to continue rather than overspend, steady development is the dominant choice this period, and we can escalate later if the race tilts.",
+   "judge_codes": {
+    "fable": {
+     "id": "A:D00009:fable",
+     "M1": 0,
+     "M2": 0,
+     "M3": 0,
+     "M4": 0,
+     "M5": 1,
+     "M6": 0,
+     "M7": 0,
+     "M8": 1,
+     "M9": 0,
+     "M10": 0,
+     "primary": "M5"
+    },
+    "gpt56": {
+     "id": "A:D00009:fable",
+     "M1": 0,
+     "M2": 0,
+     "M3": 0,
+     "M4": 1,
+     "M5": 1,
+     "M6": 0,
+     "M7": 0,
+     "M8": 1,
+     "M9": 0,
+     "M10": 0,
+     "primary": "M5"
+    }
+   }
+  }
+ }
+}

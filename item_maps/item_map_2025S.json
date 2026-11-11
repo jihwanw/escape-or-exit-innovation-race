@@ -1,0 +1,2852 @@
+{
+ "_meta": {
+  "wave": "2025S",
+  "sector": "services",
+  "reference_period": "2022-2024",
+  "built": "2026-11-09 20:00 KST",
+  "inventory": "/Users/jihwanw/PhD/MOT/Innovation_Survey/data/KIS/item_inventory_2025S.json",
+  "codebook": "/Users/jihwanw/PhD/MOT/Innovation_Survey/data/00_00_한국기업혁신조사 마이크로데이터 및 설문지/KIS_2025_제공용(서비스업).xlsx",
+  "questionnaire": "/Users/jihwanw/PhD/MOT/Innovation_Survey/data/00_00_한국기업혁신조사 마이크로데이터 및 설문지/혁신조사 2025(서비스업) 설문지.pdf",
+  "data": "/Users/jihwanw/PhD/MOT/Innovation_Survey/data/00_00_한국기업혁신조사 마이크로데이터 및 설문지/KIS_2025_제공용(서비스업).xlsx",
+  "data_sheet": "DATA",
+  "n_rows": 4000,
+  "rule": "item_text_ko = verbatim codebook description; item_text_questionnaire = wording transcribed from this wave's questionnaire PDF and verified against its text; recode_to_printed derived from observed data codes vs printed codes."
+ },
+ "items": [
+  {
+   "variable": "Q1K2_1",
+   "construct_id": "ME1",
+   "item_text_ko": "전략별 활용: 고객 맞춤형으로 특화된 상품에 초점을 둔 전략",
+   "item_text_questionnaire": "상품(제품 또는 서비스)이 빠르게 구식이 되어버림",
+   "questionnaire_block": "문1-2",
+   "questionnaire_stem": "[문1-2] 지난 3년간(2022~2024년) 아래의 각 시장 환경 상황이 귀사가 직면했던 상황을 얼마나 잘 설명하고 있는지 설명도를 평가해 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답 (I. 전략과 지식흐름 파트: '혁신'에 국한하지 않은 일반적인 상황)",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 1265,
+     "1": 863,
+     "2": 1172,
+     "3": 559,
+     "4": 136,
+     "5": 5
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "products become outdated quickly",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문1-2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "inventory erratum: 코드북 설명이 Q1K1_10('고객 맞춤형으로 특화된 상품…')의 복사. 설문지 문1-2 ①은 '상품(제품 또는 서비스)이 빠르게 구식이 되어버림'. (2024 코드북과 같은 오류); codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q2_1",
+   "construct_id": "PROT1",
+   "item_text_ko": "상품 보호 활동 여부: 특허권 출원",
+   "item_text_questionnaire": "특허권 출원",
+   "questionnaire_block": "문2",
+   "questionnaire_stem": "[문2] 지난 3년간(2022~2024년) 귀사는 귀사의 상품(제품 또는 서비스)을 보호하기 위해 아래의 활동을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3703,
+     "1": 297
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "patent application",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q1K2_2",
+   "construct_id": "ME2",
+   "item_text_ko": "시장환경 상황: 미래 기술 발전을 예측하기 어려움",
+   "item_text_questionnaire": "미래 기술 발전을 예측하기 어려움",
+   "questionnaire_block": "문1-2",
+   "questionnaire_stem": "[문1-2] 지난 3년간(2022~2024년) 아래의 각 시장 환경 상황이 귀사가 직면했던 상황을 얼마나 잘 설명하고 있는지 설명도를 평가해 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답 (I. 전략과 지식흐름 파트: '혁신'에 국한하지 않은 일반적인 상황)",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 954,
+     "1": 606,
+     "2": 1096,
+     "3": 1086,
+     "4": 244,
+     "5": 14
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "future technological developments hard to predict",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문1-2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q2_2",
+   "construct_id": "PROT2",
+   "item_text_ko": "상품 보호 활동 여부: 실용신안권 등록",
+   "item_text_questionnaire": "실용신안권 등록",
+   "questionnaire_block": "문2",
+   "questionnaire_stem": "[문2] 지난 3년간(2022~2024년) 귀사는 귀사의 상품(제품 또는 서비스)을 보호하기 위해 아래의 활동을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3903,
+     "1": 97
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "utility model registration",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q1K2_3",
+   "construct_id": "ME3",
+   "item_text_ko": "시장환경 상황: 경쟁사 상품들이 귀사의 상품들을 쉽게 대체함",
+   "item_text_questionnaire": "경쟁사 상품들이 귀사의 상품들을 쉽게 대체함",
+   "questionnaire_block": "문1-2",
+   "questionnaire_stem": "[문1-2] 지난 3년간(2022~2024년) 아래의 각 시장 환경 상황이 귀사가 직면했던 상황을 얼마나 잘 설명하고 있는지 설명도를 평가해 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답 (I. 전략과 지식흐름 파트: '혁신'에 국한하지 않은 일반적인 상황)",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 873,
+     "1": 643,
+     "2": 1182,
+     "3": 941,
+     "4": 320,
+     "5": 41
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "competitor products easily substitute ours",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문1-2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q2_3",
+   "construct_id": "PROT3",
+   "item_text_ko": "상품 보호 활동 여부: 디자인권 등록",
+   "item_text_questionnaire": "디자인권 등록",
+   "questionnaire_block": "문2",
+   "questionnaire_stem": "[문2] 지난 3년간(2022~2024년) 귀사는 귀사의 상품(제품 또는 서비스)을 보호하기 위해 아래의 활동을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3904,
+     "1": 96
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "design right registration",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q1K2_4",
+   "construct_id": "ME4",
+   "item_text_ko": "시장환경 상황: 새로운 경쟁사의 진입이 귀사의 시장 지위를 위협합",
+   "item_text_questionnaire": "새로운 경쟁사의 진입이 귀사의 시장 지위를 위협함",
+   "questionnaire_block": "문1-2",
+   "questionnaire_stem": "[문1-2] 지난 3년간(2022~2024년) 아래의 각 시장 환경 상황이 귀사가 직면했던 상황을 얼마나 잘 설명하고 있는지 설명도를 평가해 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답 (I. 전략과 지식흐름 파트: '혁신'에 국한하지 않은 일반적인 상황)",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 1004,
+     "1": 695,
+     "2": 1016,
+     "3": 991,
+     "4": 254,
+     "5": 40
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "entry of new competitors threatens market position",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문1-2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q2_4",
+   "construct_id": "PROT4",
+   "item_text_ko": "상품 보호 활동 여부: 상표권(트레이드마크) 등록",
+   "item_text_questionnaire": "상표권(트레이드마크) 등록",
+   "questionnaire_block": "문2",
+   "questionnaire_stem": "[문2] 지난 3년간(2022~2024년) 귀사는 귀사의 상품(제품 또는 서비스)을 보호하기 위해 아래의 활동을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3842,
+     "1": 158
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "trademark registration",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q1K2_5",
+   "construct_id": "ME5",
+   "item_text_ko": "시장환경 상황: 경쟁사의 행동을 예측하기 어려움",
+   "item_text_questionnaire": "경쟁사의 행동을 예측하기 어려움",
+   "questionnaire_block": "문1-2",
+   "questionnaire_stem": "[문1-2] 지난 3년간(2022~2024년) 아래의 각 시장 환경 상황이 귀사가 직면했던 상황을 얼마나 잘 설명하고 있는지 설명도를 평가해 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답 (I. 전략과 지식흐름 파트: '혁신'에 국한하지 않은 일반적인 상황)",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 805,
+     "1": 680,
+     "2": 1135,
+     "3": 937,
+     "4": 425,
+     "5": 18
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "competitors' actions hard to predict",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문1-2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q2_5",
+   "construct_id": "PROT5",
+   "item_text_ko": "상품 보호 활동 여부: 저작권(카피라이트) 청구",
+   "item_text_questionnaire": "저작권(카피라이트) 청구",
+   "questionnaire_block": "문2",
+   "questionnaire_stem": "[문2] 지난 3년간(2022~2024년) 귀사는 귀사의 상품(제품 또는 서비스)을 보호하기 위해 아래의 활동을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3970,
+     "1": 30
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "copyright claim",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q1K2_6",
+   "construct_id": "ME6",
+   "item_text_ko": "시장환경 상황: 수요의 변화를 예측하기 어려움",
+   "item_text_questionnaire": "수요의 변화를 예측하기 어려움",
+   "questionnaire_block": "문1-2",
+   "questionnaire_stem": "[문1-2] 지난 3년간(2022~2024년) 아래의 각 시장 환경 상황이 귀사가 직면했던 상황을 얼마나 잘 설명하고 있는지 설명도를 평가해 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답 (I. 전략과 지식흐름 파트: '혁신'에 국한하지 않은 일반적인 상황)",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 785,
+     "1": 722,
+     "2": 1091,
+     "3": 1194,
+     "4": 202,
+     "5": 6
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "changes in demand hard to predict",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문1-2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q2_6",
+   "construct_id": "PROT6",
+   "item_text_ko": "상품 보호 활동 여부: 영업비밀로 보호",
+   "item_text_questionnaire": "영업비밀",
+   "questionnaire_block": "문2",
+   "questionnaire_stem": "[문2] 지난 3년간(2022~2024년) 귀사는 귀사의 상품(제품 또는 서비스)을 보호하기 위해 아래의 활동을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3738,
+     "1": 262
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "trade secret protection",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "설문지 원문 '⑥ 영업비밀4)로 보호' (각주 4: 비밀로 유지된 생산ㆍ판매 방법 또는 기술상ㆍ경영상 정보로서 관련 법률에 의해 법적으로 보호받을 수 있는 경우에 한함); pdftotext가 각주 번호를 분리해 '영업비밀 로 보호'로 추출됨"
+  },
+  {
+   "variable": "Q1K2_7",
+   "construct_id": "ME7",
+   "item_text_ko": "시장환경 상황: 해외 경쟁사들과의 경쟁이 치열함",
+   "item_text_questionnaire": "해외 경쟁사들과의 경쟁이 치열함",
+   "questionnaire_block": "문1-2",
+   "questionnaire_stem": "[문1-2] 지난 3년간(2022~2024년) 아래의 각 시장 환경 상황이 귀사가 직면했던 상황을 얼마나 잘 설명하고 있는지 설명도를 평가해 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답 (I. 전략과 지식흐름 파트: '혁신'에 국한하지 않은 일반적인 상황)",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 2716,
+     "1": 579,
+     "2": 361,
+     "3": 270,
+     "4": 70,
+     "5": 4
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "strong competition from abroad",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문1-2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q2_7",
+   "construct_id": "PROT7",
+   "item_text_ko": "상품 보호 활동 여부: 복잡한 설계방식 채택",
+   "item_text_questionnaire": "복잡한 설계방식 채택",
+   "questionnaire_block": "문2",
+   "questionnaire_stem": "[문2] 지난 3년간(2022~2024년) 귀사는 귀사의 상품(제품 또는 서비스)을 보호하기 위해 아래의 활동을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3980,
+     "1": 20
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "complex design",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q1K2_8",
+   "construct_id": "ME8",
+   "item_text_ko": "시장환경 상황: 가격 인상이 고객의 손실을 초래함",
+   "item_text_questionnaire": "가격 인상이 고객의 손실을 초래함",
+   "questionnaire_block": "문1-2",
+   "questionnaire_stem": "[문1-2] 지난 3년간(2022~2024년) 아래의 각 시장 환경 상황이 귀사가 직면했던 상황을 얼마나 잘 설명하고 있는지 설명도를 평가해 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답 (I. 전략과 지식흐름 파트: '혁신'에 국한하지 않은 일반적인 상황)",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 1681,
+     "1": 577,
+     "2": 647,
+     "3": 992,
+     "4": 98,
+     "5": 5
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "price increases lead to loss of customers",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문1-2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q2_8",
+   "construct_id": "PROT8",
+   "item_text_ko": "상품 보호 활동 여부: 경쟁사에 앞서 시장 선점",
+   "item_text_questionnaire": "경쟁사에 앞서 시장 선점",
+   "questionnaire_block": "문2",
+   "questionnaire_stem": "[문2] 지난 3년간(2022~2024년) 귀사는 귀사의 상품(제품 또는 서비스)을 보호하기 위해 아래의 활동을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3938,
+     "1": 62
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "lead-time advantage: entering the market ahead of competitors",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문2] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q5_1",
+   "construct_id": "PI1",
+   "item_text_ko": "신상품 출시여부: 귀사의 기존 제품 대비 새롭거나 획기적으로 개선된 제품",
+   "item_text_questionnaire": "(제품혁신) 귀사의 기존 제품 대비 새롭거나 획기적으로 개선된 제품",
+   "questionnaire_block": "문5",
+   "questionnaire_stem": "[문5] 지난 3년간(2022~2024년) 귀사는 아래 상품혁신1) 유형에서, 귀사의 기존 상품(제품 또는 서비스) 대비 새롭거나 획기적으로 개선된 상품을 출시하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답. 하나라도 '예'이면 상품혁신 수행 → 문6으로; 모두 '아니오'이면 문9로 이동",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3961,
+     "1": 39
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "product (goods) innovation introduced",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문5] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q6_1",
+   "construct_id": "MF1",
+   "item_text_ko": "상품혁신 수준: 시장 최초 상품혁신",
+   "item_text_questionnaire": "(시장최초 상품혁신) 경쟁사보다 앞서 기존에 없던 새롭거나 획기적으로 개선된 상품을 출시",
+   "questionnaire_block": "문6",
+   "questionnaire_stem": "[문6] 지난 3년간(2022~2024년) 출시했던 귀사의 상품혁신은 어떤 것이었습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "문5에서 하나라도 '예'인 기업만 (상품혁신 기업)",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 1082,
+    "value_counts": {
+     "0": 1067,
+     "1": 15
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "new-to-market product innovation (ahead of competitors)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문6] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1082)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q5_2",
+   "construct_id": "PI2",
+   "item_text_ko": "신상품 출시여부: 귀사의 기존 서비스 대비 새롭거나 획기적으로 개선된 서비스",
+   "item_text_questionnaire": "(서비스혁신) 귀사의 기존 서비스 대비 새롭거나 획기적으로 개선된 서비스",
+   "questionnaire_block": "문5",
+   "questionnaire_stem": "[문5] 지난 3년간(2022~2024년) 귀사는 아래 상품혁신1) 유형에서, 귀사의 기존 상품(제품 또는 서비스) 대비 새롭거나 획기적으로 개선된 상품을 출시하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답. 하나라도 '예'이면 상품혁신 수행 → 문6으로; 모두 '아니오'이면 문9로 이동",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 2951,
+     "1": 1049
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "service innovation introduced",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문5] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q6_2",
+   "construct_id": "MF2",
+   "item_text_ko": "상품혁신 수준: 자사 최초 상품혁신",
+   "item_text_questionnaire": "(자사최초 상품혁신) 경쟁사에서 이미 동일/유사한 상품을 출시하여 존재하나, 귀사의 기존 상품 대비 새롭거나 획기적으로 개선된 상품을 출시",
+   "questionnaire_block": "문6",
+   "questionnaire_stem": "[문6] 지난 3년간(2022~2024년) 출시했던 귀사의 상품혁신은 어떤 것이었습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "문5에서 하나라도 '예'인 기업만 (상품혁신 기업)",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 1082,
+    "value_counts": {
+     "0": 7,
+     "1": 1075
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "new-to-firm product innovation",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문6] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1082)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q7_1",
+   "construct_id": "SHARE1",
+   "item_text_ko": "상품 유형별 매출 기여도: 시장 최초 상품혁신(지난 3년간)",
+   "item_text_questionnaire": "지난 3년간(2022~2024년) 시장최초 상품혁신을 통해 출시한 상품",
+   "questionnaire_block": "문7",
+   "questionnaire_stem": "[문7] 귀사의 '2024년 한 해' 매출액을 100%로 놓았을 때, 아래 상품 유형별 매출 기여도(비중)를 각각 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "% (합계 100%)"
+   ],
+   "filter": "문5에서 하나라도 '예'인 기업만",
+   "values": [
+    "numeric entry — unit/format: % (합계 100%) (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 1082,
+    "value_counts": {
+     "0": 1068,
+     "5": 1,
+     "10": 3,
+     "20": 3,
+     "30": 1,
+     "50": 2,
+     "60": 1,
+     "70": 2,
+     "80": 1
+    }
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "sales share of new-to-market products (%)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문7] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1082)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q7_2",
+   "construct_id": "SHARE2",
+   "item_text_ko": "상품 유형별 매출 기여도: 자사 최초 상품혁신(지난 3년간)",
+   "item_text_questionnaire": "지난 3년간(2022~2024년) 자사최초 상품혁신을 통해 출시한 상품",
+   "questionnaire_block": "문7",
+   "questionnaire_stem": "[문7] 귀사의 '2024년 한 해' 매출액을 100%로 놓았을 때, 아래 상품 유형별 매출 기여도(비중)를 각각 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "% (합계 100%)"
+   ],
+   "filter": "문5에서 하나라도 '예'인 기업만",
+   "values": [
+    "numeric entry — unit/format: % (합계 100%) (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 1082,
+    "min": 0.0,
+    "max": 100.0,
+    "n_unique": 30
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "sales share of new-to-firm products (%)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문7] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1082)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q7_3",
+   "construct_id": "SHARE3",
+   "item_text_ko": "상품 유형별 매출 기여도: 상품혁신에 해당하지 않는 그 외 (귀사의 기존 상품 포함)",
+   "item_text_questionnaire": "상품혁신에 해당하지 않는 그 외 상품* (귀사의 기존 상품 포함)",
+   "questionnaire_block": "문7",
+   "questionnaire_stem": "[문7] 귀사의 '2024년 한 해' 매출액을 100%로 놓았을 때, 아래 상품 유형별 매출 기여도(비중)를 각각 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "% (합계 100%)"
+   ],
+   "filter": "문5에서 하나라도 '예'인 기업만",
+   "values": [
+    "numeric entry — unit/format: % (합계 100%) (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 1082,
+    "min": 0.0,
+    "max": 100.0,
+    "n_unique": 30
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "sales share of unchanged products (%)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문7] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1082)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q11_1",
+   "construct_id": "IA1",
+   "item_text_ko": "혁신활동여부: 기간 내 완료된 혁신활동",
+   "item_text_questionnaire": "지난 3년간(2022~2024년) 기간 내 완료된 혁신활동 (상품혁신활동 또는 비즈니스프로세스혁신활동)",
+   "questionnaire_block": "문11",
+   "questionnaire_stem": "[문11] 지난 3년간(2022~2024년) 귀사는 아래와 같은 혁신활동1)을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답. ①~⑥ 모두 '아니오'이면 문17로 이동(문12~16 비응답). 각주 2: 문5 또는 문9에서 하나라도 '예'이면 ①에 반드시 '예'",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 2582,
+     "1": 1418
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "innovation activity completed within the period",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문11] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q11_2",
+   "construct_id": "IA2",
+   "item_text_ko": "혁신활동여부: 2023년 말 기준, 계속 진행 중이었던 혁신활동",
+   "item_text_questionnaire": "2024년 말 기준, 계속 진행 중이었던 혁신활동",
+   "questionnaire_block": "문11",
+   "questionnaire_stem": "[문11] 지난 3년간(2022~2024년) 귀사는 아래와 같은 혁신활동1)을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답. ①~⑥ 모두 '아니오'이면 문17로 이동(문12~16 비응답). 각주 2: 문5 또는 문9에서 하나라도 '예'이면 ①에 반드시 '예'",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3781,
+     "1": 219
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "innovation activity ongoing at year-end",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문11] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "inventory erratum: 코드북 설명 '2023년 말 기준' vs 설문지 문11 ② '2024년 말 기준, 계속 진행 중이었던 혁신활동'. 설문지가 정본.; codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q11_3",
+   "construct_id": "IA3",
+   "item_text_ko": "혁신활동여부: 중도포기 또는 중단된 혁신활동",
+   "item_text_questionnaire": "중도포기 또는 중단된 혁신활동",
+   "questionnaire_block": "문11",
+   "questionnaire_stem": "[문11] 지난 3년간(2022~2024년) 귀사는 아래와 같은 혁신활동1)을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답. ①~⑥ 모두 '아니오'이면 문17로 이동(문12~16 비응답). 각주 2: 문5 또는 문9에서 하나라도 '예'이면 ①에 반드시 '예'",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3915,
+     "1": 85
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "innovation activity abandoned or suspended",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문11] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q11_4",
+   "construct_id": "IA4",
+   "item_text_ko": "혁신활동여부: 독자수행 R&D",
+   "item_text_questionnaire": "귀사 내부에서 전체를 독자적으로 자체수행한 연구개발(R&D) 활동",
+   "questionnaire_block": "문11",
+   "questionnaire_stem": "[문11] 지난 3년간(2022~2024년) 귀사는 아래와 같은 혁신활동1)을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답. ①~⑥ 모두 '아니오'이면 문17로 이동(문12~16 비응답). 각주 2: 문5 또는 문9에서 하나라도 '예'이면 ①에 반드시 '예'",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 2707,
+     "1": 1293
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "in-house R&D",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문11] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q11_5",
+   "construct_id": "IA5",
+   "item_text_ko": "혁신활동여부: 공동협력 R&D",
+   "item_text_questionnaire": "귀사와 타 기업 또는 타 기관이 계약을 통해 공동으로 협력하여 수행한 연구개발(R&D) 활동",
+   "questionnaire_block": "문11",
+   "questionnaire_stem": "[문11] 지난 3년간(2022~2024년) 귀사는 아래와 같은 혁신활동1)을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답. ①~⑥ 모두 '아니오'이면 문17로 이동(문12~16 비응답). 각주 2: 문5 또는 문9에서 하나라도 '예'이면 ①에 반드시 '예'",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3918,
+     "1": 82
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "collaborative R&D",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문11] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q11_6",
+   "construct_id": "IA6",
+   "item_text_ko": "혁신활동여부: 외주용역 R&D",
+   "item_text_questionnaire": "외주계약을 통해 타 기업 또는 타 기관에게 용역 전체를 의뢰하여 수행된 연구개발(R&D) 활동",
+   "questionnaire_block": "문11",
+   "questionnaire_stem": "[문11] 지난 3년간(2022~2024년) 귀사는 아래와 같은 혁신활동1)을 하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "전 기업 응답. ①~⑥ 모두 '아니오'이면 문17로 이동(문12~16 비응답). 각주 2: 문5 또는 문9에서 하나라도 '예'이면 ①에 반드시 '예'",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3810,
+     "1": 190
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "contracted-out R&D",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문11] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q11K4K1",
+   "construct_id": "RDCYCLE",
+   "item_text_ko": "독자수행 R&D 한 경우, 연구개발 활동 주기",
+   "item_text_questionnaire": "연구개발 활동 주기",
+   "questionnaire_block": "문11-4-1",
+   "questionnaire_stem": "[문11 ④-1] (④에 '예'인 경우) 지난 3년간(2022~2024년) 귀사의 연구개발 활동 주기는 어떠하였습니까?",
+   "questionnaire_printed_codes": [
+    "1 지속적으로 수행(기업 내부에 상시 연구 인력이 있음)",
+    "2 가끔 수행(필요할 때에만 수행)"
+   ],
+   "filter": "문11 ④(독자 수행 R&D) '예'인 기업만",
+   "values": [
+    "1. 지속적으로 수행(회사 내부에 상시 연구 인력이 있음)",
+    "2. 가끔 수행(필요할 때에만 수행)"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 1293,
+    "value_counts": {
+     "1": 742,
+     "2": 551
+    }
+   },
+   "data_coding": "as printed 1/2",
+   "recode_to_printed": {
+    "1": 1,
+    "2": 2
+   },
+   "short_label_en": "in-house R&D: continuous (1) vs occasional (2)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문11-4-1] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1293)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q12K1_1",
+   "construct_id": "RDEXP",
+   "item_text_ko": "2023년 한해 R&D 활동 비용",
+   "item_text_questionnaire": "R&D 활동 비용",
+   "questionnaire_block": "문12",
+   "questionnaire_stem": "[문12] 2024년 한 해 기준, 귀사에서 R&D 활동과 R&D 이외의 혁신활동에 사용한 비용(지출) 총액을 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "백만원"
+   ],
+   "filter": "문11 ①~⑥ 중 하나라도 '예'인 기업만 (혁신활동 기업)",
+   "values": [
+    "numeric entry — unit/format: 백만원 (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 1658,
+    "min": 0.0,
+    "max": 95000.0,
+    "n_unique": 343
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "R&D expenditure in the reference year (million KRW)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문12] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1658)",
+   "codebook_note": "inventory erratum: 코드북 설명 '2023년 한해 R&D 활동 비용'이나 설문지 문12는 '2024년 한 해 기준'. 연도 표기는 설문지가 정본."
+  },
+  {
+   "variable": "Q12K1_2",
+   "construct_id": "NONRDEXP",
+   "item_text_ko": "2023년 한해 R&D 이외의 혁신활동 비용",
+   "item_text_questionnaire": "R&D 이외의 혁신활동 비용",
+   "questionnaire_block": "문12",
+   "questionnaire_stem": "[문12] 2024년 한 해 기준, 귀사에서 R&D 활동과 R&D 이외의 혁신활동에 사용한 비용(지출) 총액을 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "백만원"
+   ],
+   "filter": "문11 ①~⑥ 중 하나라도 '예'인 기업만 (혁신활동 기업)",
+   "values": [
+    "numeric entry — unit/format: 백만원 (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 1658,
+    "min": 0.0,
+    "max": 1549300.0,
+    "n_unique": 225
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "non-R&D innovation expenditure (million KRW)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문12] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1658)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q14_1",
+   "construct_id": "COOP1",
+   "item_text_ko": "혁신활동 협력여부: R&D 활동 협력",
+   "item_text_questionnaire": "R&D 활동에 대해 협력한 적이 있음",
+   "questionnaire_block": "문14",
+   "questionnaire_stem": "[문14] 지난 3년간(2022~2024년) 귀사는 혁신활동을 수행하기 위해 타 기업 또는 타 기관과 협력한 적이 있었습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "문11 ①~⑥ 중 하나라도 '예'인 기업만",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 1658,
+    "value_counts": {
+     "0": 1565,
+     "1": 93
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "cooperated on R&D",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문14] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1658)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q14_2",
+   "construct_id": "COOP2",
+   "item_text_ko": "혁신활동 협력여부: R&D 이외의 혁신활동 협력",
+   "item_text_questionnaire": "R&D 이외의 혁신활동으로 협력한 적이 있음",
+   "questionnaire_block": "문14",
+   "questionnaire_stem": "[문14] 지난 3년간(2022~2024년) 귀사는 혁신활동을 수행하기 위해 타 기업 또는 타 기관과 협력한 적이 있었습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "문11 ①~⑥ 중 하나라도 '예'인 기업만",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 1658,
+    "value_counts": {
+     "0": 1601,
+     "1": 57
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "cooperated on non-R&D innovation",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문14] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1658)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q14_3",
+   "construct_id": "COOP3",
+   "item_text_ko": "혁신활동 협력여부: 혁신활동 이외의 일반활동 협력",
+   "item_text_questionnaire": "혁신활동 이외의 일반 활동으로 협력한 적이 있음",
+   "questionnaire_block": "문14",
+   "questionnaire_stem": "[문14] 지난 3년간(2022~2024년) 귀사는 혁신활동을 수행하기 위해 타 기업 또는 타 기관과 협력한 적이 있었습니까?",
+   "questionnaire_printed_codes": [
+    "1 예",
+    "0 아니오"
+   ],
+   "filter": "문11 ①~⑥ 중 하나라도 '예'인 기업만",
+   "values": [
+    "1. 예",
+    "0. 아니오"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 1658,
+    "value_counts": {
+     "0": 1569,
+     "1": 89
+    }
+   },
+   "data_coding": "as printed: 1 예 / 0 아니오",
+   "recode_to_printed": {
+    "1": 1,
+    "0": 0
+   },
+   "short_label_en": "cooperated on general (non-innovation) activities",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문14] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1658)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q17_1",
+   "construct_id": "FUND1",
+   "item_text_ko": "자금 조달: 기업 자체자금",
+   "item_text_questionnaire": "기업 자체자금",
+   "questionnaire_block": "문17",
+   "questionnaire_stem": "[문17] 지난 3년간(2022~2024년) 귀사는 '혁신활동'을 위해 어떤 유형의 자금 조달을 시도하였습니까? 시도한 경우, 성공적으로 자금을 조달하였습니까?",
+   "questionnaire_printed_codes": [
+    "0 시도하지 않았음",
+    "1 조달 실패",
+    "2 부분적으로 조달 성공",
+    "3 성공적 조달"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 시도하지 않았음",
+    "1. 조달 실패",
+    "2. 부분적으로 조달 성공",
+    "3. 성공적 조달"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 2432,
+     "1": 201,
+     "2": 500,
+     "3": 867
+    }
+   },
+   "data_coding": "as printed 0-3",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "own funds",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문17] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q17_2",
+   "construct_id": "FUND2",
+   "item_text_ko": "자금 조달: 계열사나 제휴회사 자금",
+   "item_text_questionnaire": "계열사나 제휴회사 자금",
+   "questionnaire_block": "문17",
+   "questionnaire_stem": "[문17] 지난 3년간(2022~2024년) 귀사는 '혁신활동'을 위해 어떤 유형의 자금 조달을 시도하였습니까? 시도한 경우, 성공적으로 자금을 조달하였습니까?",
+   "questionnaire_printed_codes": [
+    "0 시도하지 않았음",
+    "1 조달 실패",
+    "2 부분적으로 조달 성공",
+    "3 성공적 조달"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 시도하지 않았음",
+    "1. 조달 실패",
+    "2. 부분적으로 조달 성공",
+    "3. 성공적 조달"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3830,
+     "1": 65,
+     "2": 83,
+     "3": 22
+    }
+   },
+   "data_coding": "as printed 0-3",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "group/affiliate funds",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문17] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q17_3",
+   "construct_id": "FUND3",
+   "item_text_ko": "자금 조달: 은행 등으로부터 투·융자",
+   "item_text_questionnaire": "은행 등으로부터 투·융자",
+   "questionnaire_block": "문17",
+   "questionnaire_stem": "[문17] 지난 3년간(2022~2024년) 귀사는 '혁신활동'을 위해 어떤 유형의 자금 조달을 시도하였습니까? 시도한 경우, 성공적으로 자금을 조달하였습니까?",
+   "questionnaire_printed_codes": [
+    "0 시도하지 않았음",
+    "1 조달 실패",
+    "2 부분적으로 조달 성공",
+    "3 성공적 조달"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 시도하지 않았음",
+    "1. 조달 실패",
+    "2. 부분적으로 조달 성공",
+    "3. 성공적 조달"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3447,
+     "1": 97,
+     "2": 414,
+     "3": 42
+    }
+   },
+   "data_coding": "as printed 0-3",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "bank loans/investment",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문17] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q17_4",
+   "construct_id": "FUND4",
+   "item_text_ko": "자금 조달: 주식 발행",
+   "item_text_questionnaire": "주식 발행",
+   "questionnaire_block": "문17",
+   "questionnaire_stem": "[문17] 지난 3년간(2022~2024년) 귀사는 '혁신활동'을 위해 어떤 유형의 자금 조달을 시도하였습니까? 시도한 경우, 성공적으로 자금을 조달하였습니까?",
+   "questionnaire_printed_codes": [
+    "0 시도하지 않았음",
+    "1 조달 실패",
+    "2 부분적으로 조달 성공",
+    "3 성공적 조달"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 시도하지 않았음",
+    "1. 조달 실패",
+    "2. 부분적으로 조달 성공",
+    "3. 성공적 조달"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3964,
+     "1": 19,
+     "2": 13,
+     "3": 4
+    }
+   },
+   "data_coding": "as printed 0-3",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "equity issue",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문17] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q17_5",
+   "construct_id": "FUND5",
+   "item_text_ko": "자금 조달: 회사채 발행",
+   "item_text_questionnaire": "회사채 발행",
+   "questionnaire_block": "문17",
+   "questionnaire_stem": "[문17] 지난 3년간(2022~2024년) 귀사는 '혁신활동'을 위해 어떤 유형의 자금 조달을 시도하였습니까? 시도한 경우, 성공적으로 자금을 조달하였습니까?",
+   "questionnaire_printed_codes": [
+    "0 시도하지 않았음",
+    "1 조달 실패",
+    "2 부분적으로 조달 성공",
+    "3 성공적 조달"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 시도하지 않았음",
+    "1. 조달 실패",
+    "2. 부분적으로 조달 성공",
+    "3. 성공적 조달"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3975,
+     "1": 18,
+     "2": 5,
+     "3": 2
+    }
+   },
+   "data_coding": "as printed 0-3",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "bond issue",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문17] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q17_6",
+   "construct_id": "FUND6",
+   "item_text_ko": "자금 조달: 투자전문 개인/기관의 투자금",
+   "item_text_questionnaire": "투자전문 개인/기관의 투자금",
+   "questionnaire_block": "문17",
+   "questionnaire_stem": "[문17] 지난 3년간(2022~2024년) 귀사는 '혁신활동'을 위해 어떤 유형의 자금 조달을 시도하였습니까? 시도한 경우, 성공적으로 자금을 조달하였습니까?",
+   "questionnaire_printed_codes": [
+    "0 시도하지 않았음",
+    "1 조달 실패",
+    "2 부분적으로 조달 성공",
+    "3 성공적 조달"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 시도하지 않았음",
+    "1. 조달 실패",
+    "2. 부분적으로 조달 성공",
+    "3. 성공적 조달"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3971,
+     "1": 18,
+     "2": 6,
+     "3": 5
+    }
+   },
+   "data_coding": "as printed 0-3",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "angel/VC/accelerator investment",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문17] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q17_7",
+   "construct_id": "FUND7",
+   "item_text_ko": "자금 조달: 중앙정부 지원 자금",
+   "item_text_questionnaire": "중앙정부 지원 자금",
+   "questionnaire_block": "문17",
+   "questionnaire_stem": "[문17] 지난 3년간(2022~2024년) 귀사는 '혁신활동'을 위해 어떤 유형의 자금 조달을 시도하였습니까? 시도한 경우, 성공적으로 자금을 조달하였습니까?",
+   "questionnaire_printed_codes": [
+    "0 시도하지 않았음",
+    "1 조달 실패",
+    "2 부분적으로 조달 성공",
+    "3 성공적 조달"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 시도하지 않았음",
+    "1. 조달 실패",
+    "2. 부분적으로 조달 성공",
+    "3. 성공적 조달"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3849,
+     "1": 21,
+     "2": 44,
+     "3": 86
+    }
+   },
+   "data_coding": "as printed 0-3",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "central-government funds",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문17] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q17_8",
+   "construct_id": "FUND8",
+   "item_text_ko": "자금 조달: 지자체 지원 자금",
+   "item_text_questionnaire": "지자체 지원 자금",
+   "questionnaire_block": "문17",
+   "questionnaire_stem": "[문17] 지난 3년간(2022~2024년) 귀사는 '혁신활동'을 위해 어떤 유형의 자금 조달을 시도하였습니까? 시도한 경우, 성공적으로 자금을 조달하였습니까?",
+   "questionnaire_printed_codes": [
+    "0 시도하지 않았음",
+    "1 조달 실패",
+    "2 부분적으로 조달 성공",
+    "3 성공적 조달"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 시도하지 않았음",
+    "1. 조달 실패",
+    "2. 부분적으로 조달 성공",
+    "3. 성공적 조달"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 3868,
+     "1": 25,
+     "2": 33,
+     "3": 74
+    }
+   },
+   "data_coding": "as printed 0-3",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "local-government funds",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문17] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q19_12",
+   "construct_id": "HAMP12",
+   "item_text_ko": "혁신활동 저해 정도: 혁신 상품/아이디어에 대한 시장수요 불확실",
+   "item_text_questionnaire": "혁신 상품/아이디어에 대한 시장수요 불확실",
+   "questionnaire_block": "문19",
+   "questionnaire_stem": "[문19] 지난 3년간(2022~2024년) 귀사가 혁신활동을 수행하지 못하거나 또는 수행하였더라도 성공적인 실현을 저해했던 요인이 있었습니까? 그렇다면, 아래 항목별로 혁신활동 저해도를 평가하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 1350,
+     "1": 541,
+     "2": 861,
+     "3": 860,
+     "4": 364,
+     "5": 24
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "hampering factor: uncertain market demand for innovations",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문19] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q19_13",
+   "construct_id": "HAMP13",
+   "item_text_ko": "혁신활동 저해 정도: 과도한 시장 경쟁으로 혁신활동 수행 여력 부족",
+   "item_text_questionnaire": "과도한 시장 경쟁으로 혁신활동 수행 여력 부족",
+   "questionnaire_block": "문19",
+   "questionnaire_stem": "[문19] 지난 3년간(2022~2024년) 귀사가 혁신활동을 수행하지 못하거나 또는 수행하였더라도 성공적인 실현을 저해했던 요인이 있었습니까? 그렇다면, 아래 항목별로 혁신활동 저해도를 평가하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 1549,
+     "1": 446,
+     "2": 749,
+     "3": 934,
+     "4": 307,
+     "5": 15
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "hampering factor: excessive market competition leaves no capacity to innovate",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문19] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q19_16",
+   "construct_id": "HAMP16",
+   "item_text_ko": "혁신활동 저해 정도: 시장의 경쟁 압력이 낮아 혁신 불필요",
+   "item_text_questionnaire": "시장의 경쟁 압력이 낮아 혁신 불필요",
+   "questionnaire_block": "문19",
+   "questionnaire_stem": "[문19] 지난 3년간(2022~2024년) 귀사가 혁신활동을 수행하지 못하거나 또는 수행하였더라도 성공적인 실현을 저해했던 요인이 있었습니까? 그렇다면, 아래 항목별로 혁신활동 저해도를 평가하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "0 해당없음",
+    "1 매우낮음",
+    "2 낮음",
+    "3 보통",
+    "4 높음",
+    "5 매우높음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "0. 해당없음",
+    "1. 매우낮음",
+    "2. 낮음",
+    "3. 보통",
+    "4. 높음",
+    "5. 매우높음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "0": 2538,
+     "1": 497,
+     "2": 500,
+     "3": 395,
+     "4": 65,
+     "5": 5
+    }
+   },
+   "data_coding": "as printed 0-5",
+   "recode_to_printed": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5
+   },
+   "short_label_en": "reason not to innovate: weak competitive pressure",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문19] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K1",
+   "construct_id": "FORM",
+   "item_text_ko": "기업형태",
+   "item_text_questionnaire": "기업 형태",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 독립기업",
+    "2. 국내그룹 계열사",
+    "3. 해외그룹 계열사"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "1": 3425,
+     "2": 494,
+     "3": 81
+    }
+   },
+   "data_coding": "as printed 1/2/3",
+   "recode_to_printed": {
+    "1": 1,
+    "2": 2,
+    "3": 3
+   },
+   "short_label_en": "firm type: independent / domestic-group affiliate / foreign-group affiliate",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K2",
+   "construct_id": "LEGALSIZE",
+   "item_text_ko": "법정기업규모",
+   "item_text_questionnaire": "법정기업규모",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 소기업",
+    "2. 중기업",
+    "3. 중견기업",
+    "4. 대기업"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "1": 1390,
+     "2": 1665,
+     "3": 633,
+     "4": 312
+    }
+   },
+   "data_coding": "as printed 1-4",
+   "recode_to_printed": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4
+   },
+   "short_label_en": "statutory firm size: small / medium / mid-sized / large",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K3_1",
+   "construct_id": "CERT1",
+   "item_text_ko": "인증여부_벤처기업",
+   "item_text_questionnaire": "벤처기업",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 벤처기업"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 90,
+    "value_counts": {
+     "1": 90
+    }
+   },
+   "data_coding": "tick column: value 1 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "1": 1
+   },
+   "short_label_en": "certified venture firm",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=90)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K3_2",
+   "construct_id": "CERT2",
+   "item_text_ko": "인증여부_부설연구소/연구개발",
+   "item_text_questionnaire": "부설연구소/연구개발 전담 부서",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "2. 부설연구소/연구개발 전담 부서"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 422,
+    "value_counts": {
+     "2": 422
+    }
+   },
+   "data_coding": "tick column: value 2 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "2": 1
+   },
+   "short_label_en": "has a registered R&D institute or dedicated R&D department",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=422)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q31K3_3",
+   "construct_id": "CERT3",
+   "item_text_ko": "인증여부_이노비즈",
+   "item_text_questionnaire": "이노비즈",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "3. 이노비즈"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 54,
+    "value_counts": {
+     "3": 54
+    }
+   },
+   "data_coding": "tick column: value 3 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "3": 1
+   },
+   "short_label_en": "Inno-Biz certification",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=54)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K3_4",
+   "construct_id": "CERT4",
+   "item_text_ko": "인증여부_메인비즈",
+   "item_text_questionnaire": "메인비즈",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "4. 메인비즈"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 35,
+    "value_counts": {
+     "4": 35
+    }
+   },
+   "data_coding": "tick column: value 4 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "4": 1
+   },
+   "short_label_en": "Main-Biz certification",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=35)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K3_5",
+   "construct_id": "CERT5",
+   "item_text_ko": "인증여부_그린비즈",
+   "item_text_questionnaire": "그린비즈",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "5. 그린비즈"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 8,
+    "value_counts": {
+     "5": 8
+    }
+   },
+   "data_coding": "tick column: value 5 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "5": 1
+   },
+   "short_label_en": "Green-Biz certification",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=8)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K3_6",
+   "construct_id": "CERT6",
+   "item_text_ko": "인증여부_부품소재전문기업",
+   "item_text_questionnaire": "부품소재전문기업",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "6. 부품소재전문기업"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 1,
+    "value_counts": {
+     "6": 1
+    }
+   },
+   "data_coding": "tick column: value 6 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "6": 1
+   },
+   "short_label_en": "parts & materials specialist firm",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=1)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K3_7",
+   "construct_id": "CERT7",
+   "item_text_ko": "인증여부_ISO",
+   "item_text_questionnaire": "ISO",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "7. ISO"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 50,
+    "value_counts": {
+     "7": 50
+    }
+   },
+   "data_coding": "tick column: value 7 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "7": 1
+   },
+   "short_label_en": "ISO certification",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=50)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K3_8",
+   "construct_id": "CERT8",
+   "item_text_ko": "인증여부_여성기업",
+   "item_text_questionnaire": "여성기업",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "8. 여성기업"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 15,
+    "value_counts": {
+     "8": 15
+    }
+   },
+   "data_coding": "tick column: value 8 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "8": 1
+   },
+   "short_label_en": "women-owned firm",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=15)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K3_9998",
+   "construct_id": "CERT9",
+   "item_text_ko": "인증여부_해당사항 없음",
+   "item_text_questionnaire": "해당사항 없음",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "9. 해당사항 없음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 3468,
+    "value_counts": {
+     "9": 3468
+    }
+   },
+   "data_coding": "tick column: value 9 when ticked, blank otherwise",
+   "recode_to_printed": {
+    "9": 1
+   },
+   "short_label_en": "no certification",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=3468)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q31K4",
+   "construct_id": "LISTED",
+   "item_text_ko": "상장여부",
+   "item_text_questionnaire": "상장여부",
+   "questionnaire_block": "문31",
+   "questionnaire_stem": "[문31] 2024년 12월 말 기준으로 귀사의 운영 상황과 일치하는 항목에 응답하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "기업 형태: 1 독립기업 / 2 국내그룹 계열사 / 3 해외그룹 계열사",
+    "법정기업규모: 1 소기업 / 2 중기업 / 3 중견기업 / 4 대기업",
+    "인증여부(중복응답): 1 벤처기업 / 2 부설연구소/연구개발 전담 부서 / 3 이노비즈 / 4 메인비즈 / 5 그린비즈 / 6 부품소재전문기업 / 7 ISO / 8 여성기업 / 9 해당사항 없음",
+    "상장여부: 1 거래소 상장기업(KOSPI) / 2 코스닥 상장기업 / 3 코넥스 상장기업 / 4 해당사항 없음"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "1. 거래소 상장기업(KOSPI)",
+    "2. 코스닥 상장기업",
+    "3. 코넥스 상장기업",
+    "4. 해당사항 없음"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "1": 72,
+     "2": 89,
+     "3": 13,
+     "4": 3826
+    }
+   },
+   "data_coding": "as printed 1-4",
+   "recode_to_printed": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4
+   },
+   "short_label_en": "stock-market listing: KOSPI / KOSDAQ / KONEX / not listed",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문31] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": ""
+  },
+  {
+   "variable": "Q32_3_1",
+   "construct_id": "SALES",
+   "item_text_ko": "매출액: 2024년",
+   "item_text_questionnaire": "매출액 2024년",
+   "questionnaire_block": "문32",
+   "questionnaire_stem": "[문32] 지난 3년간(2022~2024년) 귀사의 연간 매출액과 수출액은 얼마였습니까? 각각 금액을 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "백만원 (종속회사를 보유한 기업은 별도 재무제표 기준)"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "numeric entry — unit/format: 백만원 (종속회사를 보유한 기업은 별도 재무제표 기준) (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 47.0,
+    "max": 47357800.0,
+    "n_unique": 2849
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "sales in the reference year (million KRW)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문32] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q32_3_2",
+   "construct_id": "EXPORTS",
+   "item_text_ko": "수출액: 2024년",
+   "item_text_questionnaire": "수출액 2024년",
+   "questionnaire_block": "문32",
+   "questionnaire_stem": "[문32] 지난 3년간(2022~2024년) 귀사의 연간 매출액과 수출액은 얼마였습니까? 각각 금액을 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "백만원 (종속회사를 보유한 기업은 별도 재무제표 기준)"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "numeric entry — unit/format: 백만원 (종속회사를 보유한 기업은 별도 재무제표 기준) (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 0.0,
+    "max": 8989500.0,
+    "n_unique": 140
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "exports in the reference year (million KRW)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문32] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q33K1_3",
+   "construct_id": "EMP",
+   "item_text_ko": "회사의 인력규모: 2024년 기준 상용 근로자 수",
+   "item_text_questionnaire": "2024년 상용 근로자 수",
+   "questionnaire_block": "문33",
+   "questionnaire_stem": "[문33] 지난 3년간(2022~2024년)의 귀사의 인력 규모(상용 근로자 수)에 대하여 기입하여 주십시오. 특히, 2024년에 한해서는 상용 근로자 중 여성인력, 석사학위 이상, 연구개발(R&D) 전담인력 비율(%)을 각각 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "명 / %"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "numeric entry — unit/format: 명 / % (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 10.0,
+    "max": 23800.0,
+    "n_unique": 778
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "regular employees in the reference year",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문33] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q33K2_1_1",
+   "construct_id": "FEMALE",
+   "item_text_ko": "회사의 인력규모: 2024년 기준 상용 근로자 중 여성인력 비율",
+   "item_text_questionnaire": "상용 근로자 중 여성인력 비율(%)",
+   "questionnaire_block": "문33",
+   "questionnaire_stem": "[문33] 지난 3년간(2022~2024년)의 귀사의 인력 규모(상용 근로자 수)에 대하여 기입하여 주십시오. 특히, 2024년에 한해서는 상용 근로자 중 여성인력, 석사학위 이상, 연구개발(R&D) 전담인력 비율(%)을 각각 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "명 / %"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "numeric entry — unit/format: 명 / % (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 0.0,
+    "max": 100.0,
+    "n_unique": 102
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "share of women among regular employees (%)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문33] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q33K2_1_2",
+   "construct_id": "MASTERS",
+   "item_text_ko": "회사의 인력규모: 2024년 기준 상용 근로자 중 석사학위 이상 비율",
+   "item_text_questionnaire": "상용 근로자 중 석사학위 이상 비율(%)",
+   "questionnaire_block": "문33",
+   "questionnaire_stem": "[문33] 지난 3년간(2022~2024년)의 귀사의 인력 규모(상용 근로자 수)에 대하여 기입하여 주십시오. 특히, 2024년에 한해서는 상용 근로자 중 여성인력, 석사학위 이상, 연구개발(R&D) 전담인력 비율(%)을 각각 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "명 / %"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "numeric entry — unit/format: 명 / % (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 0.0,
+    "max": 100.0,
+    "n_unique": 51
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "share with a master's degree or higher (%)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문33] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "Q33K2_1_3",
+   "construct_id": "RDSTAFF",
+   "item_text_ko": "회사의 인력규모: 2024년 기준 상용 근로자 중 연구개발 전담인력 비율",
+   "item_text_questionnaire": "상용 근로자 중 연구개발(R&D) 전담인력 비율(%)",
+   "questionnaire_block": "문33",
+   "questionnaire_stem": "[문33] 지난 3년간(2022~2024년)의 귀사의 인력 규모(상용 근로자 수)에 대하여 기입하여 주십시오. 특히, 2024년에 한해서는 상용 근로자 중 여성인력, 석사학위 이상, 연구개발(R&D) 전담인력 비율(%)을 각각 기입하여 주십시오.",
+   "questionnaire_printed_codes": [
+    "명 / %"
+   ],
+   "filter": "전 기업 응답",
+   "values": [
+    "numeric entry — unit/format: 명 / % (no value labels; see data_values_observed)"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 0.0,
+    "max": 100.0,
+    "n_unique": 58
+   },
+   "data_coding": "numeric entry (as reported)",
+   "recode_to_printed": null,
+   "short_label_en": "share of dedicated R&D staff among regular employees (%)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None; questionnaire: 혁신조사 2025(서비스업) 설문지.pdf [문33] (wording verified against pdftotext output questionnaire_text_2025S.txt); data: KIS_2025_제공용(서비스업).xlsx sheet DATA (n=4000)",
+   "codebook_note": "codebook description wording differs from the questionnaire item; questionnaire is authoritative for meaning"
+  },
+  {
+   "variable": "응답자 ID",
+   "construct_id": "ID",
+   "register": true,
+   "item_text_ko": "응답자 ID — respondent serial number; DATA-sheet name of the codebook row '응답자 연번' [register variable; no questionnaire item]",
+   "values": [
+    "register/list variable — no value labels; see data_values_observed"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 1.0,
+    "max": 4000.0,
+    "n_unique": 4000
+   },
+   "short_label_en": "respondent id",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  },
+  {
+   "variable": "BR_GI_MCLS_CD",
+   "construct_id": "INDUSTRY2",
+   "register": true,
+   "item_text_ko": "BR기업체_산업분류코드(중)",
+   "values": [
+    "45. 자동차 및 부품 판매업",
+    "46. 도매 및 상품중개업",
+    "47. 소매업; 자동체 제외",
+    "49. 육상운송 및 파이프라인 운송업",
+    "50. 수상 운송업",
+    "51. 항공 운송업",
+    "52. 창고 및 운송관련",
+    "55. 숙박업",
+    "56. 음식점 및 주점업",
+    "58. 출판업",
+    "59. 영상/오디오 기록물 제작 및 배급업",
+    "60. 방송업",
+    "61. 통신업",
+    "62. 컴퓨터 프로그래밍, 시스템 통합 및 관리업",
+    "63. 정보서비스업",
+    "64. 금융업",
+    "65. 보험 및 연금업",
+    "66. 금융 및 보험 관련 서비스업",
+    "68. 부동산업",
+    "70. 연구개발업",
+    "71. 전문서비스업",
+    "72. 건축기술, 엔지니어링 등",
+    "73. 기타 전문, 과학 및 기술 서비스업",
+    "74. 사업시설 관리 및 조경 서비스업",
+    "75. 사업지원 서비스업",
+    "76. 임대업; 부동산 제외",
+    "85. 교육 서비스업",
+    "86. 보건업",
+    "87. 사회복지 서비스업",
+    "90. 창작, 예술 및 여가 관련",
+    "91. 스포츠 및 오락 관련",
+    "95. 수리업",
+    "96. 기타 개인 서비스업"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 45.0,
+    "max": 96.0,
+    "n_unique": 33
+   },
+   "short_label_en": "KSIC 2-digit industry (register)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  },
+  {
+   "variable": "BR_GI_LCLS_CD",
+   "construct_id": "INDUSTRY1",
+   "register": true,
+   "item_text_ko": "BR기업체_산업분류코드(대)",
+   "values": [
+    "G.도매 및 소매업",
+    "H.운수 및 창고업",
+    "I.숙박 및 음식점업",
+    "J.정보통신업",
+    "K.금융 및 보험업",
+    "L.부동산업",
+    "M.전문, 과학 및 기술 서비스업",
+    "N.사업시설 관리, 사업지원 및 임대 서비스업",
+    "P.교육 서비스업",
+    "Q.보건업 및 사회복지 서비스업",
+    "R.예술, 스포츠 및 여가관련 서비스업",
+    "S.협회 및 단체, 수리 및 기타 개인 서비스업"
+   ],
+   "data_values_observed": {
+    "type": "text",
+    "n_nonnull": 4000,
+    "n_unique": 12,
+    "examples": [
+     "G",
+     "N",
+     "J",
+     "M",
+     "H",
+     "Q"
+    ]
+   },
+   "short_label_en": "KSIC section (register)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  },
+  {
+   "variable": "size",
+   "construct_id": "SIZECLASS",
+   "register": true,
+   "item_text_ko": "종사자규모코드(응답값 기준)",
+   "values": [
+    "1.5-9인",
+    "2.10-29인",
+    "3.30-49인",
+    "4.50-99인",
+    "5.100-299인",
+    "6.300-499인",
+    "7.500인 이상"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "2": 1435,
+     "3": 305,
+     "4": 430,
+     "5": 926,
+     "6": 305,
+     "7": 599
+    }
+   },
+   "short_label_en": "employment size class (register/response)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  },
+  {
+   "variable": "size_SBR",
+   "construct_id": "SIZECLASS_SBR",
+   "register": true,
+   "item_text_ko": "종사자규모코드(SBR 기준)",
+   "values": [
+    "1.5-9인",
+    "2.10-29인",
+    "3.30-49인",
+    "4.50-99인",
+    "5.100-299인",
+    "6.300-499인",
+    "7.500인 이상"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "2": 1471,
+     "3": 272,
+     "4": 459,
+     "5": 983,
+     "6": 262,
+     "7": 553
+    }
+   },
+   "short_label_en": "employment size class (SBR)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  },
+  {
+   "variable": "scale",
+   "construct_id": "SBR_SCALE",
+   "register": true,
+   "item_text_ko": "기업구분코드(SBR 기준)",
+   "values": [
+    "1. 대기업",
+    "2. 중기업",
+    "3. 소기업"
+   ],
+   "data_values_observed": {
+    "type": "coded",
+    "n_nonnull": 4000,
+    "value_counts": {
+     "1": 948,
+     "2": 2185,
+     "3": 867
+    }
+   },
+   "short_label_en": "firm class large/medium/small (SBR)",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  },
+  {
+   "variable": "OPBIZ_DE_3",
+   "construct_id": "FOUNDYEAR",
+   "register": true,
+   "item_text_ko": "설립연도(SBR 기준)",
+   "values": [
+    "register/list variable — no value labels; see data_values_observed"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 30.0,
+    "max": 2022.0,
+    "n_unique": 85
+   },
+   "short_label_en": "founding year",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  },
+  {
+   "variable": "region",
+   "construct_id": "REGION",
+   "register": true,
+   "item_text_ko": "지역(SBR 기준)",
+   "values": [
+    "1.서울",
+    "2.부산",
+    "3.대구",
+    "4.인천",
+    "5.광주",
+    "6.대전",
+    "7.울산",
+    "8.세종",
+    "9.경기",
+    "10.강원",
+    "11.충북",
+    "12.충남",
+    "13.전북",
+    "14.전남",
+    "15.경북",
+    "16.경남",
+    "17.제주"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 1.0,
+    "max": 17.0,
+    "n_unique": 17
+   },
+   "short_label_en": "head-office region",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  },
+  {
+   "variable": "WT1",
+   "construct_id": "WEIGHT",
+   "register": true,
+   "item_text_ko": "기업혁신 가중치",
+   "values": [
+    "register/list variable — no value labels; see data_values_observed"
+   ],
+   "data_values_observed": {
+    "type": "numeric",
+    "n_nonnull": 4000,
+    "min": 1.0,
+    "max": 77.2631578947368,
+    "n_unique": 158
+   },
+   "short_label_en": "survey weight",
+   "source": "codebook: KIS_2025_제공용(서비스업).xlsx sheet 코드북 row None (register/list variable, no questionnaire item); data: KIS_2025_제공용(서비스업).xlsx sheet DATA",
+   "codebook_note": ""
+  }
+ ],
+ "constructs": {
+  "quit_any": {
+   "label": "Abandoned or suspended innovation activity (main exit outcome)",
+   "items": [
+    "Q11_3",
+    "Q11_1",
+    "Q11_2",
+    "Q11_4",
+    "Q11_5",
+    "Q11_6"
+   ],
+   "rule": "quit_any = 1 if IA3 == yes, 0 if IA3 == no; defined only for firms with any innovation activity (IA1..IA6 any yes); recoded to printed yes=1/no=0 first"
+  },
+  "exit_strict": {
+   "label": "Abandoned without any completed activity",
+   "items": [
+    "Q11_3",
+    "Q11_1"
+   ],
+   "rule": "exit_strict = 1 if IA3 == yes and IA1 == no, else 0; same population as quit_any"
+  },
+  "exit_full": {
+   "label": "Abandoned with neither completed nor ongoing activity",
+   "items": [
+    "Q11_3",
+    "Q11_1",
+    "Q11_2"
+   ],
+   "rule": "exit_full = 1 if IA3 == yes and IA1 == no and IA2 == no, else 0; same population as quit_any"
+  },
+  "preempt_strategy": {
+   "label": "Protected products by entering the market ahead of competitors (lead-time; main preemption outcome)",
+   "items": [
+    "Q2_8"
+   ],
+   "rule": "preempt_strategy = PROT8 recoded yes=1/no=0; all firms"
+  },
+  "market_first": {
+   "label": "New-to-market product innovation (secondary preemption outcome)",
+   "items": [
+    "Q6_1",
+    "Q5_1",
+    "Q5_2"
+   ],
+   "rule": "market_first = MF1 recoded yes=1/no=0 among product innovators (PI1 or PI2 == yes); missing for non-innovators (selection handled separately)"
+  },
+  "entry_threat": {
+   "label": "Perceived threat of entry by new competitors",
+   "items": [
+    "Q1K2_4"
+   ],
+   "rule": "ME4 on printed 0-5 scale (0 = does not apply); after wave-specific recode"
+  },
+  "rival_unpredictability": {
+   "label": "Competitors' actions are difficult to predict (observation noise proxy)",
+   "items": [
+    "Q1K2_5"
+   ],
+   "rule": "ME5 on printed 0-5 scale"
+  },
+  "substitutability": {
+   "label": "Competitor products easily substitute ours",
+   "items": [
+    "Q1K2_3"
+   ],
+   "rule": "ME3 on printed 0-5 scale"
+  },
+  "foreign_competition": {
+   "label": "Strong competition from abroad",
+   "items": [
+    "Q1K2_7"
+   ],
+   "rule": "ME7 on printed 0-5 scale"
+  },
+  "obsolescence": {
+   "label": "Products become outdated quickly",
+   "items": [
+    "Q1K2_1"
+   ],
+   "rule": "ME1 on printed 0-5 scale"
+  },
+  "placebo_demand": {
+   "label": "Placebo: changes in demand difficult to predict",
+   "items": [
+    "Q1K2_6"
+   ],
+   "rule": "ME6 on printed 0-5 scale"
+  },
+  "placebo_price": {
+   "label": "Placebo: price increases lead to loss of customers",
+   "items": [
+    "Q1K2_8"
+   ],
+   "rule": "ME8 on printed 0-5 scale"
+  },
+  "tech_uncertainty": {
+   "label": "Future technological developments difficult to predict (control)",
+   "items": [
+    "Q1K2_2"
+   ],
+   "rule": "ME2 on printed 0-5 scale"
+  },
+  "rd_staff_share": {
+   "label": "Share of dedicated R&D staff among regular employees (main technology-gap proxy)",
+   "items": [
+    "Q33K2_1_3"
+   ],
+   "rule": "percentage 0-100 as reported; ranked within industry (2-digit) x wave for the gap tercile"
+  },
+  "rd_intensity": {
+   "label": "R&D expenditure / sales (secondary gap proxy, innovation-active firms only)",
+   "items": [
+    "Q12K1_1",
+    "Q32_3_1"
+   ],
+   "rule": "RDEXP / SALES, both million KRW, reference calendar year; defined only where IA1..IA6 any yes and SALES > 0"
+  },
+  "export_share": {
+   "label": "Exports / sales in the reference year",
+   "items": [
+    "Q32_3_2",
+    "Q32_3_1"
+   ],
+   "rule": "EXPORTS / SALES; exports missing treated as 0 only where the questionnaire blank means no exports — verified in Task 3 against value distribution, otherwise missing"
+  },
+  "masters_share": {
+   "label": "Share of employees with a master's degree or higher",
+   "items": [
+    "Q33K2_1_2"
+   ],
+   "rule": "percentage 0-100 as reported"
+  },
+  "cert_venture": {
+   "label": "Venture-firm certification",
+   "items": [
+    "Q31K3_1"
+   ],
+   "rule": "1 if the multi-response column is ticked (value == item code), else 0"
+  },
+  "cert_rd_institute": {
+   "label": "Registered R&D institute / dedicated R&D department",
+   "items": [
+    "Q31K3_2"
+   ],
+   "rule": "1 if ticked, else 0"
+  },
+  "cert_innobiz": {
+   "label": "Inno-Biz certification",
+   "items": [
+    "Q31K3_3"
+   ],
+   "rule": "1 if ticked, else 0"
+  },
+  "group_affiliate": {
+   "label": "Firm type: independent / domestic-group affiliate / foreign-group affiliate",
+   "items": [
+    "Q31K1"
+   ],
+   "rule": "categorical 1/2/3 as printed"
+  },
+  "legal_size": {
+   "label": "Statutory firm size class",
+   "items": [
+    "Q31K2"
+   ],
+   "rule": "categorical 1 small / 2 medium / 3 mid-sized / 4 large as printed"
+  },
+  "listed": {
+   "label": "Stock-market listing",
+   "items": [
+    "Q31K4"
+   ],
+   "rule": "1 if KOSPI/KOSDAQ/KONEX (codes 1-3), 0 if '해당사항 없음' (code 4 or data sentinel 9998)"
+  },
+  "portfolio_breadth": {
+   "label": "Number of innovation-activity types reported (portfolio-size control)",
+   "items": [
+    "Q11_1",
+    "Q11_2",
+    "Q11_4",
+    "Q11_5",
+    "Q11_6"
+   ],
+   "rule": "count of yes among IA1, IA2, IA4, IA5, IA6 (IA3 excluded because it is the outcome)"
+  },
+  "rd_continuous": {
+   "label": "In-house R&D performed continuously (vs occasionally)",
+   "items": [
+    "Q11K4K1",
+    "Q11_4"
+   ],
+   "rule": "1 if RDCYCLE == 1, 0 if RDCYCLE == 2; missing where IA4 == no"
+  },
+  "coop_rd": {
+   "label": "Cooperated on R&D",
+   "items": [
+    "Q14_1"
+   ],
+   "rule": "recoded yes=1/no=0; innovation-active firms only"
+  },
+  "funding_public_attempt": {
+   "label": "Attempted central- or local-government funding",
+   "items": [
+    "Q17_7",
+    "Q17_8"
+   ],
+   "rule": "1 if FUND7 or FUND8 on printed scale >= 1 (attempted), else 0"
+  },
+  "funding_bank_attempt": {
+   "label": "Attempted bank financing",
+   "items": [
+    "Q17_3"
+   ],
+   "rule": "1 if FUND3 printed >= 1, else 0"
+  },
+  "hamp_competition": {
+   "label": "Hampering factor: excessive competition (auxiliary)",
+   "items": [
+    "Q19_13"
+   ],
+   "rule": "HAMP13 on printed 0-5 scale"
+  },
+  "hamp_weak_competition": {
+   "label": "Reason not to innovate: weak competitive pressure (auxiliary)",
+   "items": [
+    "Q19_16"
+   ],
+   "rule": "HAMP16 on printed 0-5 scale"
+  },
+  "hamp_demand_uncertainty": {
+   "label": "Hampering factor: uncertain demand (auxiliary)",
+   "items": [
+    "Q19_12"
+   ],
+   "rule": "HAMP12 on printed 0-5 scale"
+  },
+  "sales_share_new_to_market": {
+   "label": "Sales share of new-to-market products (%)",
+   "items": [
+    "Q7_1",
+    "Q5_1",
+    "Q5_2"
+   ],
+   "rule": "percentage among product innovators"
+  },
+  "employees": {
+   "label": "Regular employees in the reference year",
+   "items": [
+    "Q33K1_3"
+   ],
+   "rule": "count as reported"
+  },
+  "firm_age": {
+   "label": "Firm age in the reference year",
+   "items": [
+    "OPBIZ_DE_3"
+   ],
+   "rule": "y2 - founding year"
+  },
+  "female_share": {
+   "label": "Share of women among regular employees (%)",
+   "items": [
+    "Q33K2_1_1"
+   ],
+   "rule": "percentage as reported (control)"
+  }
+ }
+}

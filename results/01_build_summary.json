@@ -1,0 +1,4322 @@
+{
+ "built": "2026-11-10 00:40 KST",
+ "embargo": "no outcome x treatment statistic computed (gate C pending)",
+ "rows_per_wave": {
+  "2022M": 4000,
+  "2023S": 4000,
+  "2024M": 4595,
+  "2025S": 4000
+ },
+ "n_total": 16595,
+ "n_columns": 125,
+ "sentinels_treated_as_missing": {
+  "2024M:RDEXP": [
+   99999999
+  ],
+  "2024M:NONRDEXP": [
+   99999999
+  ]
+ },
+ "founding_year_min_accepted": 1800,
+ "waves": {
+  "2022M": {
+   "n": 4000,
+   "n_innov_active": 2222,
+   "n_product_innovator": 1243,
+   "columns": {
+    "ref_year": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "2021": 4000
+     }
+    },
+    "ME1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 541,
+      "1.0": 538,
+      "2.0": 1249,
+      "3.0": 1391,
+      "4.0": 235,
+      "5.0": 46
+     }
+    },
+    "PROT1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2575,
+      "1.0": 1425
+     }
+    },
+    "ME2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 271,
+      "1.0": 318,
+      "2.0": 945,
+      "3.0": 1896,
+      "4.0": 525,
+      "5.0": 45
+     }
+    },
+    "PROT2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3638,
+      "1.0": 362
+     }
+    },
+    "ME3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 316,
+      "1.0": 373,
+      "2.0": 1215,
+      "3.0": 1391,
+      "4.0": 604,
+      "5.0": 101
+     }
+    },
+    "PROT3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3414,
+      "1.0": 586
+     }
+    },
+    "ME4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 298,
+      "1.0": 322,
+      "2.0": 905,
+      "3.0": 1648,
+      "4.0": 700,
+      "5.0": 127
+     }
+    },
+    "PROT4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3529,
+      "1.0": 471
+     }
+    },
+    "ME5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 323,
+      "1.0": 420,
+      "2.0": 920,
+      "3.0": 1742,
+      "4.0": 529,
+      "5.0": 66
+     }
+    },
+    "PROT5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3949,
+      "1.0": 51
+     }
+    },
+    "ME6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 249,
+      "1.0": 339,
+      "2.0": 818,
+      "3.0": 1893,
+      "4.0": 657,
+      "5.0": 44
+     }
+    },
+    "PROT6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3751,
+      "1.0": 249
+     }
+    },
+    "ME7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1672,
+      "1.0": 245,
+      "2.0": 647,
+      "3.0": 932,
+      "4.0": 454,
+      "5.0": 50
+     }
+    },
+    "PROT7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3940,
+      "1.0": 60
+     }
+    },
+    "ME8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 464,
+      "1.0": 356,
+      "2.0": 656,
+      "3.0": 1797,
+      "4.0": 597,
+      "5.0": 130
+     }
+    },
+    "PROT8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3797,
+      "1.0": 203
+     }
+    },
+    "PI1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2877,
+      "1.0": 1123
+     }
+    },
+    "MF1": {
+     "n_nonmissing": 1243,
+     "n_missing": 2757,
+     "value_counts": {
+      "0.0": 1106,
+      "1.0": 137
+     }
+    },
+    "PI2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3796,
+      "1.0": 204
+     }
+    },
+    "MF2": {
+     "n_nonmissing": 1243,
+     "n_missing": 2757,
+     "value_counts": {
+      "0.0": 21,
+      "1.0": 1222
+     }
+    },
+    "SHARE1": {
+     "n_nonmissing": 1243,
+     "n_missing": 2757,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "SHARE2": {
+     "n_nonmissing": 1243,
+     "n_missing": 2757,
+     "min": 0.0,
+     "p50": 20.0,
+     "max": 100.0
+    },
+    "SHARE3": {
+     "n_nonmissing": 1243,
+     "n_missing": 2757,
+     "min": 0.0,
+     "p50": 80.0,
+     "max": 100.0
+    },
+    "IA1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2535,
+      "1.0": 1465
+     }
+    },
+    "IA2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2727,
+      "1.0": 1273
+     }
+    },
+    "IA3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3721,
+      "1.0": 279
+     }
+    },
+    "IA4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1843,
+      "1.0": 2157
+     }
+    },
+    "IA5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3530,
+      "1.0": 470
+     }
+    },
+    "IA6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3871,
+      "1.0": 129
+     }
+    },
+    "RDCYCLE": {
+     "n_nonmissing": 2157,
+     "n_missing": 1843,
+     "value_counts": {
+      "1.0": 2030,
+      "2.0": 127
+     }
+    },
+    "RDEXP": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "min": 0.0,
+     "p50": 500.0,
+     "max": 31001111.0
+    },
+    "NONRDEXP": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "min": 0.0,
+     "p50": 20.0,
+     "max": 111381.0
+    },
+    "COOP1": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "value_counts": {
+      "0.0": 1769,
+      "1.0": 453
+     }
+    },
+    "COOP2": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "value_counts": {
+      "0.0": 1975,
+      "1.0": 247
+     }
+    },
+    "COOP3": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "value_counts": {
+      "0.0": 2022,
+      "1.0": 200
+     }
+    },
+    "FUND1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1547,
+      "1.0": 319,
+      "2.0": 977,
+      "3.0": 1157
+     }
+    },
+    "FUND2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3550,
+      "1.0": 107,
+      "2.0": 243,
+      "3.0": 100
+     }
+    },
+    "FUND3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3276,
+      "1.0": 133,
+      "2.0": 357,
+      "3.0": 234
+     }
+    },
+    "FUND4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3798,
+      "1.0": 61,
+      "2.0": 76,
+      "3.0": 65
+     }
+    },
+    "FUND5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3835,
+      "1.0": 55,
+      "2.0": 88,
+      "3.0": 22
+     }
+    },
+    "FUND6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3873,
+      "1.0": 51,
+      "2.0": 67,
+      "3.0": 9
+     }
+    },
+    "FUND7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3250,
+      "1.0": 196,
+      "2.0": 312,
+      "3.0": 242
+     }
+    },
+    "FUND8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3646,
+      "1.0": 153,
+      "2.0": 159,
+      "3.0": 42
+     }
+    },
+    "HAMP12": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 750,
+      "1.0": 376,
+      "2.0": 904,
+      "3.0": 1511,
+      "4.0": 420,
+      "5.0": 39
+     }
+    },
+    "HAMP13": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 763,
+      "1.0": 396,
+      "2.0": 939,
+      "3.0": 1505,
+      "4.0": 356,
+      "5.0": 41
+     }
+    },
+    "HAMP16": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1106,
+      "1.0": 873,
+      "2.0": 828,
+      "3.0": 1070,
+      "4.0": 119,
+      "5.0": 4
+     }
+    },
+    "FORM": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3254,
+      "2.0": 677,
+      "3.0": 69
+     }
+    },
+    "LEGALSIZE": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1991,
+      "2.0": 1290,
+      "3.0": 575,
+      "4.0": 144
+     }
+    },
+    "CERT1": {
+     "n_nonmissing": 397,
+     "n_missing": 3603,
+     "value_counts": {
+      "1.0": 397
+     }
+    },
+    "CERT2": {
+     "n_nonmissing": 1776,
+     "n_missing": 2224,
+     "value_counts": {
+      "1.0": 1776
+     }
+    },
+    "CERT3": {
+     "n_nonmissing": 427,
+     "n_missing": 3573,
+     "value_counts": {
+      "1.0": 427
+     }
+    },
+    "CERT4": {
+     "n_nonmissing": 170,
+     "n_missing": 3830,
+     "value_counts": {
+      "1.0": 170
+     }
+    },
+    "CERT5": {
+     "n_nonmissing": 15,
+     "n_missing": 3985,
+     "value_counts": {
+      "1.0": 15
+     }
+    },
+    "CERT6": {
+     "n_nonmissing": 101,
+     "n_missing": 3899,
+     "value_counts": {
+      "1.0": 101
+     }
+    },
+    "CERT7": {
+     "n_nonmissing": 600,
+     "n_missing": 3400,
+     "value_counts": {
+      "1.0": 600
+     }
+    },
+    "CERT8": {
+     "n_nonmissing": 46,
+     "n_missing": 3954,
+     "value_counts": {
+      "1.0": 46
+     }
+    },
+    "CERT9": {
+     "n_nonmissing": 1685,
+     "n_missing": 2315,
+     "value_counts": {
+      "1.0": 1685
+     }
+    },
+    "LISTED": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 229,
+      "2.0": 237,
+      "3.0": 1,
+      "4.0": 3533
+     }
+    },
+    "SALES": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 200.0,
+     "p50": 10232.0,
+     "max": 55605120.0
+    },
+    "EXPORTS": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 33363072.0
+    },
+    "EMP": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 34.5,
+     "max": 63942.0
+    },
+    "FEMALE": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 19.0,
+     "max": 100.0
+    },
+    "MASTERS": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 1.0,
+     "max": 95.0
+    },
+    "RDSTAFF": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 2.0,
+     "max": 92.0
+    },
+    "industry2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 25.0,
+     "max": 34.0
+    },
+    "size_band": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 2306,
+      "2.0": 392,
+      "3.0": 774,
+      "4.0": 219,
+      "5.0": 309
+     }
+    },
+    "found_year": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 1933.0,
+     "p50": 2002.0,
+     "max": 2019.0
+    },
+    "firm_age": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 2.0,
+     "p50": 19.0,
+     "max": 88.0
+    },
+    "weight": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 1.0,
+     "p50": 16.083333333333332,
+     "max": 30.470588235294116
+    },
+    "innov_active": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 1778,
+      "1": 2222
+     }
+    },
+    "product_innovator": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 2757,
+      "1": 1243
+     }
+    },
+    "quit_any": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "value_counts": {
+      "0.0": 1943,
+      "1.0": 279
+     }
+    },
+    "exit_strict": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "value_counts": {
+      "0.0": 2140,
+      "1.0": 82
+     }
+    },
+    "exit_full": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "value_counts": {
+      "0.0": 2191,
+      "1.0": 31
+     }
+    },
+    "preempt_strategy": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3797,
+      "1.0": 203
+     }
+    },
+    "market_first": {
+     "n_nonmissing": 1243,
+     "n_missing": 2757,
+     "value_counts": {
+      "0.0": 1106,
+      "1.0": 137
+     }
+    },
+    "sales_share_new_to_market": {
+     "n_nonmissing": 1243,
+     "n_missing": 2757,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "entry_threat": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 298,
+      "1.0": 322,
+      "2.0": 905,
+      "3.0": 1648,
+      "4.0": 700,
+      "5.0": 127
+     }
+    },
+    "rival_unpredictability": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 323,
+      "1.0": 420,
+      "2.0": 920,
+      "3.0": 1742,
+      "4.0": 529,
+      "5.0": 66
+     }
+    },
+    "substitutability": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 316,
+      "1.0": 373,
+      "2.0": 1215,
+      "3.0": 1391,
+      "4.0": 604,
+      "5.0": 101
+     }
+    },
+    "foreign_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1672,
+      "1.0": 245,
+      "2.0": 647,
+      "3.0": 932,
+      "4.0": 454,
+      "5.0": 50
+     }
+    },
+    "obsolescence": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 541,
+      "1.0": 538,
+      "2.0": 1249,
+      "3.0": 1391,
+      "4.0": 235,
+      "5.0": 46
+     }
+    },
+    "tech_uncertainty": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 271,
+      "1.0": 318,
+      "2.0": 945,
+      "3.0": 1896,
+      "4.0": 525,
+      "5.0": 45
+     }
+    },
+    "placebo_demand": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 249,
+      "1.0": 339,
+      "2.0": 818,
+      "3.0": 1893,
+      "4.0": 657,
+      "5.0": 44
+     }
+    },
+    "placebo_price": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 464,
+      "1.0": 356,
+      "2.0": 656,
+      "3.0": 1797,
+      "4.0": 597,
+      "5.0": 130
+     }
+    },
+    "rd_staff_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 2.0,
+     "max": 92.0
+    },
+    "rd_intensity": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "min": 0.0,
+     "p50": 0.02005015539205763,
+     "max": 1.2580829756795422
+    },
+    "exports_blank_as_zero": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 4000
+     }
+    },
+    "export_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 1.0
+    },
+    "masters_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 1.0,
+     "max": 95.0
+    },
+    "cert_venture": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3603,
+      "1": 397
+     }
+    },
+    "cert_rd_institute": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 2224,
+      "1": 1776
+     }
+    },
+    "cert_innobiz": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3573,
+      "1": 427
+     }
+    },
+    "group_affiliate": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3254,
+      "2.0": 677,
+      "3.0": 69
+     }
+    },
+    "legal_size": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1991,
+      "2.0": 1290,
+      "3.0": 575,
+      "4.0": 144
+     }
+    },
+    "listed": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3533,
+      "1.0": 467
+     }
+    },
+    "portfolio_breadth": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "value_counts": {
+      "1.0": 295,
+      "2.0": 929,
+      "3.0": 699,
+      "4.0": 251,
+      "5.0": 48
+     }
+    },
+    "rd_continuous": {
+     "n_nonmissing": 2157,
+     "n_missing": 1843,
+     "value_counts": {
+      "0.0": 127,
+      "1.0": 2030
+     }
+    },
+    "coop_rd": {
+     "n_nonmissing": 2222,
+     "n_missing": 1778,
+     "value_counts": {
+      "0.0": 1769,
+      "1.0": 453
+     }
+    },
+    "funding_public_attempt": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3089,
+      "1.0": 911
+     }
+    },
+    "funding_bank_attempt": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3276,
+      "1.0": 724
+     }
+    },
+    "hamp_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 763,
+      "1.0": 396,
+      "2.0": 939,
+      "3.0": 1505,
+      "4.0": 356,
+      "5.0": 41
+     }
+    },
+    "hamp_weak_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1106,
+      "1.0": 873,
+      "2.0": 828,
+      "3.0": 1070,
+      "4.0": 119,
+      "5.0": 4
+     }
+    },
+    "hamp_demand_uncertainty": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 750,
+      "1.0": 376,
+      "2.0": 904,
+      "3.0": 1511,
+      "4.0": 420,
+      "5.0": 39
+     }
+    },
+    "employees": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 34.5,
+     "max": 63942.0
+    },
+    "female_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 19.0,
+     "max": 100.0
+    },
+    "log_employees": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 2.302585092994046,
+     "p50": 3.5408542930527878,
+     "max": 11.06573170144901
+    },
+    "log_sales": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 5.298317366548036,
+     "p50": 9.233275324155354,
+     "max": 17.83378584131206
+    },
+    "gap_rank": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.055,
+     "p50": 0.41,
+     "max": 1.0
+    },
+    "gap_tercile": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1675,
+      "2.0": 1015,
+      "3.0": 1310
+     }
+    },
+    "market_first_main": {
+     "n_nonmissing": 1243,
+     "n_missing": 2757,
+     "value_counts": {
+      "0.0": 1106,
+      "1.0": 137
+     }
+    },
+    "gap3_median": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 4.0,
+     "p50": 7.0,
+     "max": 13.0
+    },
+    "gap3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1826,
+      "1.0": 1223,
+      "2.0": 951
+     }
+    },
+    "me_mean8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 2.5,
+     "max": 5.0
+    },
+    "entry_threat_resid": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": -3.567127328548419,
+     "p50": 0.04333376999259153,
+     "max": 3.8937468053328055
+    },
+    "rival_unpredictability_resid": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": -3.2654192239267426,
+     "p50": 0.08456594242794147,
+     "max": 3.472632400574898
+    }
+   },
+   "section_check": {
+    "n_mismatch": 4000,
+    "n": 4000
+   },
+   "industry2_counts": {
+    "10": 293,
+    "11": 24,
+    "13": 102,
+    "14": 79,
+    "15": 20,
+    "16": 32,
+    "17": 99,
+    "18": 43,
+    "19": 17,
+    "20": 250,
+    "21": 100,
+    "22": 306,
+    "23": 149,
+    "24": 210,
+    "25": 383,
+    "26": 317,
+    "27": 157,
+    "28": 275,
+    "29": 527,
+    "30": 422,
+    "31": 93,
+    "32": 42,
+    "33": 36,
+    "34": 24
+   },
+   "gap3_median_source_counts": {
+    "industry2": 3976,
+    "section": 24
+   },
+   "gap3_counts": {
+    "0.0": 1826,
+    "1.0": 1223,
+    "2.0": 951
+   },
+   "weight": {
+    "min": 1.0,
+    "max": 30.470588235294116,
+    "sum": 52459.99999999999
+   }
+  },
+  "2023S": {
+   "n": 4000,
+   "n_innov_active": 1613,
+   "n_product_innovator": 710,
+   "columns": {
+    "ref_year": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "2022": 4000
+     }
+    },
+    "ME1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1672,
+      "1.0": 250,
+      "2.0": 926,
+      "3.0": 995,
+      "4.0": 123,
+      "5.0": 34
+     }
+    },
+    "PROT1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3758,
+      "1.0": 242
+     }
+    },
+    "ME2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 867,
+      "1.0": 284,
+      "2.0": 1123,
+      "3.0": 1484,
+      "4.0": 210,
+      "5.0": 32
+     }
+    },
+    "PROT2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3949,
+      "1.0": 51
+     }
+    },
+    "ME3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1400,
+      "1.0": 242,
+      "2.0": 993,
+      "3.0": 1089,
+      "4.0": 240,
+      "5.0": 36
+     }
+    },
+    "PROT3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3920,
+      "1.0": 80
+     }
+    },
+    "ME4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1020,
+      "1.0": 321,
+      "2.0": 847,
+      "3.0": 1545,
+      "4.0": 230,
+      "5.0": 37
+     }
+    },
+    "PROT4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3856,
+      "1.0": 144
+     }
+    },
+    "ME5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1393,
+      "1.0": 184,
+      "2.0": 754,
+      "3.0": 1396,
+      "4.0": 241,
+      "5.0": 32
+     }
+    },
+    "PROT5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3969,
+      "1.0": 31
+     }
+    },
+    "ME6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 767,
+      "1.0": 407,
+      "2.0": 914,
+      "3.0": 1671,
+      "4.0": 209,
+      "5.0": 32
+     }
+    },
+    "PROT6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3864,
+      "1.0": 136
+     }
+    },
+    "ME7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2577,
+      "1.0": 159,
+      "2.0": 302,
+      "3.0": 840,
+      "4.0": 99,
+      "5.0": 23
+     }
+    },
+    "PROT7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3977,
+      "1.0": 23
+     }
+    },
+    "ME8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 970,
+      "1.0": 362,
+      "2.0": 828,
+      "3.0": 1319,
+      "4.0": 465,
+      "5.0": 56
+     }
+    },
+    "PROT8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3872,
+      "1.0": 128
+     }
+    },
+    "PI1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3961,
+      "1.0": 39
+     }
+    },
+    "MF1": {
+     "n_nonmissing": 710,
+     "n_missing": 3290,
+     "value_counts": {
+      "0.0": 700,
+      "1.0": 10
+     }
+    },
+    "PI2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3303,
+      "1.0": 697
+     }
+    },
+    "MF2": {
+     "n_nonmissing": 710,
+     "n_missing": 3290,
+     "value_counts": {
+      "0.0": 1,
+      "1.0": 709
+     }
+    },
+    "SHARE1": {
+     "n_nonmissing": 710,
+     "n_missing": 3290,
+     "value_counts": {
+      "0.0": 700,
+      "5.0": 1,
+      "8.0": 1,
+      "10.0": 2,
+      "30.0": 5,
+      "70.0": 1
+     }
+    },
+    "SHARE2": {
+     "n_nonmissing": 710,
+     "n_missing": 3290,
+     "min": 0.0,
+     "p50": 10.0,
+     "max": 100.0
+    },
+    "SHARE3": {
+     "n_nonmissing": 710,
+     "n_missing": 3290,
+     "min": 0.0,
+     "p50": 90.0,
+     "max": 99.0
+    },
+    "IA1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2772,
+      "1.0": 1228
+     }
+    },
+    "IA2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3790,
+      "1.0": 210
+     }
+    },
+    "IA3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3928,
+      "1.0": 72
+     }
+    },
+    "IA4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2920,
+      "1.0": 1080
+     }
+    },
+    "IA5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3930,
+      "1.0": 70
+     }
+    },
+    "IA6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3965,
+      "1.0": 35
+     }
+    },
+    "RDCYCLE": {
+     "n_nonmissing": 1080,
+     "n_missing": 2920,
+     "value_counts": {
+      "1.0": 593,
+      "2.0": 487
+     }
+    },
+    "RDEXP": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "min": 0.0,
+     "p50": 60.0,
+     "max": 70000.0
+    },
+    "NONRDEXP": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "min": 0.0,
+     "p50": 4.0,
+     "max": 10000.0
+    },
+    "COOP1": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "value_counts": {
+      "0.0": 1524,
+      "1.0": 89
+     }
+    },
+    "COOP2": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "value_counts": {
+      "0.0": 1553,
+      "1.0": 60
+     }
+    },
+    "COOP3": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "value_counts": {
+      "0.0": 1500,
+      "1.0": 113
+     }
+    },
+    "FUND1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2506,
+      "1.0": 110,
+      "2.0": 613,
+      "3.0": 771
+     }
+    },
+    "FUND2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3884,
+      "1.0": 31,
+      "2.0": 67,
+      "3.0": 18
+     }
+    },
+    "FUND3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3776,
+      "1.0": 47,
+      "2.0": 129,
+      "3.0": 48
+     }
+    },
+    "FUND4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3980,
+      "1.0": 5,
+      "2.0": 9,
+      "3.0": 6
+     }
+    },
+    "FUND5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3997,
+      "2.0": 3
+     }
+    },
+    "FUND6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3958,
+      "1.0": 5,
+      "2.0": 34,
+      "3.0": 3
+     }
+    },
+    "FUND7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3848,
+      "1.0": 25,
+      "2.0": 73,
+      "3.0": 54
+     }
+    },
+    "FUND8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3877,
+      "1.0": 6,
+      "2.0": 93,
+      "3.0": 24
+     }
+    },
+    "HAMP12": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1876,
+      "1.0": 262,
+      "2.0": 771,
+      "3.0": 721,
+      "4.0": 358,
+      "5.0": 12
+     }
+    },
+    "HAMP13": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1766,
+      "1.0": 343,
+      "2.0": 1050,
+      "3.0": 606,
+      "4.0": 224,
+      "5.0": 11
+     }
+    },
+    "HAMP16": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2159,
+      "1.0": 554,
+      "2.0": 777,
+      "3.0": 467,
+      "4.0": 41,
+      "5.0": 2
+     }
+    },
+    "FORM": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3432,
+      "2.0": 491,
+      "3.0": 77
+     }
+    },
+    "LEGALSIZE": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1618,
+      "2.0": 1601,
+      "3.0": 515,
+      "4.0": 266
+     }
+    },
+    "CERT1": {
+     "n_nonmissing": 126,
+     "n_missing": 3874,
+     "value_counts": {
+      "1.0": 126
+     }
+    },
+    "CERT2": {
+     "n_nonmissing": 484,
+     "n_missing": 3516,
+     "value_counts": {
+      "1.0": 484
+     }
+    },
+    "CERT3": {
+     "n_nonmissing": 79,
+     "n_missing": 3921,
+     "value_counts": {
+      "1.0": 79
+     }
+    },
+    "CERT4": {
+     "n_nonmissing": 51,
+     "n_missing": 3949,
+     "value_counts": {
+      "1.0": 51
+     }
+    },
+    "CERT5": {
+     "n_nonmissing": 0,
+     "n_missing": 4000
+    },
+    "CERT6": {
+     "n_nonmissing": 0,
+     "n_missing": 4000
+    },
+    "CERT7": {
+     "n_nonmissing": 89,
+     "n_missing": 3911,
+     "value_counts": {
+      "1.0": 89
+     }
+    },
+    "CERT8": {
+     "n_nonmissing": 38,
+     "n_missing": 3962,
+     "value_counts": {
+      "1.0": 38
+     }
+    },
+    "CERT9": {
+     "n_nonmissing": 3342,
+     "n_missing": 658,
+     "value_counts": {
+      "1.0": 3342
+     }
+    },
+    "LISTED": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 77,
+      "2.0": 84,
+      "3.0": 9,
+      "4.0": 3830
+     }
+    },
+    "SALES": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 120.0,
+     "p50": 10710.0,
+     "max": 57037591.0
+    },
+    "EXPORTS": {
+     "n_nonmissing": 202,
+     "n_missing": 3798,
+     "min": 19.0,
+     "p50": 9000.0,
+     "max": 11700000.0
+    },
+    "EMP": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 75.0,
+     "max": 23024.0
+    },
+    "FEMALE": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 40.0,
+     "max": 100.0
+    },
+    "MASTERS": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "RDSTAFF": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "industry2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 45.0,
+     "p50": 64.0,
+     "max": 96.0
+    },
+    "size_band": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1695,
+      "2.0": 505,
+      "3.0": 962,
+      "4.0": 289,
+      "5.0": 549
+     }
+    },
+    "found_year": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 1904.0,
+     "p50": 2005.0,
+     "max": 2022.0
+    },
+    "firm_age": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 17.0,
+     "max": 118.0
+    },
+    "weight": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 1.0,
+     "p50": 10.4137931034483,
+     "max": 54.4230769230769
+    },
+    "innov_active": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 2387,
+      "1": 1613
+     }
+    },
+    "product_innovator": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3290,
+      "1": 710
+     }
+    },
+    "quit_any": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "value_counts": {
+      "0.0": 1541,
+      "1.0": 72
+     }
+    },
+    "exit_strict": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "value_counts": {
+      "0.0": 1589,
+      "1.0": 24
+     }
+    },
+    "exit_full": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "value_counts": {
+      "0.0": 1590,
+      "1.0": 23
+     }
+    },
+    "preempt_strategy": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3872,
+      "1.0": 128
+     }
+    },
+    "market_first": {
+     "n_nonmissing": 710,
+     "n_missing": 3290,
+     "value_counts": {
+      "0.0": 700,
+      "1.0": 10
+     }
+    },
+    "sales_share_new_to_market": {
+     "n_nonmissing": 710,
+     "n_missing": 3290,
+     "value_counts": {
+      "0.0": 700,
+      "5.0": 1,
+      "8.0": 1,
+      "10.0": 2,
+      "30.0": 5,
+      "70.0": 1
+     }
+    },
+    "entry_threat": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1020,
+      "1.0": 321,
+      "2.0": 847,
+      "3.0": 1545,
+      "4.0": 230,
+      "5.0": 37
+     }
+    },
+    "rival_unpredictability": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1393,
+      "1.0": 184,
+      "2.0": 754,
+      "3.0": 1396,
+      "4.0": 241,
+      "5.0": 32
+     }
+    },
+    "substitutability": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1400,
+      "1.0": 242,
+      "2.0": 993,
+      "3.0": 1089,
+      "4.0": 240,
+      "5.0": 36
+     }
+    },
+    "foreign_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2577,
+      "1.0": 159,
+      "2.0": 302,
+      "3.0": 840,
+      "4.0": 99,
+      "5.0": 23
+     }
+    },
+    "obsolescence": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1672,
+      "1.0": 250,
+      "2.0": 926,
+      "3.0": 995,
+      "4.0": 123,
+      "5.0": 34
+     }
+    },
+    "tech_uncertainty": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 867,
+      "1.0": 284,
+      "2.0": 1123,
+      "3.0": 1484,
+      "4.0": 210,
+      "5.0": 32
+     }
+    },
+    "placebo_demand": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 767,
+      "1.0": 407,
+      "2.0": 914,
+      "3.0": 1671,
+      "4.0": 209,
+      "5.0": 32
+     }
+    },
+    "placebo_price": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 970,
+      "1.0": 362,
+      "2.0": 828,
+      "3.0": 1319,
+      "4.0": 465,
+      "5.0": 56
+     }
+    },
+    "rd_staff_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "rd_intensity": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "min": 0.0,
+     "p50": 0.0014962593516209476,
+     "max": 15.72549019607843
+    },
+    "exports_blank_as_zero": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1": 4000
+     }
+    },
+    "export_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 1.0
+    },
+    "masters_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "cert_venture": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3874,
+      "1": 126
+     }
+    },
+    "cert_rd_institute": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3516,
+      "1": 484
+     }
+    },
+    "cert_innobiz": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3921,
+      "1": 79
+     }
+    },
+    "group_affiliate": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3432,
+      "2.0": 491,
+      "3.0": 77
+     }
+    },
+    "legal_size": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1618,
+      "2.0": 1601,
+      "3.0": 515,
+      "4.0": 266
+     }
+    },
+    "listed": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3830,
+      "1.0": 170
+     }
+    },
+    "portfolio_breadth": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "value_counts": {
+      "0.0": 15,
+      "1.0": 702,
+      "2.0": 782,
+      "3.0": 100,
+      "4.0": 13,
+      "5.0": 1
+     }
+    },
+    "rd_continuous": {
+     "n_nonmissing": 1080,
+     "n_missing": 2920,
+     "value_counts": {
+      "0.0": 487,
+      "1.0": 593
+     }
+    },
+    "coop_rd": {
+     "n_nonmissing": 1613,
+     "n_missing": 2387,
+     "value_counts": {
+      "0.0": 1524,
+      "1.0": 89
+     }
+    },
+    "funding_public_attempt": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3800,
+      "1.0": 200
+     }
+    },
+    "funding_bank_attempt": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3776,
+      "1.0": 224
+     }
+    },
+    "hamp_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1766,
+      "1.0": 343,
+      "2.0": 1050,
+      "3.0": 606,
+      "4.0": 224,
+      "5.0": 11
+     }
+    },
+    "hamp_weak_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2159,
+      "1.0": 554,
+      "2.0": 777,
+      "3.0": 467,
+      "4.0": 41,
+      "5.0": 2
+     }
+    },
+    "hamp_demand_uncertainty": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1876,
+      "1.0": 262,
+      "2.0": 771,
+      "3.0": 721,
+      "4.0": 358,
+      "5.0": 12
+     }
+    },
+    "employees": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 75.0,
+     "max": 23024.0
+    },
+    "female_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 40.0,
+     "max": 100.0
+    },
+    "log_employees": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 2.302585092994046,
+     "p50": 4.31748811353631,
+     "max": 10.044292429127148
+    },
+    "log_sales": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 4.787491742782046,
+     "p50": 9.278932727537395,
+     "max": 17.859221099658118
+    },
+    "gap_rank": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.10344827586206896,
+     "p50": 0.4825174825174825,
+     "max": 1.0
+    },
+    "gap_tercile": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 348,
+      "2.0": 3167,
+      "3.0": 485
+     }
+    },
+    "market_first_main": {
+     "n_nonmissing": 0,
+     "n_missing": 4000
+    },
+    "gap3_median": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 356,
+      "1.5": 692,
+      "5.0": 273,
+      "6.0": 54,
+      "7.0": 29,
+      "10.0": 2266,
+      "15.0": 301,
+      "20.0": 29
+     }
+    },
+    "gap3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3367,
+      "1.0": 380,
+      "2.0": 253
+     }
+    },
+    "me_mean8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 1.625,
+     "max": 5.0
+    },
+    "entry_threat_resid": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": -3.707427395111406,
+     "p50": 0.025613959748883808,
+     "max": 4.415271339842846
+    },
+    "rival_unpredictability_resid": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": -3.4100457655363705,
+     "p50": -0.06771493415097263,
+     "max": 4.049394490695818
+    }
+   },
+   "section_check": {
+    "n_mismatch": 0,
+    "n": 4000
+   },
+   "industry2_counts": {
+    "45": 54,
+    "46": 557,
+    "47": 196,
+    "49": 319,
+    "50": 19,
+    "51": 17,
+    "52": 124,
+    "55": 43,
+    "56": 121,
+    "58": 301,
+    "59": 25,
+    "60": 20,
+    "61": 28,
+    "62": 105,
+    "63": 51,
+    "64": 79,
+    "65": 42,
+    "66": 137,
+    "68": 160,
+    "70": 29,
+    "71": 95,
+    "72": 273,
+    "73": 29,
+    "74": 237,
+    "75": 429,
+    "76": 26,
+    "85": 70,
+    "86": 266,
+    "87": 25,
+    "90": 9,
+    "91": 43,
+    "95": 33,
+    "96": 38
+   },
+   "gap3_median_source_counts": {
+    "industry2": 2196,
+    "wave": 1385,
+    "section": 419
+   },
+   "gap3_counts": {
+    "0.0": 3367,
+    "1.0": 380,
+    "2.0": 253
+   },
+   "weight": {
+    "min": 1.0,
+    "max": 54.4230769230769,
+    "sum": 66489.0
+   }
+  },
+  "2024M": {
+   "n": 4595,
+   "n_innov_active": 2495,
+   "n_product_innovator": 1866,
+   "columns": {
+    "ref_year": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "2023": 4595
+     }
+    },
+    "ME1": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1515,
+      "1.0": 490,
+      "2.0": 973,
+      "3.0": 1151,
+      "4.0": 441,
+      "5.0": 25
+     }
+    },
+    "PROT1": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3483,
+      "1.0": 1112
+     }
+    },
+    "ME2": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 680,
+      "1.0": 341,
+      "2.0": 1118,
+      "3.0": 1692,
+      "4.0": 688,
+      "5.0": 76
+     }
+    },
+    "PROT2": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4141,
+      "1.0": 454
+     }
+    },
+    "ME3": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1048,
+      "1.0": 331,
+      "2.0": 1144,
+      "3.0": 1281,
+      "4.0": 654,
+      "5.0": 137
+     }
+    },
+    "PROT3": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4144,
+      "1.0": 451
+     }
+    },
+    "ME4": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 943,
+      "1.0": 296,
+      "2.0": 945,
+      "3.0": 1681,
+      "4.0": 599,
+      "5.0": 131
+     }
+    },
+    "PROT4": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4129,
+      "1.0": 466
+     }
+    },
+    "ME5": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1084,
+      "1.0": 296,
+      "2.0": 1005,
+      "3.0": 1359,
+      "4.0": 751,
+      "5.0": 100
+     }
+    },
+    "PROT5": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4400,
+      "1.0": 195
+     }
+    },
+    "ME6": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 690,
+      "1.0": 343,
+      "2.0": 1024,
+      "3.0": 1737,
+      "4.0": 715,
+      "5.0": 86
+     }
+    },
+    "PROT6": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4166,
+      "1.0": 429
+     }
+    },
+    "ME7": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2457,
+      "1.0": 252,
+      "2.0": 563,
+      "3.0": 776,
+      "4.0": 421,
+      "5.0": 126
+     }
+    },
+    "PROT7": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4394,
+      "1.0": 201
+     }
+    },
+    "ME8": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 991,
+      "1.0": 205,
+      "2.0": 653,
+      "3.0": 1856,
+      "4.0": 806,
+      "5.0": 84
+     }
+    },
+    "PROT8": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4255,
+      "1.0": 340
+     }
+    },
+    "PI1": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2971,
+      "1.0": 1624
+     }
+    },
+    "MF1": {
+     "n_nonmissing": 1866,
+     "n_missing": 2729,
+     "value_counts": {
+      "0.0": 1399,
+      "1.0": 467
+     }
+    },
+    "PI2": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3963,
+      "1.0": 632
+     }
+    },
+    "MF2": {
+     "n_nonmissing": 1866,
+     "n_missing": 2729,
+     "value_counts": {
+      "0.0": 119,
+      "1.0": 1747
+     }
+    },
+    "SHARE1": {
+     "n_nonmissing": 1866,
+     "n_missing": 2729,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "SHARE2": {
+     "n_nonmissing": 1866,
+     "n_missing": 2729,
+     "min": 0.0,
+     "p50": 10.0,
+     "max": 100.0
+    },
+    "SHARE3": {
+     "n_nonmissing": 1866,
+     "n_missing": 2729,
+     "min": 0.0,
+     "p50": 80.0,
+     "max": 100.0
+    },
+    "IA1": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2529,
+      "1.0": 2066
+     }
+    },
+    "IA2": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3643,
+      "1.0": 952
+     }
+    },
+    "IA3": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4463,
+      "1.0": 132
+     }
+    },
+    "IA4": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2286,
+      "1.0": 2309
+     }
+    },
+    "IA5": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4092,
+      "1.0": 503
+     }
+    },
+    "IA6": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4354,
+      "1.0": 241
+     }
+    },
+    "RDCYCLE": {
+     "n_nonmissing": 2309,
+     "n_missing": 2286,
+     "value_counts": {
+      "1.0": 2058,
+      "2.0": 251
+     }
+    },
+    "RDEXP": {
+     "n_nonmissing": 2476,
+     "n_missing": 2119,
+     "min": 0.0,
+     "p50": 360.0,
+     "max": 1390400.0
+    },
+    "NONRDEXP": {
+     "n_nonmissing": 2480,
+     "n_missing": 2115,
+     "min": 0.0,
+     "p50": 24.0,
+     "max": 100000.0
+    },
+    "COOP1": {
+     "n_nonmissing": 2495,
+     "n_missing": 2100,
+     "value_counts": {
+      "0.0": 1898,
+      "1.0": 597
+     }
+    },
+    "COOP2": {
+     "n_nonmissing": 2495,
+     "n_missing": 2100,
+     "value_counts": {
+      "0.0": 2250,
+      "1.0": 245
+     }
+    },
+    "COOP3": {
+     "n_nonmissing": 2495,
+     "n_missing": 2100,
+     "value_counts": {
+      "0.0": 2277,
+      "1.0": 218
+     }
+    },
+    "FUND1": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2037,
+      "1.0": 366,
+      "2.0": 623,
+      "3.0": 1569
+     }
+    },
+    "FUND2": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4212,
+      "1.0": 36,
+      "2.0": 278,
+      "3.0": 69
+     }
+    },
+    "FUND3": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3645,
+      "1.0": 76,
+      "2.0": 619,
+      "3.0": 255
+     }
+    },
+    "FUND4": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4483,
+      "1.0": 10,
+      "2.0": 57,
+      "3.0": 45
+     }
+    },
+    "FUND5": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4526,
+      "1.0": 11,
+      "2.0": 30,
+      "3.0": 28
+     }
+    },
+    "FUND6": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4541,
+      "1.0": 9,
+      "2.0": 30,
+      "3.0": 15
+     }
+    },
+    "FUND7": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4335,
+      "1.0": 24,
+      "2.0": 125,
+      "3.0": 111
+     }
+    },
+    "FUND8": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4456,
+      "1.0": 22,
+      "2.0": 85,
+      "3.0": 32
+     }
+    },
+    "HAMP12": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 973,
+      "1.0": 356,
+      "2.0": 1076,
+      "3.0": 1304,
+      "4.0": 753,
+      "5.0": 133
+     }
+    },
+    "HAMP13": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1284,
+      "1.0": 445,
+      "2.0": 1001,
+      "3.0": 1284,
+      "4.0": 467,
+      "5.0": 114
+     }
+    },
+    "HAMP16": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1546,
+      "1.0": 865,
+      "2.0": 1012,
+      "3.0": 873,
+      "4.0": 257,
+      "5.0": 42
+     }
+    },
+    "FORM": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3997,
+      "2.0": 540,
+      "3.0": 58
+     }
+    },
+    "LEGALSIZE": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 2473,
+      "2.0": 1287,
+      "3.0": 466,
+      "4.0": 369
+     }
+    },
+    "CERT1": {
+     "n_nonmissing": 526,
+     "n_missing": 4069,
+     "value_counts": {
+      "1.0": 526
+     }
+    },
+    "CERT2": {
+     "n_nonmissing": 1400,
+     "n_missing": 3195,
+     "value_counts": {
+      "1.0": 1400
+     }
+    },
+    "CERT3": {
+     "n_nonmissing": 663,
+     "n_missing": 3932,
+     "value_counts": {
+      "1.0": 663
+     }
+    },
+    "CERT4": {
+     "n_nonmissing": 199,
+     "n_missing": 4396,
+     "value_counts": {
+      "1.0": 199
+     }
+    },
+    "CERT5": {
+     "n_nonmissing": 78,
+     "n_missing": 4517,
+     "value_counts": {
+      "1.0": 78
+     }
+    },
+    "CERT6": {
+     "n_nonmissing": 80,
+     "n_missing": 4515,
+     "value_counts": {
+      "1.0": 80
+     }
+    },
+    "CERT7": {
+     "n_nonmissing": 1177,
+     "n_missing": 3418,
+     "value_counts": {
+      "1.0": 1177
+     }
+    },
+    "CERT8": {
+     "n_nonmissing": 47,
+     "n_missing": 4548,
+     "value_counts": {
+      "1.0": 47
+     }
+    },
+    "CERT9": {
+     "n_nonmissing": 2274,
+     "n_missing": 2321,
+     "value_counts": {
+      "1.0": 2274
+     }
+    },
+    "LISTED": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 280,
+      "2.0": 323,
+      "3.0": 38,
+      "4.0": 3954
+     }
+    },
+    "SALES": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 10948.0,
+     "max": 162663579.0
+    },
+    "EXPORTS": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 81331789.0
+    },
+    "EMP": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 32.0,
+     "max": 87454.0
+    },
+    "FEMALE": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 20.0,
+     "max": 100.0
+    },
+    "MASTERS": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 1.0,
+     "max": 100.0
+    },
+    "RDSTAFF": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 2.0,
+     "max": 100.0
+    },
+    "industry2": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 25.0,
+     "max": 34.0
+    },
+    "size_band": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 2702,
+      "2.0": 466,
+      "3.0": 893,
+      "4.0": 206,
+      "5.0": 328
+     }
+    },
+    "found_year": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 1933.0,
+     "p50": 2003.0,
+     "max": 2022.0
+    },
+    "firm_age": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 1.0,
+     "p50": 20.0,
+     "max": 90.0
+    },
+    "weight": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 1.0,
+     "p50": 13.716216216216216,
+     "max": 26.428571428571427
+    },
+    "innov_active": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 2100,
+      "1": 2495
+     }
+    },
+    "product_innovator": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 2729,
+      "1": 1866
+     }
+    },
+    "quit_any": {
+     "n_nonmissing": 2495,
+     "n_missing": 2100,
+     "value_counts": {
+      "0.0": 2363,
+      "1.0": 132
+     }
+    },
+    "exit_strict": {
+     "n_nonmissing": 2495,
+     "n_missing": 2100,
+     "value_counts": {
+      "0.0": 2466,
+      "1.0": 29
+     }
+    },
+    "exit_full": {
+     "n_nonmissing": 2495,
+     "n_missing": 2100,
+     "value_counts": {
+      "0.0": 2468,
+      "1.0": 27
+     }
+    },
+    "preempt_strategy": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4255,
+      "1.0": 340
+     }
+    },
+    "market_first": {
+     "n_nonmissing": 1866,
+     "n_missing": 2729,
+     "value_counts": {
+      "0.0": 1399,
+      "1.0": 467
+     }
+    },
+    "sales_share_new_to_market": {
+     "n_nonmissing": 1866,
+     "n_missing": 2729,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "entry_threat": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 943,
+      "1.0": 296,
+      "2.0": 945,
+      "3.0": 1681,
+      "4.0": 599,
+      "5.0": 131
+     }
+    },
+    "rival_unpredictability": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1084,
+      "1.0": 296,
+      "2.0": 1005,
+      "3.0": 1359,
+      "4.0": 751,
+      "5.0": 100
+     }
+    },
+    "substitutability": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1048,
+      "1.0": 331,
+      "2.0": 1144,
+      "3.0": 1281,
+      "4.0": 654,
+      "5.0": 137
+     }
+    },
+    "foreign_competition": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2457,
+      "1.0": 252,
+      "2.0": 563,
+      "3.0": 776,
+      "4.0": 421,
+      "5.0": 126
+     }
+    },
+    "obsolescence": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1515,
+      "1.0": 490,
+      "2.0": 973,
+      "3.0": 1151,
+      "4.0": 441,
+      "5.0": 25
+     }
+    },
+    "tech_uncertainty": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 680,
+      "1.0": 341,
+      "2.0": 1118,
+      "3.0": 1692,
+      "4.0": 688,
+      "5.0": 76
+     }
+    },
+    "placebo_demand": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 690,
+      "1.0": 343,
+      "2.0": 1024,
+      "3.0": 1737,
+      "4.0": 715,
+      "5.0": 86
+     }
+    },
+    "placebo_price": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 991,
+      "1.0": 205,
+      "2.0": 653,
+      "3.0": 1856,
+      "4.0": 806,
+      "5.0": 84
+     }
+    },
+    "rd_staff_share": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 2.0,
+     "max": 100.0
+    },
+    "rd_intensity": {
+     "n_nonmissing": 2476,
+     "n_missing": 2119,
+     "min": 0.0,
+     "p50": 0.013067482229123248,
+     "max": 8.2
+    },
+    "exports_blank_as_zero": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 4595
+     }
+    },
+    "export_share": {
+     "n_nonmissing": 4594,
+     "n_missing": 1,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 1.0
+    },
+    "masters_share": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 1.0,
+     "max": 100.0
+    },
+    "cert_venture": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 4069,
+      "1": 526
+     }
+    },
+    "cert_rd_institute": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3195,
+      "1": 1400
+     }
+    },
+    "cert_innobiz": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3932,
+      "1": 663
+     }
+    },
+    "group_affiliate": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3997,
+      "2.0": 540,
+      "3.0": 58
+     }
+    },
+    "legal_size": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 2473,
+      "2.0": 1287,
+      "3.0": 466,
+      "4.0": 369
+     }
+    },
+    "listed": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3954,
+      "1.0": 641
+     }
+    },
+    "portfolio_breadth": {
+     "n_nonmissing": 2495,
+     "n_missing": 2100,
+     "value_counts": {
+      "0.0": 2,
+      "1.0": 418,
+      "2.0": 989,
+      "3.0": 728,
+      "4.0": 299,
+      "5.0": 59
+     }
+    },
+    "rd_continuous": {
+     "n_nonmissing": 2309,
+     "n_missing": 2286,
+     "value_counts": {
+      "0.0": 251,
+      "1.0": 2058
+     }
+    },
+    "coop_rd": {
+     "n_nonmissing": 2495,
+     "n_missing": 2100,
+     "value_counts": {
+      "0.0": 1898,
+      "1.0": 597
+     }
+    },
+    "funding_public_attempt": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 4278,
+      "1.0": 317
+     }
+    },
+    "funding_bank_attempt": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3645,
+      "1.0": 950
+     }
+    },
+    "hamp_competition": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1284,
+      "1.0": 445,
+      "2.0": 1001,
+      "3.0": 1284,
+      "4.0": 467,
+      "5.0": 114
+     }
+    },
+    "hamp_weak_competition": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1546,
+      "1.0": 865,
+      "2.0": 1012,
+      "3.0": 873,
+      "4.0": 257,
+      "5.0": 42
+     }
+    },
+    "hamp_demand_uncertainty": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 973,
+      "1.0": 356,
+      "2.0": 1076,
+      "3.0": 1304,
+      "4.0": 753,
+      "5.0": 133
+     }
+    },
+    "employees": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 32.0,
+     "max": 87454.0
+    },
+    "female_share": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 20.0,
+     "max": 100.0
+    },
+    "log_employees": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 2.302585092994046,
+     "p50": 3.4657359027997265,
+     "max": 11.378868219823786
+    },
+    "log_sales": {
+     "n_nonmissing": 4594,
+     "n_missing": 1,
+     "min": 0.0,
+     "p50": 9.300957738516997,
+     "max": 18.907194693411782
+    },
+    "gap_rank": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.044715447154471545,
+     "p50": 0.4358108108108108,
+     "max": 1.0
+    },
+    "gap_tercile": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 2005,
+      "2.0": 1059,
+      "3.0": 1531
+     }
+    },
+    "market_first_main": {
+     "n_nonmissing": 1866,
+     "n_missing": 2729,
+     "value_counts": {
+      "0.0": 1399,
+      "1.0": 467
+     }
+    },
+    "gap3_median": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "5.0": 861,
+      "5.5": 111,
+      "6.0": 441,
+      "6.5": 46,
+      "7.0": 996,
+      "8.0": 1739,
+      "10.0": 401
+     }
+    },
+    "gap3": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2065,
+      "1.0": 1385,
+      "2.0": 1145
+     }
+    },
+    "me_mean8": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 2.125,
+     "max": 5.0
+    },
+    "entry_threat_resid": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": -4.122842930930855,
+     "p50": 0.08857223256688496,
+     "max": 4.71612894240328
+    },
+    "rival_unpredictability_resid": {
+     "n_nonmissing": 4595,
+     "n_missing": 0,
+     "min": -3.3613098751976995,
+     "p50": -0.08783002868803091,
+     "max": 3.987553464866826
+    }
+   },
+   "section_check": {
+    "n_mismatch": 4595,
+    "n": 4595
+   },
+   "industry2_counts": {
+    "10": 359,
+    "11": 24,
+    "13": 104,
+    "14": 76,
+    "15": 21,
+    "16": 35,
+    "17": 111,
+    "18": 46,
+    "19": 15,
+    "20": 296,
+    "21": 123,
+    "22": 330,
+    "23": 169,
+    "24": 234,
+    "25": 428,
+    "26": 382,
+    "27": 187,
+    "28": 324,
+    "29": 654,
+    "30": 465,
+    "31": 91,
+    "32": 47,
+    "33": 42,
+    "34": 32
+   },
+   "gap3_median_source_counts": {
+    "industry2": 4542,
+    "section": 53
+   },
+   "gap3_counts": {
+    "0.0": 2065,
+    "1.0": 1385,
+    "2.0": 1145
+   },
+   "weight": {
+    "min": 1.0,
+    "max": 26.428571428571427,
+    "sum": 52587.0
+   }
+  },
+  "2025S": {
+   "n": 4000,
+   "n_innov_active": 1658,
+   "n_product_innovator": 1082,
+   "columns": {
+    "ref_year": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "2024": 4000
+     }
+    },
+    "ME1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1265,
+      "1.0": 863,
+      "2.0": 1172,
+      "3.0": 559,
+      "4.0": 136,
+      "5.0": 5
+     }
+    },
+    "PROT1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3703,
+      "1.0": 297
+     }
+    },
+    "ME2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 954,
+      "1.0": 606,
+      "2.0": 1096,
+      "3.0": 1086,
+      "4.0": 244,
+      "5.0": 14
+     }
+    },
+    "PROT2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3903,
+      "1.0": 97
+     }
+    },
+    "ME3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 873,
+      "1.0": 643,
+      "2.0": 1182,
+      "3.0": 941,
+      "4.0": 320,
+      "5.0": 41
+     }
+    },
+    "PROT3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3904,
+      "1.0": 96
+     }
+    },
+    "ME4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1004,
+      "1.0": 695,
+      "2.0": 1016,
+      "3.0": 991,
+      "4.0": 254,
+      "5.0": 40
+     }
+    },
+    "PROT4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3842,
+      "1.0": 158
+     }
+    },
+    "ME5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 805,
+      "1.0": 680,
+      "2.0": 1135,
+      "3.0": 937,
+      "4.0": 425,
+      "5.0": 18
+     }
+    },
+    "PROT5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3970,
+      "1.0": 30
+     }
+    },
+    "ME6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 785,
+      "1.0": 722,
+      "2.0": 1091,
+      "3.0": 1194,
+      "4.0": 202,
+      "5.0": 6
+     }
+    },
+    "PROT6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3738,
+      "1.0": 262
+     }
+    },
+    "ME7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2716,
+      "1.0": 579,
+      "2.0": 361,
+      "3.0": 270,
+      "4.0": 70,
+      "5.0": 4
+     }
+    },
+    "PROT7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3980,
+      "1.0": 20
+     }
+    },
+    "ME8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1681,
+      "1.0": 577,
+      "2.0": 647,
+      "3.0": 992,
+      "4.0": 98,
+      "5.0": 5
+     }
+    },
+    "PROT8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3938,
+      "1.0": 62
+     }
+    },
+    "PI1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3961,
+      "1.0": 39
+     }
+    },
+    "MF1": {
+     "n_nonmissing": 1082,
+     "n_missing": 2918,
+     "value_counts": {
+      "0.0": 1067,
+      "1.0": 15
+     }
+    },
+    "PI2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2951,
+      "1.0": 1049
+     }
+    },
+    "MF2": {
+     "n_nonmissing": 1082,
+     "n_missing": 2918,
+     "value_counts": {
+      "0.0": 7,
+      "1.0": 1075
+     }
+    },
+    "SHARE1": {
+     "n_nonmissing": 1082,
+     "n_missing": 2918,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 80.0
+    },
+    "SHARE2": {
+     "n_nonmissing": 1082,
+     "n_missing": 2918,
+     "min": 0.0,
+     "p50": 10.0,
+     "max": 100.0
+    },
+    "SHARE3": {
+     "n_nonmissing": 1082,
+     "n_missing": 2918,
+     "min": 0.0,
+     "p50": 90.0,
+     "max": 100.0
+    },
+    "IA1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2582,
+      "1.0": 1418
+     }
+    },
+    "IA2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3781,
+      "1.0": 219
+     }
+    },
+    "IA3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3915,
+      "1.0": 85
+     }
+    },
+    "IA4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2707,
+      "1.0": 1293
+     }
+    },
+    "IA5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3918,
+      "1.0": 82
+     }
+    },
+    "IA6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3810,
+      "1.0": 190
+     }
+    },
+    "RDCYCLE": {
+     "n_nonmissing": 1293,
+     "n_missing": 2707,
+     "value_counts": {
+      "1.0": 742,
+      "2.0": 551
+     }
+    },
+    "RDEXP": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "min": 0.0,
+     "p50": 128.0,
+     "max": 95000.0
+    },
+    "NONRDEXP": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "min": 0.0,
+     "p50": 6.0,
+     "max": 1549300.0
+    },
+    "COOP1": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "value_counts": {
+      "0.0": 1565,
+      "1.0": 93
+     }
+    },
+    "COOP2": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "value_counts": {
+      "0.0": 1601,
+      "1.0": 57
+     }
+    },
+    "COOP3": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "value_counts": {
+      "0.0": 1569,
+      "1.0": 89
+     }
+    },
+    "FUND1": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2432,
+      "1.0": 201,
+      "2.0": 500,
+      "3.0": 867
+     }
+    },
+    "FUND2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3830,
+      "1.0": 65,
+      "2.0": 83,
+      "3.0": 22
+     }
+    },
+    "FUND3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3447,
+      "1.0": 97,
+      "2.0": 414,
+      "3.0": 42
+     }
+    },
+    "FUND4": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3964,
+      "1.0": 19,
+      "2.0": 13,
+      "3.0": 4
+     }
+    },
+    "FUND5": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3975,
+      "1.0": 18,
+      "2.0": 5,
+      "3.0": 2
+     }
+    },
+    "FUND6": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3971,
+      "1.0": 18,
+      "2.0": 6,
+      "3.0": 5
+     }
+    },
+    "FUND7": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3849,
+      "1.0": 21,
+      "2.0": 44,
+      "3.0": 86
+     }
+    },
+    "FUND8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3868,
+      "1.0": 25,
+      "2.0": 33,
+      "3.0": 74
+     }
+    },
+    "HAMP12": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1350,
+      "1.0": 541,
+      "2.0": 861,
+      "3.0": 860,
+      "4.0": 364,
+      "5.0": 24
+     }
+    },
+    "HAMP13": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1549,
+      "1.0": 446,
+      "2.0": 749,
+      "3.0": 934,
+      "4.0": 307,
+      "5.0": 15
+     }
+    },
+    "HAMP16": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2538,
+      "1.0": 497,
+      "2.0": 500,
+      "3.0": 395,
+      "4.0": 65,
+      "5.0": 5
+     }
+    },
+    "FORM": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3425,
+      "2.0": 494,
+      "3.0": 81
+     }
+    },
+    "LEGALSIZE": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1390,
+      "2.0": 1665,
+      "3.0": 633,
+      "4.0": 312
+     }
+    },
+    "CERT1": {
+     "n_nonmissing": 90,
+     "n_missing": 3910,
+     "value_counts": {
+      "1.0": 90
+     }
+    },
+    "CERT2": {
+     "n_nonmissing": 422,
+     "n_missing": 3578,
+     "value_counts": {
+      "1.0": 422
+     }
+    },
+    "CERT3": {
+     "n_nonmissing": 54,
+     "n_missing": 3946,
+     "value_counts": {
+      "1.0": 54
+     }
+    },
+    "CERT4": {
+     "n_nonmissing": 35,
+     "n_missing": 3965,
+     "value_counts": {
+      "1.0": 35
+     }
+    },
+    "CERT5": {
+     "n_nonmissing": 8,
+     "n_missing": 3992,
+     "value_counts": {
+      "1.0": 8
+     }
+    },
+    "CERT6": {
+     "n_nonmissing": 1,
+     "n_missing": 3999,
+     "value_counts": {
+      "1.0": 1
+     }
+    },
+    "CERT7": {
+     "n_nonmissing": 50,
+     "n_missing": 3950,
+     "value_counts": {
+      "1.0": 50
+     }
+    },
+    "CERT8": {
+     "n_nonmissing": 15,
+     "n_missing": 3985,
+     "value_counts": {
+      "1.0": 15
+     }
+    },
+    "CERT9": {
+     "n_nonmissing": 3468,
+     "n_missing": 532,
+     "value_counts": {
+      "1.0": 3468
+     }
+    },
+    "LISTED": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 72,
+      "2.0": 89,
+      "3.0": 13,
+      "4.0": 3826
+     }
+    },
+    "SALES": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 47.0,
+     "p50": 12900.0,
+     "max": 47357800.0
+    },
+    "EXPORTS": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 8989500.0
+    },
+    "EMP": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 79.0,
+     "max": 23800.0
+    },
+    "FEMALE": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 30.0,
+     "max": 100.0
+    },
+    "MASTERS": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "RDSTAFF": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "industry2": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 45.0,
+     "p50": 64.0,
+     "max": 96.0
+    },
+    "size_band": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1740,
+      "2.0": 430,
+      "3.0": 926,
+      "4.0": 305,
+      "5.0": 599
+     }
+    },
+    "found_year": {
+     "n_nonmissing": 3999,
+     "n_missing": 1,
+     "min": 1920.0,
+     "p50": 2006.0,
+     "max": 2022.0
+    },
+    "firm_age": {
+     "n_nonmissing": 3999,
+     "n_missing": 1,
+     "min": 2.0,
+     "p50": 18.0,
+     "max": 104.0
+    },
+    "weight": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 1.0,
+     "p50": 12.0,
+     "max": 77.2631578947368
+    },
+    "innov_active": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 2342,
+      "1": 1658
+     }
+    },
+    "product_innovator": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 2918,
+      "1": 1082
+     }
+    },
+    "quit_any": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "value_counts": {
+      "0.0": 1573,
+      "1.0": 85
+     }
+    },
+    "exit_strict": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "value_counts": {
+      "0.0": 1591,
+      "1.0": 67
+     }
+    },
+    "exit_full": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "value_counts": {
+      "0.0": 1595,
+      "1.0": 63
+     }
+    },
+    "preempt_strategy": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3938,
+      "1.0": 62
+     }
+    },
+    "market_first": {
+     "n_nonmissing": 1082,
+     "n_missing": 2918,
+     "value_counts": {
+      "0.0": 1067,
+      "1.0": 15
+     }
+    },
+    "sales_share_new_to_market": {
+     "n_nonmissing": 1082,
+     "n_missing": 2918,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 80.0
+    },
+    "entry_threat": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1004,
+      "1.0": 695,
+      "2.0": 1016,
+      "3.0": 991,
+      "4.0": 254,
+      "5.0": 40
+     }
+    },
+    "rival_unpredictability": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 805,
+      "1.0": 680,
+      "2.0": 1135,
+      "3.0": 937,
+      "4.0": 425,
+      "5.0": 18
+     }
+    },
+    "substitutability": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 873,
+      "1.0": 643,
+      "2.0": 1182,
+      "3.0": 941,
+      "4.0": 320,
+      "5.0": 41
+     }
+    },
+    "foreign_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2716,
+      "1.0": 579,
+      "2.0": 361,
+      "3.0": 270,
+      "4.0": 70,
+      "5.0": 4
+     }
+    },
+    "obsolescence": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1265,
+      "1.0": 863,
+      "2.0": 1172,
+      "3.0": 559,
+      "4.0": 136,
+      "5.0": 5
+     }
+    },
+    "tech_uncertainty": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 954,
+      "1.0": 606,
+      "2.0": 1096,
+      "3.0": 1086,
+      "4.0": 244,
+      "5.0": 14
+     }
+    },
+    "placebo_demand": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 785,
+      "1.0": 722,
+      "2.0": 1091,
+      "3.0": 1194,
+      "4.0": 202,
+      "5.0": 6
+     }
+    },
+    "placebo_price": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1681,
+      "1.0": 577,
+      "2.0": 647,
+      "3.0": 992,
+      "4.0": 98,
+      "5.0": 5
+     }
+    },
+    "rd_staff_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "rd_intensity": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "min": 0.0,
+     "p50": 0.0032876975430954406,
+     "max": 54.54545454545455
+    },
+    "exports_blank_as_zero": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 4000
+     }
+    },
+    "export_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 1.0
+    },
+    "masters_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 0.0,
+     "max": 100.0
+    },
+    "cert_venture": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3910,
+      "1": 90
+     }
+    },
+    "cert_rd_institute": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3578,
+      "1": 422
+     }
+    },
+    "cert_innobiz": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0": 3946,
+      "1": 54
+     }
+    },
+    "group_affiliate": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 3425,
+      "2.0": 494,
+      "3.0": 81
+     }
+    },
+    "legal_size": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 1390,
+      "2.0": 1665,
+      "3.0": 633,
+      "4.0": 312
+     }
+    },
+    "listed": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3826,
+      "1.0": 174
+     }
+    },
+    "portfolio_breadth": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "value_counts": {
+      "0.0": 43,
+      "1.0": 417,
+      "2.0": 857,
+      "3.0": 301,
+      "4.0": 32,
+      "5.0": 8
+     }
+    },
+    "rd_continuous": {
+     "n_nonmissing": 1293,
+     "n_missing": 2707,
+     "value_counts": {
+      "0.0": 551,
+      "1.0": 742
+     }
+    },
+    "coop_rd": {
+     "n_nonmissing": 1658,
+     "n_missing": 2342,
+     "value_counts": {
+      "0.0": 1565,
+      "1.0": 93
+     }
+    },
+    "funding_public_attempt": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3807,
+      "1.0": 193
+     }
+    },
+    "funding_bank_attempt": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3447,
+      "1.0": 553
+     }
+    },
+    "hamp_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1549,
+      "1.0": 446,
+      "2.0": 749,
+      "3.0": 934,
+      "4.0": 307,
+      "5.0": 15
+     }
+    },
+    "hamp_weak_competition": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 2538,
+      "1.0": 497,
+      "2.0": 500,
+      "3.0": 395,
+      "4.0": 65,
+      "5.0": 5
+     }
+    },
+    "hamp_demand_uncertainty": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 1350,
+      "1.0": 541,
+      "2.0": 861,
+      "3.0": 860,
+      "4.0": 364,
+      "5.0": 24
+     }
+    },
+    "employees": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 10.0,
+     "p50": 79.0,
+     "max": 23800.0
+    },
+    "female_share": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 30.0,
+     "max": 100.0
+    },
+    "log_employees": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 2.302585092994046,
+     "p50": 4.3694478524670215,
+     "max": 10.077440859659566
+    },
+    "log_sales": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 3.8501476017100584,
+     "p50": 9.464982590349763,
+     "max": 17.67324209475836
+    },
+    "gap_rank": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.15384615384615385,
+     "p50": 0.4698275862068966,
+     "max": 1.0
+    },
+    "gap_tercile": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "1.0": 480,
+      "2.0": 2844,
+      "3.0": 676
+     }
+    },
+    "market_first_main": {
+     "n_nonmissing": 0,
+     "n_missing": 4000
+    },
+    "gap3_median": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 1.0,
+     "p50": 3.35,
+     "max": 24.0
+    },
+    "gap3": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "value_counts": {
+      "0.0": 3171,
+      "1.0": 474,
+      "2.0": 355
+     }
+    },
+    "me_mean8": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": 0.0,
+     "p50": 1.5,
+     "max": 4.625
+    },
+    "entry_threat_resid": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": -2.923332001239304,
+     "p50": -0.09623901730413387,
+     "max": 3.7952534567488447
+    },
+    "rival_unpredictability_resid": {
+     "n_nonmissing": 4000,
+     "n_missing": 0,
+     "min": -3.02590199258916,
+     "p50": 0.028047681170841887,
+     "max": 3.4202117531774103
+    }
+   },
+   "section_check": {
+    "n_mismatch": 0,
+    "n": 4000
+   },
+   "industry2_counts": {
+    "45": 45,
+    "46": 563,
+    "47": 210,
+    "49": 250,
+    "50": 20,
+    "51": 16,
+    "52": 135,
+    "55": 43,
+    "56": 121,
+    "58": 328,
+    "59": 31,
+    "60": 19,
+    "61": 26,
+    "62": 115,
+    "63": 56,
+    "64": 86,
+    "65": 41,
+    "66": 124,
+    "68": 180,
+    "70": 45,
+    "71": 97,
+    "72": 315,
+    "73": 31,
+    "74": 210,
+    "75": 348,
+    "76": 27,
+    "85": 72,
+    "86": 307,
+    "87": 28,
+    "90": 10,
+    "91": 32,
+    "95": 33,
+    "96": 36
+   },
+   "gap3_median_source_counts": {
+    "industry2": 2919,
+    "section": 787,
+    "wave": 294
+   },
+   "gap3_counts": {
+    "0.0": 3171,
+    "1.0": 474,
+    "2.0": 355
+   },
+   "weight": {
+    "min": 1.0,
+    "max": 77.2631578947368,
+    "sum": 70540.99999999999
+   }
+  }
+ },
+ "seconds": 16.0
+}

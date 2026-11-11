@@ -1,0 +1,82 @@
+{
+ "fetched": "2026-11-10 08:29 KST",
+ "source": "통계청, 기업생멸행정통계 (Business Demography Statistics), KOSIS OpenAPI",
+ "table": {
+  "orgId": "101",
+  "tblId": "DT_6BD1101",
+  "name": "시도별 산업중분류별 기업 수(활동/신생/소멸)",
+  "classification_revision": "KSIC 11차 개정(2011~) list J2_6_001_004"
+ },
+ "request_template": "https://kosis.kr/openapi/Param/statisticsParameterData.do?method=getList&apiKey=<KEY>&itmId=ALL&objL1=00&objL2=ALL&format=json&jsonVD=Y&prdSe=Y&startPrdDe=<Y>&endPrdDe=<Y>&orgId=101&tblId=DT_6BD1101",
+ "items_as_returned": {
+  "T01 활동": "개%",
+  "T02 신생": "개%",
+  "T03 소멸": "개%",
+  "T04 신생률": "개%",
+  "T05 소멸률": "개%"
+ },
+ "region_filter": "objL1=00 (전국)",
+ "years_requested": [
+  2011,
+  2012,
+  2013,
+  2014,
+  2015,
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "years_returned": [
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "errors": {
+  "2011": {
+   "err": "30",
+   "errMsg": "데이터가 존재하지 않습니다."
+  },
+  "2012": {
+   "err": "30",
+   "errMsg": "데이터가 존재하지 않습니다."
+  },
+  "2013": {
+   "err": "30",
+   "errMsg": "데이터가 존재하지 않습니다."
+  },
+  "2014": {
+   "err": "30",
+   "errMsg": "데이터가 존재하지 않습니다."
+  },
+  "2015": {
+   "err": "30",
+   "errMsg": "데이터가 존재하지 않습니다."
+  }
+ },
+ "n_ksic2_codes": 92,
+ "coverage_kis_manufacturing_codes_10_34": {
+  "missing": []
+ },
+ "coverage_kis_services_codes": {
+  "missing": []
+ },
+ "two_route_check_official_vs_computed_rate": {
+  "max_abs_diff_pp": 0.05000000000000071,
+  "n_rows_diff_gt_0.05pp": 1
+ },
+ "definition_note": "birth_rate_official = KOSIS item T04 '신생률' as published (unit as returned); birth_rate_computed = 100*T02/T01. The published definition of 신생기업/활동기업 is Statistics Korea's (기업생멸행정통계 설명자료) — to be quoted from the official explanatory document in the manuscript; not restated here from memory."
+}

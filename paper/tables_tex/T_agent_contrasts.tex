@@ -1,0 +1,67 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\footnotesize
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l l l l r l c}
+\toprule
+H & Stage & Contrast & Arm & Estimate & 95\% CI & Sign \\
+\midrule
+H1 & A & H1\_accel\_threat\_gap2 & Claude (fable-5), EN & +0.538 & [+0.457, +0.630] & + \\
+ &  &  & Claude (fable-5), KO & +0.775 & [+0.708, +0.847] & + \\
+ &  &  & GPT-5.6, EN & +0.525 & [+0.430, +0.608] & + \\
+ &  &  & GPT-5.6, KO & +0.600 & [+0.500, +0.693] & + \\
+ & B & H1\_accel\_threat\_gap2\_noentry & Claude (fable-5), EN & +0.144 & [-0.032, +0.406] & 0 \\
+ &  &  & Claude (fable-5), KO & +0.403 & [+0.266, +0.549] & + \\
+ &  &  & GPT-5.6, EN & +0.360 & [+0.131, +0.625] & + \\
+ &  &  & GPT-5.6, KO & +0.223 & [+0.065, +0.400] & + \\
+\midrule
+H2 & A & H2\_quit\_threat\_gap0 & Claude (fable-5), EN & +0.513 & [+0.420, +0.604] & + \\
+ &  &  & Claude (fable-5), KO & +0.800 & [+0.741, +0.868] & + \\
+ &  &  & GPT-5.6, EN & +0.338 & [+0.269, +0.407] & + \\
+ &  &  & GPT-5.6, KO & +0.337 & [+0.250, +0.420] & + \\
+ & B & H2\_quit\_threat\_gap0 & Claude (fable-5), EN & +0.188 & [+0.082, +0.297] & + \\
+ &  &  & Claude (fable-5), KO & +0.489 & [+0.393, +0.589] & + \\
+ &  &  & GPT-5.6, EN & +0.396 & [+0.269, +0.536] & + \\
+ &  &  & GPT-5.6, KO & +0.583 & [+0.500, +0.693] & + \\
+\midrule
+H3 & A & H3\_quit\_threat\_gap0\_minus\_gap2 & Claude (fable-5), EN & +0.513 & [+0.420, +0.604] & + \\
+ &  &  & Claude (fable-5), KO & +0.800 & [+0.741, +0.868] & + \\
+ &  &  & GPT-5.6, EN & +0.338 & [+0.269, +0.407] & + \\
+ &  &  & GPT-5.6, KO & +0.337 & [+0.250, +0.420] & + \\
+ & B & H3\_quit\_threat\_gap0\_minus\_gap2 & Claude (fable-5), EN & +0.188 & [+0.082, +0.297] & + \\
+ &  &  & Claude (fable-5), KO & +0.469 & [+0.372, +0.571] & + \\
+ &  &  & GPT-5.6, EN & +0.396 & [+0.269, +0.536] & + \\
+ &  &  & GPT-5.6, KO & +0.562 & [+0.464, +0.672] & + \\
+\midrule
+H4 & A & H4\_accel\_threat\_gap2\_minus\_gap0 & Claude (fable-5), EN & +0.538 & [+0.457, +0.630] & + \\
+ &  &  & Claude (fable-5), KO & +0.775 & [+0.708, +0.847] & + \\
+ &  &  & GPT-5.6, EN & +0.525 & [+0.430, +0.608] & + \\
+ &  &  & GPT-5.6, KO & +0.600 & [+0.500, +0.693] & + \\
+ & B & H4\_accel\_threat\_gap2\_minus\_gap0 & Claude (fable-5), EN & -0.125 & [-0.250, -0.029] & - \\
+ &  &  & Claude (fable-5), KO & +0.316 & [+0.183, +0.446] & + \\
+ &  &  & GPT-5.6, EN & +0.229 & [+0.067, +0.397] & + \\
+ &  &  & GPT-5.6, KO & +0.250 & [+0.125, +0.387] & + \\
+\midrule
+H5 & A & H5\_quit\_gap0\_minus\_gap2 & Claude (fable-5), EN & +0.694 & [+0.653, +0.740] & + \\
+ &  &  & Claude (fable-5), KO & +0.513 & [+0.480, +0.547] & + \\
+ &  &  & GPT-5.6, EN & +0.169 & [+0.135, +0.204] & + \\
+ &  &  & GPT-5.6, KO & +0.181 & [+0.141, +0.219] & + \\
+ & B & H5\_quit\_gap0\_minus\_gap2 & Claude (fable-5), EN & +0.865 & [+0.814, +0.917] & + \\
+ &  &  & Claude (fable-5), KO & +0.747 & [+0.696, +0.797] & + \\
+ &  &  & GPT-5.6, EN & +0.635 & [+0.563, +0.700] & + \\
+ &  &  & GPT-5.6, KO & +0.552 & [+0.500, +0.615] & + \\
+\midrule
+H6 & B & H1\_accel\_threat\_gap2 & Claude (fable-5), EN & -0.167 & [-0.308, -0.059] & - \\
+ &  &  & Claude (fable-5), KO & +0.125 & [+0.000, +0.250] & 0 \\
+ &  &  & GPT-5.6, EN & +0.000 & [-0.133, +0.140] & 0 \\
+ &  &  & GPT-5.6, KO & +0.000 & [-0.125, +0.107] & 0 \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Contrasts are differences of cell shares; CI = percentile bootstrap over personas (500 draws). Sign call: + if the CI lies above 0, $-$ below 0, 0 otherwise. Frozen in prereg/agent\_predictions\_v1.json before the survey test.}
+\end{document}

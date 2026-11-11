@@ -1,0 +1,115 @@
+{
+ "n_personas": 40,
+ "exact_attributes": {
+  "unique_in_kis_sample": 14,
+  "k_le_3": 23,
+  "min_k": 1
+ },
+ "public_table_sector_size3_age4": {
+  "min_k": 487,
+  "personas_below_5": 0
+ },
+ "files": {
+  "stage_b_episodes_gpt56_ko.jsonl": {
+   "records": 288,
+   "prompts_redacted": 0
+  },
+  "stage_b_episodes_fable_en.jsonl": {
+   "records": 288,
+   "prompts_redacted": 0
+  },
+  "stage_a_fable_ko.jsonl": {
+   "records": 480,
+   "prompts_redacted": 480
+  },
+  "stage_a_gpt56_en.jsonl": {
+   "records": 480,
+   "prompts_redacted": 480
+  },
+  "stage_b_calls_fable_en.jsonl": {
+   "records": 586,
+   "prompts_redacted": 586
+  },
+  "stage_b_calls_gpt56_ko.jsonl": {
+   "records": 579,
+   "prompts_redacted": 579
+  },
+  "stage_a_fable_en.jsonl": {
+   "records": 480,
+   "prompts_redacted": 480
+  },
+  "stage_a_gpt56_ko.jsonl": {
+   "records": 480,
+   "prompts_redacted": 480
+  },
+  "stage_b_calls_fable_ko.jsonl": {
+   "records": 536,
+   "prompts_redacted": 536
+  },
+  "stage_b_calls_gpt56_en.jsonl": {
+   "records": 585,
+   "prompts_redacted": 585
+  },
+  "stage_b_episodes_gpt56_en.jsonl": {
+   "records": 288,
+   "prompts_redacted": 0
+  },
+  "stage_b_episodes_fable_ko.jsonl": {
+   "records": 288,
+   "prompts_redacted": 0
+  },
+  "v2_placebo_headoffice/stage_a_fable_ko.jsonl": {
+   "records": 480,
+   "prompts_redacted": 480
+  },
+  "v2_placebo_headoffice/stage_a_gpt56_en.jsonl": {
+   "records": 480,
+   "prompts_redacted": 480
+  },
+  "v2_placebo_headoffice/stage_a_fable_en.jsonl": {
+   "records": 480,
+   "prompts_redacted": 480
+  },
+  "v2_placebo_headoffice/stage_a_gpt56_ko.jsonl": {
+   "records": 480,
+   "prompts_redacted": 480
+  },
+  "v1_pilot_ceiling/stage_a_fable_ko.jsonl": {
+   "records": 25,
+   "prompts_redacted": 25
+  },
+  "v1_pilot_ceiling/stage_a_gpt56_en.jsonl": {
+   "records": 23,
+   "prompts_redacted": 23
+  },
+  "v1_pilot_ceiling/stage_a_fable_en.jsonl": {
+   "records": 23,
+   "prompts_redacted": 23
+  },
+  "v1_pilot_ceiling/stage_a_gpt56_ko.jsonl": {
+   "records": 25,
+   "prompts_redacted": 25
+  },
+  "v3_pilot/stage_a_fable_ko.jsonl": {
+   "records": 25,
+   "prompts_redacted": 25
+  },
+  "v3_pilot/stage_a_gpt56_en.jsonl": {
+   "records": 23,
+   "prompts_redacted": 23
+  },
+  "v3_pilot/stage_a_fable_en.jsonl": {
+   "records": 23,
+   "prompts_redacted": 23
+  },
+  "v3_pilot/stage_a_gpt56_ko.jsonl": {
+   "records": 25,
+   "prompts_redacted": 25
+  }
+ },
+ "attribute_string_leaks_after_redaction": 0,
+ "responses_with_attribute_echo_redacted": 10,
+ "public_personas_csv": "public/personas_public.csv",
+ "built": "2026-11-10 15:57 KST",
+ "rule": "Disclosure control for the public replication package (user decision 2026-11-10: option 1).\n\nPersonas were drawn from individual KIS records (registry attributes only: 2-digit industry, size band, exact firm age, group\naffiliation). Within the KIS sample, 14 of the 40 Stage A personas match exactly one respondent on those four attributes\n(computed below and written to results/09_persona_redaction.json), so publishing them would publish individual-level records\ncovered by the KIS research-use licence. Remedy:\n  1. public copies of every agent log have the four persona lines of the [회사]/[Company] block replaced by one placeholder line\n     carrying only the persona id; all decision-relevant content (rules, state, options, raw responses, reasons) is unchanged;\n  2. a public persona table at sector x size (3 bands) x firm age (4 bands), the coarsest level that keeps every persona in a\n     cell of at least k = 5 KIS respondents (actual minimum reported in the JSON);\n  3. the original logs and persona file stay private (this working repository; OSF private component on request) and are\n     available to editors and reviewers under the licence.\nThe original prompt SHA256 is kept in each record (prompt_sha256) next to the hash of the redacted prompt, so a reviewer with\nthe originals can verify that nothing else changed. Writes agent_experiment/logs_public/ and public/personas_public.csv."
+}

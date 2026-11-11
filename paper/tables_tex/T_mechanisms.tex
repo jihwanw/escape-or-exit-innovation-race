@@ -1,0 +1,27 @@
+\documentclass[varwidth=\maxdimen,border=4pt]{standalone}
+\usepackage{booktabs,array,fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{Apple SD Gothic Neo}
+\xeCJKsetup{CJKspace=true}
+\renewcommand{\arraystretch}{1.12}
+\begin{document}\scriptsize
+\newsavebox{\tb}\sbox{\tb}{%
+\begin{tabular}{l l r rrrrrrrrrr}
+\toprule
+Stage & Decision & n & First-mover prize & Threat $\to$ hurry & Threat $\to$ stop & Rival position & Expected value & Sunk / salvage & Noise & Wait-and-see & Firm attributes & Irrelevant attribute \\
+\midrule
+Stage A & accelerate & 348 & 98 & 77 & 0 & 85 & 76 & 0 & 15 & 0 & 0 & 0 \\
+ & continue & 1,317 & 7 & 0 & 0 & 69 & 90 & 0 & 12 & 70 & 0 & 0 \\
+ & stop & 249 & 0 & 0 & 76 & 100 & 93 & 87 & 1 & 0 & 0 & 0 \\
+\midrule
+Stage B & accelerate & 439 & 82 & 33 & 0 & 83 & 72 & 2 & 6 & 0 & 0 & 0 \\
+ & continue & 1,302 & 9 & 0 & 0 & 64 & 91 & 3 & 7 & 24 & 0 & 0 \\
+ & stop & 445 & 0 & 0 & 43 & 66 & 81 & 64 & 0 & 0 & 0 & 0 \\
+\midrule
+Judge agreement & $\kappa$ & 4,100 & 0.89 & 0.99 & 0.63 & 0.80 & 0.47 & 0.97 & 0.98 & 0.96 & 1.00 & n/a$^{\dagger}$ \\
+\bottomrule
+\end{tabular}}
+\usebox{\tb}
+\par\vspace{3pt}\parbox{\wd\tb}{\footnotesize Share (\%) of stated reasons coded 1 by BOTH judge models (Claude fable-5 and GPT-5.6), by stage and decision; last row = Cohen's $\kappa$ between judges per category. Multi-label coding of 4,106 reasons in 25-reason batches; rubric in agent\_experiment/code\_transcripts.py. $^{\dagger}$ $\kappa$ undefined because both judges coded every reason 0 (percent agreement 100\%). Source: results/08\_transcript\_codes.json.}
+\end{document}

@@ -1,0 +1,27 @@
+{
+ "built": "2026-11-11 02:15 KST",
+ "models": {
+  "fable": {
+   "provider": "bedrock",
+   "id": "us.anthropic.claude-fable-5",
+   "region": "us-east-1"
+  },
+  "gpt56": {
+   "provider": "mantle",
+   "id": "openai.gpt-5.6-sol",
+   "region": "us-east-2"
+  }
+ },
+ "calls": {
+  "A": {
+   "n_log_records": 1920,
+   "first": "2026-11-10T11:28:34+0900",
+   "last": "2026-11-10T13:01:54+0900"
+  },
+  "B": {
+   "n_log_records": 2286,
+   "first": "2026-11-10T13:05:24+0900",
+   "last": "2026-11-10T14:11:19+0900"
+  }
+ }
+}

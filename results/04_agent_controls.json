@@ -1,0 +1,91 @@
+{
+ "seed_reproducible": true,
+ "n_design_rows": 960,
+ "n_personas": 40,
+ "balance_cells": {
+  "80": 12
+ },
+ "placebo_share": 0.50625,
+ "order_counts": {
+  "AQC": 181,
+  "QAC": 178,
+  "CAQ": 164,
+  "CQA": 161,
+  "QCA": 146,
+  "ACQ": 130
+ },
+ "sector_split": {
+  "manufacturing": 20,
+  "services": 20
+ },
+ "parser_tests": {
+  "clean": [
+   "C",
+   "x",
+   "ok"
+  ],
+  "prose_around": [
+   "A",
+   "y",
+   "ok"
+  ],
+  "invalid_letter": [
+   null,
+   "z",
+   "decision_not_in_options"
+  ],
+  "no_json": [
+   null,
+   null,
+   "no_json"
+  ],
+  "empty": [
+   null,
+   null,
+   "empty"
+  ],
+  "error_dict": [
+   null,
+   null,
+   "no_decision_key"
+  ],
+  "lower_case": [
+   "Q",
+   "",
+   "ok"
+  ]
+ },
+ "parser_expected_ok": true,
+ "mock_run": {
+  "n_calls": 54,
+  "parse_status": {
+   "ok": 53,
+   "no_json": 1
+  }
+ },
+ "missing_preserved": true,
+ "mock_expected_n": 54,
+ "forbidden_vocabulary_hits": [],
+ "template_numbers_match_environment": {
+  "ok": true,
+  "numeric_ok": true,
+  "missing_strings": {},
+  "positions_ok": true,
+  "env_constants": {
+   "K_stages": 3,
+   "T_periods": 3,
+   "cC": 8,
+   "cA": 25,
+   "pC": 0.5,
+   "pA": 0.8,
+   "V": 100,
+   "W": 30,
+   "tie": 65,
+   "theta": 0.35,
+   "lam": 0.5,
+   "obs_noise": 0.4
+  }
+ },
+ "status": "PASS",
+ "built": "2026-11-10 11:27 KST"
+}

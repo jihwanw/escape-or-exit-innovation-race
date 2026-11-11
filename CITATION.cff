@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript and the archived release."
+title: "Perceived entry threat is associated with pre-emption by frontier firms, and the predicted abandonment response of laggards is not detected: a pre-registered innovation-race test with Korean survey data and LLM agents"
+type: software
+authors:
+  - family-names: Woo
+    given-names: Jihwan
+    orcid: "https://orcid.org/0000-0002-0424-0242"
+    affiliation: "Amazon Web Services, Seoul, Republic of Korea"
+license: MIT
+repository-code: "https://github.com/jihwanw/escape-or-exit-innovation-race"
+version: "v1.0-submission"

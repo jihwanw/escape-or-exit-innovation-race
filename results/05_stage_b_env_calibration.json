@@ -1,0 +1,639 @@
+{
+ "rule": "Calibration of the Stage B environment BEFORE any LLM call (2026-11-10).\n\nWhy: with the Task 8 draft parameters (accelerate cost 20억, success 80 %; continue 8억, 50 %) the model's leader at one stage\nfrom completion accelerates with probability 1.000 at theta = 0 (results/05_stage_b_controls.json, C4 cells g2t0*), i.e. the\nenvironment sits on the model's own ceiling for the H1 comparative static (MODEL_PREDICTIONS.md: 50 % of grid points are flat\nfor P1). An experiment run there cannot show the predicted threat effect even if agents behaved exactly like the model.\n\nRule (fixed here, before the scan is read): keep every other parameter of the draft environment (V = 100억, W = 30억,\nlam = 0.5, theta in {0, 0.35}, pC = 0.5, pA = 0.8, cC = 8억, K = T = 3, positions (1,2)/(1,1)/(2,1)) and vary ONLY the\nacceleration cost cA on a 5억 grid. Choose the SMALLEST cA such that, in the model,\n  (i)   gap-2 leader: P(accelerate | no entry) at theta = 0 lies in [0.20, 0.80]  (room in both directions),\n  (ii)  gap-2 leader: P(accelerate | no entry) rises by >= 0.05 from theta = 0 to 0.35  (H1 direction present),\n  (iii) gap-0 laggard: P(quit) at theta = 0 lies in [0.20, 0.80] and rises by >= 0.05 to theta = 0.35 (H2 direction present),\n  (iv)  gap-0 laggard quits more than the gap-2 leader at theta = 0 (H5 direction present),\n  (v)   convexity cA/cC > pA/pC (Params.check()).\nWrites results/05_stage_b_env_calibration.json with the full scan so the choice is auditable.",
+ "fixed": {
+  "K": 3,
+  "T": 3,
+  "V": 1.0,
+  "W": 0.3,
+  "lam": 0.5,
+  "sigma": 0.0,
+  "pC": 0.5,
+  "pA": 0.8,
+  "cC": 0.08
+ },
+ "cA_grid": [
+  0.1,
+  0.15,
+  0.2,
+  0.25,
+  0.3,
+  0.35,
+  0.4
+ ],
+ "scan": [
+  {
+   "cA": 0.1,
+   "cA_billion_won": 10,
+   "convex": false,
+   "cells": {},
+   "criteria": {
+    "v_convex": false
+   },
+   "all_pass": false
+  },
+  {
+   "cA": 0.15,
+   "cA_billion_won": 15,
+   "convex": true,
+   "cells": {
+    "gap0_theta0.0": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.5,
+      "P_accel": 0.30000000000000004,
+      "P_first": 0.04991999999999999
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.5,
+      "P_accel": 0.30000000000000004,
+      "P_first": 0.04991999999999999
+     }
+    },
+    "gap0_theta0.35": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 1.0,
+      "P_accel": 0.0,
+      "P_first": 0.0
+     },
+     "no_entry_conditional": {
+      "P_quit": 1.0,
+      "P_accel": 0.0,
+      "P_first": 0.0
+     }
+    },
+    "gap1_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.16799999999999995,
+      "P_accel": 1.0000000000000002,
+      "P_first": 0.49049600000000004
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.16799999999999993,
+      "P_accel": 1.0,
+      "P_first": 0.49049599999999993
+     }
+    },
+    "gap1_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.2956183999999999,
+      "P_accel": 0.8687499999999999,
+      "P_first": 0.4734540800000001
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.16799999999999995,
+      "P_accel": 1.0,
+      "P_first": 0.490496
+     }
+    },
+    "gap2_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0,
+      "P_accel": 1.0,
+      "P_first": 0.94592
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 1.0,
+      "P_first": 0.94592
+     }
+    },
+    "gap2_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.825,
+      "P_first": 0.9878
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 1.0,
+      "P_first": 0.992
+     }
+    }
+   },
+   "criteria": {
+    "i_leader_accel0_in_range": false,
+    "ii_H1_room": false,
+    "iii_laggard_quit0_in_range_and_H2_room": true,
+    "iv_H5_laggard_quits_more": true,
+    "v_convex": true
+   },
+   "all_pass": false,
+   "summary": {
+    "leader_accel_noentry_theta0": 1.0,
+    "leader_accel_noentry_theta35": 1.0,
+    "laggard_quit_theta0": 0.5,
+    "laggard_quit_theta35": 1.0,
+    "leader_quit_theta0": 0.0
+   }
+  },
+  {
+   "cA": 0.2,
+   "cA_billion_won": 20,
+   "convex": true,
+   "cells": {
+    "gap0_theta0.0": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.5,
+      "P_accel": 0.09999999999999996,
+      "P_first": 0.04991999999999999
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.5,
+      "P_accel": 0.09999999999999996,
+      "P_first": 0.04991999999999999
+     }
+    },
+    "gap0_theta0.35": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 1.0,
+      "P_accel": 0.0,
+      "P_first": 0.0
+     },
+     "no_entry_conditional": {
+      "P_quit": 1.0,
+      "P_accel": 0.0,
+      "P_first": 0.0
+     }
+    },
+    "gap1_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.16799999999999995,
+      "P_accel": 1.0000000000000002,
+      "P_first": 0.49049600000000004
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.16799999999999993,
+      "P_accel": 1.0,
+      "P_first": 0.49049599999999993
+     }
+    },
+    "gap1_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.4531025,
+      "P_accel": 0.38576953125,
+      "P_first": 0.41680168437500015
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.3750000000000001,
+      "P_accel": 0.625,
+      "P_first": 0.44480000000000003
+     }
+    },
+    "gap2_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0,
+      "P_accel": 1.0,
+      "P_first": 0.94592
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 1.0,
+      "P_first": 0.94592
+     }
+    },
+    "gap2_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.7374999999999999,
+      "P_first": 0.97457
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 1.0,
+      "P_first": 0.992
+     }
+    }
+   },
+   "criteria": {
+    "i_leader_accel0_in_range": false,
+    "ii_H1_room": false,
+    "iii_laggard_quit0_in_range_and_H2_room": true,
+    "iv_H5_laggard_quits_more": true,
+    "v_convex": true
+   },
+   "all_pass": false,
+   "summary": {
+    "leader_accel_noentry_theta0": 1.0,
+    "leader_accel_noentry_theta35": 1.0,
+    "laggard_quit_theta0": 0.5,
+    "laggard_quit_theta35": 1.0,
+    "leader_quit_theta0": 0.0
+   }
+  },
+  {
+   "cA": 0.25,
+   "cA_billion_won": 25,
+   "convex": true,
+   "cells": {
+    "gap0_theta0.0": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.375,
+      "P_accel": 0.3125,
+      "P_first": 0.15480000000000002
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.37500000000000006,
+      "P_accel": 0.31250000000000006,
+      "P_first": 0.15480000000000005
+     }
+    },
+    "gap0_theta0.35": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.8633414176163328,
+      "P_accel": 0.05868968934910737,
+      "P_first": 0.04402512240102032
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.6959715860511074,
+      "P_accel": 0.13891050733516533,
+      "P_first": 0.06934412526171452
+     }
+    },
+    "gap1_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.25,
+      "P_accel": 0.5625,
+      "P_first": 0.43979999999999997
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.25,
+      "P_accel": 0.5625,
+      "P_first": 0.43979999999999997
+     }
+    },
+    "gap1_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.4531025,
+      "P_accel": 0.24557812499999998,
+      "P_first": 0.37581542656250005
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.3750000000000001,
+      "P_accel": 0.625,
+      "P_first": 0.44480000000000003
+     }
+    },
+    "gap2_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.375,
+      "P_first": 0.8298000000000002
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.37500000000000006,
+      "P_first": 0.8298000000000003
+     }
+    },
+    "gap2_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.011187157708237536,
+      "P_accel": 0.27428411077120596,
+      "P_first": 0.883702276425728
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.5718337444686107,
+      "P_first": 0.9177140480872026
+     }
+    }
+   },
+   "criteria": {
+    "i_leader_accel0_in_range": true,
+    "ii_H1_room": true,
+    "iii_laggard_quit0_in_range_and_H2_room": true,
+    "iv_H5_laggard_quits_more": true,
+    "v_convex": true
+   },
+   "all_pass": true,
+   "summary": {
+    "leader_accel_noentry_theta0": 0.37500000000000006,
+    "leader_accel_noentry_theta35": 0.5718337444686107,
+    "laggard_quit_theta0": 0.375,
+    "laggard_quit_theta35": 0.8633414176163328,
+    "leader_quit_theta0": 0.0
+   }
+  },
+  {
+   "cA": 0.3,
+   "cA_billion_won": 30,
+   "convex": true,
+   "cells": {
+    "gap0_theta0.0": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.375,
+      "P_accel": 0.0625,
+      "P_first": 0.15000000000000002
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.375,
+      "P_accel": 0.0625,
+      "P_first": 0.15000000000000002
+     }
+    },
+    "gap0_theta0.35": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.7738203124999999,
+      "P_accel": 0.008582031250000002,
+      "P_first": 0.0774591796875
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.5000000000000001,
+      "P_accel": 0.03125000000000001,
+      "P_first": 0.12187500000000001
+     }
+    },
+    "gap1_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.25,
+      "P_accel": 0.25,
+      "P_first": 0.43125
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.25000000000000006,
+      "P_accel": 0.25000000000000006,
+      "P_first": 0.4312500000000001
+     }
+    },
+    "gap1_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.4564296875,
+      "P_accel": 0.06865625000000003,
+      "P_first": 0.3638621093750001
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.375,
+      "P_accel": 0.25000000000000006,
+      "P_first": 0.425
+     }
+    },
+    "gap2_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.125,
+      "P_first": 0.825
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.125,
+      "P_first": 0.825
+     }
+    },
+    "gap2_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0234609375,
+      "P_accel": 0.04291015625000001,
+      "P_first": 0.8408826171875001
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.15625000000000003,
+      "P_first": 0.8468750000000002
+     }
+    }
+   },
+   "criteria": {
+    "i_leader_accel0_in_range": false,
+    "ii_H1_room": false,
+    "iii_laggard_quit0_in_range_and_H2_room": true,
+    "iv_H5_laggard_quits_more": true,
+    "v_convex": true
+   },
+   "all_pass": false,
+   "summary": {
+    "leader_accel_noentry_theta0": 0.125,
+    "leader_accel_noentry_theta35": 0.15625000000000003,
+    "laggard_quit_theta0": 0.375,
+    "laggard_quit_theta35": 0.7738203124999999,
+    "leader_quit_theta0": 0.0
+   }
+  },
+  {
+   "cA": 0.35,
+   "cA_billion_won": 35,
+   "convex": true,
+   "cells": {
+    "gap0_theta0.0": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.375,
+      "P_accel": 0.0,
+      "P_first": 0.140625
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.375,
+      "P_accel": 0.0,
+      "P_first": 0.140625
+     }
+    },
+    "gap0_theta0.35": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.7738203124999999,
+      "P_accel": 0.0,
+      "P_first": 0.07617187500000001
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.5000000000000001,
+      "P_accel": 0.0,
+      "P_first": 0.11718750000000001
+     }
+    },
+    "gap1_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.25,
+      "P_accel": 0.125,
+      "P_first": 0.4125
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.25,
+      "P_accel": 0.125,
+      "P_first": 0.4125
+     }
+    },
+    "gap1_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.4564296875,
+      "P_accel": 0.051492187500000015,
+      "P_first": 0.3612875000000001
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.37499999999999994,
+      "P_accel": 0.18749999999999997,
+      "P_first": 0.41562499999999986
+     }
+    },
+    "gap2_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.0625,
+      "P_first": 0.815625
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.0625,
+      "P_first": 0.815625
+     }
+    },
+    "gap2_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0234609375,
+      "P_accel": 0.03432812500000001,
+      "P_first": 0.8395953125000001
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.12500000000000003,
+      "P_first": 0.8421875000000002
+     }
+    }
+   },
+   "criteria": {
+    "i_leader_accel0_in_range": false,
+    "ii_H1_room": true,
+    "iii_laggard_quit0_in_range_and_H2_room": true,
+    "iv_H5_laggard_quits_more": true,
+    "v_convex": true
+   },
+   "all_pass": false,
+   "summary": {
+    "leader_accel_noentry_theta0": 0.0625,
+    "leader_accel_noentry_theta35": 0.12500000000000003,
+    "laggard_quit_theta0": 0.375,
+    "laggard_quit_theta35": 0.7738203124999999,
+    "leader_quit_theta0": 0.0
+   }
+  },
+  {
+   "cA": 0.4,
+   "cA_billion_won": 40,
+   "convex": true,
+   "cells": {
+    "gap0_theta0.0": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.375,
+      "P_accel": 0.0,
+      "P_first": 0.140625
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.375,
+      "P_accel": 0.0,
+      "P_first": 0.140625
+     }
+    },
+    "gap0_theta0.35": {
+     "role": "F",
+     "unconditional": {
+      "P_quit": 0.7738203124999999,
+      "P_accel": 0.0,
+      "P_first": 0.07617187500000001
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.5,
+      "P_accel": 0.0,
+      "P_first": 0.11718749999999999
+     }
+    },
+    "gap1_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.25,
+      "P_accel": 0.0,
+      "P_first": 0.375
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.25,
+      "P_accel": 0.0,
+      "P_first": 0.375
+     }
+    },
+    "gap1_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.4564296875,
+      "P_accel": 0.0,
+      "P_first": 0.3458398437500001
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.37499999999999994,
+      "P_accel": 0.0,
+      "P_first": 0.3593749999999999
+     }
+    },
+    "gap2_theta0.0": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.0,
+      "P_first": 0.796875
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.0,
+      "P_first": 0.796875
+     }
+    },
+    "gap2_theta0.35": {
+     "role": "L",
+     "unconditional": {
+      "P_quit": 0.0234609375,
+      "P_accel": 0.0,
+      "P_first": 0.829296875
+     },
+     "no_entry_conditional": {
+      "P_quit": 0.0,
+      "P_accel": 0.0,
+      "P_first": 0.8046875
+     }
+    }
+   },
+   "criteria": {
+    "i_leader_accel0_in_range": false,
+    "ii_H1_room": false,
+    "iii_laggard_quit0_in_range_and_H2_room": true,
+    "iv_H5_laggard_quits_more": true,
+    "v_convex": true
+   },
+   "all_pass": false,
+   "summary": {
+    "leader_accel_noentry_theta0": 0.0,
+    "leader_accel_noentry_theta35": 0.0,
+    "laggard_quit_theta0": 0.375,
+    "laggard_quit_theta35": 0.7738203124999999,
+    "leader_quit_theta0": 0.0
+   }
+  }
+ ],
+ "chosen_cA": 0.25,
+ "chosen_cA_billion_won": 25,
+ "draft_cA_was": 0.2,
+ "built": "2026-11-10 11:11 KST"
+}
